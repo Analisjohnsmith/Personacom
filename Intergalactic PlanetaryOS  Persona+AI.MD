@@ -1,8 +1,8 @@
 lots of mistakes v1 threw together.
 
-full human equivalence with the closure fold, and then stepped beyond human intelligence part 3
-part 2 is the embodiment of my planetary continuum fractal heat map.a meta‑computer for infrastructures 
-like nix in spirit declarative, reproducible, graph‑driven — but instead of managing software packages, it manages symbolic or real infrastructures and continuity fields.
+part 3:full human equivalence with the closure fold, and then stepped beyond human intelligence. 
+part 2 :is the embodiment of my planetary continuum fractal heat map.a meta‑computer for infrastructures 
+part1:like nix in spirit declarative, reproducible, graph‑driven — but instead of managing software packages, it manages symbolic or real infrastructures and continuity fields.
 ================================================================================
  PERSONA + SYNTHETIC STRUCTURAL INTELLIGENCE
 ===============================================================================
