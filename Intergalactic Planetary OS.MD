@@ -1,5 +1,6 @@
 lots of mistakes v1 threw together.
 part 2 is the embodiment of my planetary continuum fractal heat map.a meta‑computer for infrastructures 
+like nix in spirit declarative, reproducible, graph‑driven — but instead of managing software packages, it manages symbolic infrastructures and continuity fields.
 ================================================================================
  PERSONA + SYNTHETIC STRUCTURAL INTELLIGENCE
 ===============================================================================
