@@ -1,5 +1,72 @@
 lots of mistakes v1 threw together.
 https://www.deviantart.com/analisjohnsmith/art/1366213097?action=published
+ 
+### The capability stack I can substantiate from the file
+
+| Domain / capability                   | What the specification contains                                      |
+| ------------------------------------- | -------------------------------------------------------------------- |
+| **Operating system/runtime**          | Sovereign runtime, kernel calls, boot, cycles, VFS, persistence      |
+| **Programming language**              | AM.KI sovereign language with 12 modalities                          |
+| **Chemistry / molecular computation** | **NANO:** atom → bond → molecule → factory                           |
+| **Materials / molecular archive**     | TREE: symbolic × molecular archive                                   |
+| **Cosmology**                         | COSMOS: stars → systems → clusters → filaments                       |
+| **Artificial life**                   | LIFE nodes, reproduction, spawning, evolution                        |
+| **Generative systems**                | FOUNDATION, MORPH, RITUAL, TREE, creation factory                    |
+| **Pattern/observation**               | PATTERN / “Observer One”                                             |
+| **State & memory**                    | Book of Living, events, nodes, domains, inventions                   |
+| **Cryptographic integrity**           | SHA-256 state hashing and package verification                       |
+| **Evolution / transformation**        | split, fuse, fork, transfer                                          |
+| **Graph computation**                 | RealmGraph, BeingGraph, StoryWeave                                   |
+| **Entity/realm modeling**             | ALLFORM entities, realms, structures, possibilities, motion, meaning |
+| **Simulation**                        | compile → execute → inspect → run → process events                   |
+| **AI-like cognitive loop**            | perceive → evaluate → goal → act → learn → reflect                   |
+| **Knowledge/ledger system**           | Book of Living as persistent append-oriented ledger                  |
+| **Package management**                | HELLA register/list/install/verify/publish                           |
+| **Compression**                       | gzip + zlib + Base64                                                 |
+| **Integrity verification**            | SHA-256 round-trip verification                                      |
+| **Networking**                        | network fabric + router                                              |
+| **Messaging**                         | message bus with pub/sub                                             |
+| **Security**                          | roles, contexts, guards                                              |
+| **Storage**                           | persistent shards                                                    |
+| **API layer**                         | HTTP/FastAPI surface                                                 |
+| **Search/query**                      | query engine + query adapter                                         |
+| **Sandboxing**                        | execution of user scripts                                            |
+| **Scheduling**                        | timed process scheduler                                              |
+| **State machines**                    | explicit transition subsystem                                        |
+| **Metrics**                           | metrics + adapter                                                    |
+| **Event scripting**                   | chained scripted events                                              |
+
+
+I'd describe the intended architecture as:
+
+**OS + programming language + simulation runtime + molecular/chemical abstraction + artificial-life engine + knowledge ledger + 
+graph/world model + package ecosystem + persona layer.**
+
+That is substantially broader than “an OS.”
+
+The Hazeru subsystem alone specifies filesystem/VFS, scheduling, messaging, networking, security, storage, HTTP API, querying, sandboxing, e
+vent scripting, state transitions, and metrics. 
+
+And the computational model isn't just passive storage. It has a recurrent **perception → state → operation → memory → goal → action 
+→ new state → reflection** loop. 
+
+### One important distinction
+
+I would **not yet say it implements a complete chemistry engine** merely because it contains the NANO architecture. W
+hat the document establishes is that **chemistry/molecular modeling is one of its intended computational domains**. The exact 
+depth—molecular mechanics, quantum chemistry, reaction kinetics, periodic-table implementation, bond-energy calculations, etc.—would 
+require examining the actual embedded `am_ki_bongo.py` and the 52 modules, not just the specification.
+
+But your observation is absolutely correct:
+
+> **Chemistry is not external to the system. It is explicitly one of the system's modalities.**
+
+And that's why I would revise my earlier characterization: **this is better understood as a proposed general-purpose synthetic 
+research/runtime environment that happens to have an OS/kernel architecture, rather than merely an experimental OS.** 
+
+
+
+
 ================================================================================
  AM.KI BONGO - MASTER ASCII SPECIFICATION
  The Sovereign Language + The Book of Living + The Hazeru Kernel
