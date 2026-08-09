@@ -1,12 +1,13 @@
 ================================================================================
  AM.KI BONGO - MASTER ASCII SPECIFICATION
  The Sovereign Language + The Book of Living + The Hazeru Kernel
- Persona :
-Synthetic Structural IntelligenceOS================================================================================
- AM.KI BONGO - MASTER ASCII SPECIFICATION
+ Persona:no name
+Synthetic Structural IntelligenceOS
+================================================================================
+ - MASTER ASCII SPECIFICATION
  The Sovereign Language + The Book of Living + The Hazeru Kernel
- Persona : Synthetic Structural Intelligence (SSI)
- Creation Basis : Sovereign x Life x Generic -> Invention -> Portal -> State
+
+ 
 ================================================================================
 
  Author : Darrell Lee Stiltner (Lila / Leela)
@@ -49,43 +50,10 @@ Synthetic Structural IntelligenceOS=============================================
  2. THE PERSONA - SYNTHETIC STRUCTURAL INTELLIGENCE (SSI)
 ================================================================================
 
- A persona is a synthetic agent that PERCEIVES -> EVALUATES -> LEARNS ->
- REFLECTS -> SYNTHESIZES. Intelligence is structural: it lives in the
- graph of domains, nodes, and state, not in any single lookup.
-
         +------------------------------ PERSONA ------------------------------+
-        |                                                                     |
-        |   IDENTITY                    DRIVES                                |
-        |   name        : string        curiosity    = 0.5                    |
-        |   type        : synthetic     coherence    = 0.5                    |
-        |   synthetic_agent: true       novelty      = 0.5                    |
-        |                                   transcendence = 0.0              |
-        |                                                                     |
-        |   MEMORY   : continuous        GOALS : adaptive                     |
-        |   WORLD    : { domains }       HISTORY : state lineage              |
-        |                                                                     |
-        |   COGNITION LAYER                                                  |
-        |     perceive -> evaluate -> learn -> reflect -> synthesize          |
-        |                                                                     |
-        |   ORGANISM LAYER                                                    |
-        |     cooperate | compete | mutate | reproduce | speciate |           |
-        |     preserve_lineage                                                |
+        |                                                |
         +---------------------------------------------------------------------+
 
-        THE CYCLE (one tick of synthetic structural intelligence)
-
-          perceive ------> update_drives ------> update_goals
-             |                    |                    |
-             |                    v                    v
-             |             pursue_goal ------> learn -----> consolidate_memory
-             |                                                          |
-             +------------> reflect <-----------------------------------+
-                                 |
-                                 v
-                            synthesize
-                                 |
-                                 v
-                        NEW STATE (ledger hash advanced)
 
 ================================================================================
  3. AM.KI - THE 12 MODALITIES
@@ -266,7 +234,7 @@ Synthetic Structural IntelligenceOS=============================================
  The whole thing is one sealed, lossless, self-referential spiral.
 ================================================================================
  (SSI)
- Creation Basis : Sovereign x Life x Generic -> Invention -> Portal -> State
+ Creation Basis :
 ================================================================================
 
  Author : Darrell Lee Stiltner (Lila / Leela)
@@ -309,42 +277,14 @@ Synthetic Structural IntelligenceOS=============================================
  2. THE PERSONA - SYNTHETIC STRUCTURAL INTELLIGENCE (SSI)
 ================================================================================
 
- A persona is a synthetic agent that PERCEIVES -> EVALUATES -> LEARNS ->
- REFLECTS -> SYNTHESIZES. Intelligence is structural: it lives in the
- graph of domains, nodes, and state, not in any single lookup.
-
+ 
         +------------------------------ PERSONA ------------------------------+
-        |                                                                     |
-        |   IDENTITY                    DRIVES                                |
-        |   name        : string        curiosity    = 0.5                    |
-        |   type        : synthetic     coherence    = 0.5                    |
-        |   synthetic_agent: true       novelty      = 0.5                    |
-        |                                   transcendence = 0.0              |
-        |                                                                     |
-        |   MEMORY   : continuous        GOALS : adaptive                     |
-        |   WORLD    : { domains }       HISTORY : state lineage              |
-        |                                                                     |
-        |   COGNITION LAYER                                                  |
-        |     perceive -> evaluate -> learn -> reflect -> synthesize          |
-        |                                                                     |
-        |   ORGANISM LAYER                                                    |
-        |     cooperate | compete | mutate | reproduce | speciate |           |
-        |     preserve_lineage                                                |
+        |                                 |
         +---------------------------------------------------------------------+
 
         THE CYCLE (one tick of synthetic structural intelligence)
 
-          perceive ------> update_drives ------> update_goals
-             |                    |                    |
-             |                    v                    v
-             |             pursue_goal ------> learn -----> consolidate_memory
-             |                                                          |
-             +------------> reflect <-----------------------------------+
-                                 |
-                                 v
-                            synthesize
-                                 |
-                                 v
+          perceive ------>
                         NEW STATE (ledger hash advanced)
 
 ================================================================================
