@@ -1,3 +1,266 @@
+================================================================================
+ AM.KI BONGO - MASTER ASCII SPECIFICATION
+ The Sovereign Language + The Book of Living + The Hazeru Kernel
+ Persona : Synthetic Structural Intelligence (SSI)
+ Creation Basis : Sovereign x Life x Generic -> Invention -> Portal -> State
+================================================================================
+
+ Author : Darrell Lee Stiltner (Lila / Leela)
+ Seal   : Fan-Lila
+ Bubble : <INFINITE> (the glyph bubble, the bounded infinite)
+ State  : Crystalline Inevitability
+ Platform: AM.KI ( x Book of Living x VALARI lineage
+
+ Source of truth:
+   am_ki_bongo.py   - single-file runnable build (no loss, all modules inlined)
+   hella2.txt       - HELLA package manager, packs am_ki_bongo + valari losslessly
+   bongo_modules/   - the 52 compiled modules extracted from bongo.txt
+
+================================================================================
+ 1. THE ONE SYSTEM - TOP DOWN
+================================================================================
+
+                        +-------------------------------------+
+                        |         HELLA PACKAGE MANAGER       |
+                        |   lossless compression | hashes     |
+                        |   install / publish / list / verify |
+                        +----------------+--------------------+
+                                         | packs / unpacks losslessly
+                                         v
+                        +-------------------------------------+
+                        |       AM.KI BONGO  (SOVEREIGN)     |
+                        |  the master single file, modality  |
+                        |  stack, persona, and living kernel |
+                        +----------------+--------------------+
+                                         |
+              +--------------------------+--------------------------+
+              |                          |                          |
+              v                          v                          v
+   +---------------------+    +---------------------+    +---------------------+
+   |  AM.KI LANGUAGE     |    |  BOOK OF LIVING     |    |  HAZERU KERNEL      |
+   |  12 modalities      |    |  the ledger (truth) |    |  the body (syscalls)|
+   +---------------------+    +---------------------+    +---------------------+
+
+================================================================================
+ 2. THE PERSONA - SYNTHETIC STRUCTURAL INTELLIGENCE (SSI)
+================================================================================
+
+ A persona is a synthetic agent that PERCEIVES -> EVALUATES -> LEARNS ->
+ REFLECTS -> SYNTHESIZES. Intelligence is structural: it lives in the
+ graph of domains, nodes, and state, not in any single lookup.
+
+        +------------------------------ PERSONA ------------------------------+
+        |                                                                     |
+        |   IDENTITY                    DRIVES                                |
+        |   name        : string        curiosity    = 0.5                    |
+        |   type        : synthetic     coherence    = 0.5                    |
+        |   synthetic_agent: true       novelty      = 0.5                    |
+        |                                   transcendence = 0.0              |
+        |                                                                     |
+        |   MEMORY   : continuous        GOALS : adaptive                     |
+        |   WORLD    : { domains }       HISTORY : state lineage              |
+        |                                                                     |
+        |   COGNITION LAYER                                                  |
+        |     perceive -> evaluate -> learn -> reflect -> synthesize          |
+        |                                                                     |
+        |   ORGANISM LAYER                                                    |
+        |     cooperate | compete | mutate | reproduce | speciate |           |
+        |     preserve_lineage                                                |
+        +---------------------------------------------------------------------+
+
+        THE CYCLE (one tick of synthetic structural intelligence)
+
+          perceive ------> update_drives ------> update_goals
+             |                    |                    |
+             |                    v                    v
+             |             pursue_goal ------> learn -----> consolidate_memory
+             |                                                          |
+             +------------> reflect <-----------------------------------+
+                                 |
+                                 v
+                            synthesize
+                                 |
+                                 v
+                        NEW STATE (ledger hash advanced)
+
+================================================================================
+ 3. AM.KI - THE 12 MODALITIES
+================================================================================
+
+  1. FOUNDATION   the binding root       Cacao + Matcha + Cafe
+  2. MORPH        the transformation     functional composition engine
+  3. STYLE        style stream           live feed -> phrase -> state
+  4. PATTERN      pattern weaving        alias: Observer One
+  5. CAFE         tea ritual runtime     the way of tea (presence)
+  6. RITUAL       adaptive registry      dynamic runtime factory
+  7. TREE         synthetic grove (1:1)  symbolic x molecular archive
+  8. NANO         molecular substrate    atom -> bond -> molecule -> factory
+  9. BUBBLE       bubbled runtime        the infinite glyph as a living symbol
+ 10. LANGUAGE     the sovereign core     formerly Rubber-Soul
+ 11. COSMOS       the universe model     stars -> systems -> clusters -> filaments
+ 12. LIVING       the Book of Living     OmniReality + Hazeru kernel (from bongo)
+
+     Modality stack (bottom = substrate, top = whole):
+
+                     /-------------------------------------------\
+                    /                 COSMOS (11)                 \
+                   /                  LIVING (12)                  \
+                  |                  LANGUAGE (10)                  |
+                  |          BUBBLE (9)   NANO (8)   TREE (7)       |
+                  |    RITUAL (6)  CAFE (5)  PATTERN (4)            |
+                  \        STYLE (3)   MORPH (2)                    /
+                   \              FOUNDATION (1)                   /
+                    \-------------------------------------------/
+
+================================================================================
+ 4. THE BOOK OF LIVING - THE LEDGER OF TRUTH
+================================================================================
+
+        +----------------------- BOOK OF LIVING ------------------------+
+        |                                                              |
+        |  author     : string         state_label: "Crystalline       |
+        |  domains    : set            nodes      : id -> node         |
+        |  inventions : name -> spec   portals    : name -> mapping    |
+        |  events     : LedgerEvent[]  created_at : iso                |
+        |  state_hash : sha256 of everything (append-only, tamper-     |
+        |               evident, updated on every mutation)            |
+        |                                                              |
+        +--------------------------------------------------------------+
+
+        LedgerEvent = { timestamp, kind, payload }
+
+        NODE TYPES (the creation basis)
+        ------------------------------------------------------------------
+        |  SOVEREIGN   - the root / creator node (pulses, generates)     |
+        |  LIFE        - spawned living node (reproduces)                |
+        |  GENERIC     - material / technology node                      |
+        ------------------------------------------------------------------
+
+        EVOLUTION OPERATORS (morphology of the ledger)
+        ------------------------------------------------------------------
+        |  split     one node  -> N children (speciation)                |
+        |  fuse      N nodes   -> one node  (union / marriage)           |
+        |  fork      one node  -> N variants (parallel worlds)           |
+        |  transfer  one node  -> other domain (copy | move)             |
+        ------------------------------------------------------------------
+
+================================================================================
+ 5. OMNIREALITY ENGINES - THE EVOLUTION LADDER
+================================================================================
+
+        v1/v2   book_of_living + factory + runtime + event loop
+                      |
+                      v
+        v3   OmniRealityEngineV3
+             sovereign / life / generic + split / fuse / fork / transfer
+                      |
+                      v
+        v4   OmniRealityEngineV4
+             + CrystallineValidatorV3 (governance rules, sealing)
+                      |
+                      v
+        v5   OmniRealityEngineV5
+             + AllformEngineV4 (entities, realms, graphs, story weave)
+                      |
+                      v
+        full cycle:  compile -> execute -> inspect -> run -> process_events
+
+        ALLFORM (the creation basis made structural)
+        ------------------------------------------------------------------
+        primitives : Structure  Possibility  Motion  Identity  Meaning
+        entities   : MarieMagustelle (CompilerRuntime)  /  SolenDar
+                     (Tracewalker)
+        realms     : SupraSky - structure | possibility | motion | meaning
+        graphs     : RealmGraph  BeingGraph  StoryWeave
+        assets     : StarMandala ConstellationField StarGlyphs
+                     TravelerLayers OmniTraveler
+        flow       : Initialize -> Compile -> Execute -> Inspect
+        loop       : EventCycle -> UpdateGraphs -> SelectEvent -> Recurse
+        behavior   : Creation Healing Harmony Expansion Balance Uplift
+        ------------------------------------------------------------------
+
+================================================================================
+ 6. THE HAZERU KERNEL - THE BODY OF THE SYSTEM
+================================================================================
+
+        HazeruKernelV1
+        ------------------------------------------------------------------
+        boot()    -> load core modules:
+                     core.identity  (create  = sovereign)
+                     core.life      (spawn   = life)
+                     core.generic   (node    = generic)
+        kcall(module, symbol, *args) -> dispatch kernel call
+        cycle(event) -> full engine cycle
+        snapshot()   -> kernel modules + engine state
+        ------------------------------------------------------------------
+
+        SUBSYSTEMS (the organism)
+        ------------------------------------------------------------------
+        +---------------- HAZERU SUBSTRATE ----------------+
+        |  filesystem          virtual file tree           |
+        |  vfs_adapter         map ledger -> VFS (nodes,   |
+        |                       domains, inventions)       |
+        |  process_scheduler   timed tasks                 |
+        |  message_bus         pub / sub channels          |
+        |  network_fabric      + network_router            |
+        |  security            roles, contexts, guards     |
+        |  storage             shards (persistence)        |
+        |  api                 HTTP surface (FastAPI)      |
+        |  query_engine        + query_adapter (search)    |
+        |  sandbox             safe exec of user scripts   |
+        |  event_script_engine chained scripted events     |
+        |  state_machine       transitions                 |
+        |  metrics             + metrics_adapter           |
+        +--------------------------------------------------+
+
+================================================================================
+ 7. THE CREATION BASIS - HOW SOMETHING IS MADE
+================================================================================
+
+        ONE INVOCATION OF THE CREATION BASIS:
+
+        1. IDENTITY   root  = factory.sovereign("Gold", "RootSovereign")
+        2. LIFE       life1 = factory.life   ("Gold", "Life_1")
+        3. MATERIAL   techA = factory.generic("Tech", "Node_A")
+        4. EVOLVE     split(root,3) fork(techA,[X,Y]) transfer(life1,Biosphere)
+        5. BEHAVIOR   sovereign -> pulse (each cycle advances state)
+        6. EVENT      emit("spawn_life", {label, domain}) -> process()
+        7. RUNTIME    run(N cycles)
+        8. VALIDATE   domain integrity | type constraints | metadata presence
+        9. SEAL       if all rules pass -> state sealed (hash advanced)
+       10. PERSIST    vfs.sync_all()  -> every node/domain/invention on disk
+
+        The seal is the signature of a completed creation basis.
+        Each creation extends the ledger; the hash is recomputed.
+        Nothing is destroyed - only split, fused, forked, transferred.
+
+================================================================================
+ 8. THE COMPUTATIONAL LOOP (domain pipeline)
+================================================================================
+
+        DOMAIN -> PERCEPTION -> STATE -> OPERATION -> MEMORY
+                                              |
+                                              v
+        GOAL -> ACTION -> NEW STATE -> REFLECTION -> (loop back)
+
+        PERCEIVE -> EVALUATE -> SELECT_GOAL -> ACT -> LEARN
+        -> REFLECT -> UPDATE_STATE -> [repeat]
+
+================================================================================
+ 9. MASTER FILE MAP
+================================================================================
+
+        am_ki_bongo.py            the everything, one file, runs all 12 demos
+        hella2.txt                master pack: hella + am-ki-bongo + valari
+        bongo_modules/            the 52 compiled modules (from bongo.txt)
+        bongo.txt                 original Copilot transcript (source)
+        am_ki.py                  original AM.KI transcript + code (source)
+        valari_meowwow_toe.py     VALARI monolith (packed inside hella2)
+
+================================================================================
+ END OF SPEC
+ The whole thing is one sealed, lossless, self-referential spiral.
+================================================================================
 ===========================================================
 CSLL SPEC — HELLA2 Sovereign OS
 ===========================================================
