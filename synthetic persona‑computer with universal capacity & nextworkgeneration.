@@ -1,12 +1,291 @@
+We’ve merged everything into a single, coherent Python script.  
+https://www.deviantart.com/analisjohnsmith/art/filamentary-field-1366659631
+The script now:
 
-- **Fractional Brownian motion (fBm)** with recursive warping (multiscale, non‑stationary field).
-- **Gradient magnitude** to extract filament edges.
-- **Hessian‑based ridge detection** to capture thin, connected filaments.
-- **Structure tensor** to preserve orientation and anisotropy.
-- **Critical‑point topology** to maintain branching and void structures.
+1. **Generates a high‑resolution filamentary field** (the fractal backdrop) – using the full pipeline (recursive fBm, gradient, Hessian ridges, structure tensor, critical‑point topology, blending).
+2. **Encapsulates the generator** as a class `FractalEngine` – so it’s reusable and can be treated as the “computer” layer.
+3. **Defines an `AlienPersona`** – the symbolic identity overlay.
+4. **Builds a `PersonaComputer`** – fusing the engine and persona into a single device.
+5. **Implements a symbolic instruction set** – `LOAD`, `GEN`, `LINK`, `MAP`, `OUT` – so you can “program” the persona‑computer.
+6. **Executes a sample program** that generates the backdrop, links it, maps the persona, and saves the image.
 
-All steps are computed at **full resolution** (2048×2048) – no downsampling, no loss.
+The final output is a 1:1 square cyan backdrop with no central object, but now it’s framed as the result of a universal symbolic computer with a persona interface.
 
+---
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.ndimage import gaussian_filter, sobel, maximum_filter, minimum_filter, binary_dilation
+
+# ============================================================
+# 1. THE COMPUTER LAYER – Fractal Engine
+# ============================================================
+
+class FractalEngine:
+    """
+    The computational substrate that generates filament-void geometry.
+    """
+    def __init__(self, seed=42):
+        self.rng = np.random.default_rng(seed)
+        self.N = 2048
+        self.x = np.linspace(-1, 1, self.N)
+        self.y = np.linspace(-1, 1, self.N)
+        self.X, self.Y = np.meshgrid(self.x, self.y, indexing='ij')
+
+    def generate(self, seed=None):
+        """Generate a filamentary field and return the RGB image."""
+        if seed is not None:
+            self.rng = np.random.default_rng(seed)
+        return self._build_field()
+
+    def _build_field(self):
+        N = self.N
+        X, Y = self.X, self.Y
+        rng = self.rng
+
+        # ------------------------------------------------------------
+        # 2. MULTISCALE fBm FIELD with recursive warping
+        # ------------------------------------------------------------
+        def fbm_warped(scales, H, warp_strength=0.2):
+            field = np.zeros((N, N))
+            x0, y0 = X.copy(), Y.copy()
+
+            for k, sigma in enumerate(scales):
+                amp = 2.0 ** (-H * k)
+                noise = rng.normal(0, 1, (N, N))
+                smoothed = gaussian_filter(noise, sigma)
+                smoothed -= smoothed.mean()
+                smoothed /= (smoothed.std() + 1e-12)
+
+                if k > 0:
+                    warp_x = warp_strength * amp * gaussian_filter(field, sigma*2)
+                    warp_y = warp_strength * amp * gaussian_filter(field, sigma*2)
+                    x_warp = x0 + warp_x
+                    y_warp = y0 + warp_y
+                else:
+                    x_warp, y_warp = x0, y0
+
+                field += amp * smoothed
+                phase = 2 * np.pi * (rng.random() - 0.5)
+                field += 0.2 * amp * np.sin(2 * np.pi * (x_warp * 0.5 + y_warp * 0.3) + phase)
+
+            field -= field.min()
+            field /= (field.max() + 1e-12)
+            return field
+
+        scales = [2, 4, 8, 16, 32, 64, 128]
+        H = 0.72
+        F = fbm_warped(scales, H, warp_strength=0.2)
+
+        # ------------------------------------------------------------
+        # 3. GRADIENT MAGNITUDE
+        # ------------------------------------------------------------
+        Fx = sobel(F, axis=1) / 8.0
+        Fy = sobel(F, axis=0) / 8.0
+        G = np.sqrt(Fx**2 + Fy**2)
+        G -= G.min()
+        G /= (G.max() + 1e-12)
+
+        # ------------------------------------------------------------
+        # 4. HESSIAN RIDGE FILTER
+        # ------------------------------------------------------------
+        def hessian_ridges(field, sigma):
+            Fxx = gaussian_filter(field, sigma, order=(0, 2))
+            Fyy = gaussian_filter(field, sigma, order=(2, 0))
+            Fxy = gaussian_filter(gaussian_filter(field, sigma, order=(1, 0)), sigma, order=(0, 1))
+            trace = Fxx + Fyy
+            disc = np.sqrt(np.maximum((Fxx - Fyy)**2 + 4*Fxy**2, 0))
+            lambda1 = 0.5 * (trace + disc)
+            lambda2 = 0.5 * (trace - disc)
+            ridge = np.maximum(-lambda1, -lambda2)
+            ridge -= ridge.min()
+            ridge /= (ridge.max() + 1e-12)
+            return ridge
+
+        ridge_stack = []
+        for sigma in [1, 2, 4, 8]:
+            R = hessian_ridges(F, sigma)
+            ridge_stack.append(R)
+        R = np.maximum.reduce(ridge_stack)
+        R = gaussian_filter(R, 0.8)
+        R = R ** 2.6
+
+        # ------------------------------------------------------------
+        # 5. STRUCTURE TENSOR (anisotropy)
+        # ------------------------------------------------------------
+        Jxx = gaussian_filter(Fx*Fx, 8)
+        Jyy = gaussian_filter(Fy*Fy, 8)
+        Jxy = gaussian_filter(Fx*Fy, 8)
+        traceJ = Jxx + Jyy
+        discJ = np.sqrt(np.maximum((Jxx - Jyy)**2 + 4*Jxy**2, 0))
+        lambda1J = 0.5 * (traceJ + discJ)
+        lambda2J = 0.5 * (traceJ - discJ)
+        anisotropy = (lambda1J - lambda2J) / (lambda1J + lambda2J + 1e-12)
+        anisotropy = np.clip(anisotropy, 0, 1)
+        R_aniso = R * anisotropy
+
+        # ------------------------------------------------------------
+        # 6. CRITICAL-POINT TOPOLOGY
+        # ------------------------------------------------------------
+        def critical_points(field, window=11):
+            local_max = (field == maximum_filter(field, size=window))
+            local_min = (field == minimum_filter(field, size=window))
+            grad = np.sqrt(sobel(field, axis=1)**2 + sobel(field, axis=0)**2)
+            threshold = np.percentile(grad, 5)
+            critical = grad < threshold
+            maxima = local_max & critical
+            minima = local_min & critical
+            Fxx = gaussian_filter(field, 2, order=(0,2))
+            Fyy = gaussian_filter(field, 2, order=(2,0))
+            Fxy = gaussian_filter(gaussian_filter(field, 2, order=(1,0)), 2, order=(0,1))
+            detH = Fxx*Fyy - Fxy**2
+            saddles = critical & (detH < 0)
+            return maxima, minima, saddles
+
+        maxima, minima, saddles = critical_points(F, window=15)
+        topo_enhance = np.zeros_like(F)
+        saddle_dilated = binary_dilation(saddles, iterations=3)
+        max_dilated = binary_dilation(maxima, iterations=3)
+        topo_enhance[saddle_dilated] = 1.0
+        topo_enhance[max_dilated] = 0.8
+        topo_enhance = gaussian_filter(topo_enhance, 5)
+        topo_enhance = topo_enhance ** 1.5
+
+        # ------------------------------------------------------------
+        # 7. COMBINE ALL LAYERS
+        # ------------------------------------------------------------
+        web = 0.4 * G + 0.6 * R_aniso
+        web = web * (0.6 + 0.4 * topo_enhance)
+        void_field = gaussian_filter(F, 30)
+        void_field -= void_field.min()
+        void_field /= (void_field.max() + 1e-12)
+        web = web * (0.4 + 0.6 * void_field)
+        web = np.clip(web, 0, 1) ** 2.2
+
+        # ------------------------------------------------------------
+        # 8. SCIENTIFIC CYAN COLORMAP
+        # ------------------------------------------------------------
+        rgb = np.zeros((N, N, 3))
+        rgb[..., 0] = 0.005 * web
+        rgb[..., 1] = 0.45 * web + 0.20 * web**2
+        rgb[..., 2] = 0.50 * web + 0.35 * web**2
+        core = web ** 5
+        rgb[..., 1] += 0.30 * core
+        rgb[..., 2] += 0.38 * core
+        rgb = np.clip(rgb, 0, 1)
+
+        return rgb
+
+# ============================================================
+# 2. THE PERSONA LAYER
+# ============================================================
+
+class AlienPersona:
+    """Symbolic identity overlay."""
+    def present(self, result):
+        return {
+            "persona": "alien-interface",
+            "halo": "cosmic-fractal-overlay",
+            "computation": result
+        }
+
+# ============================================================
+# 3. THE PERSONA-COMPUTER (fusion)
+# ============================================================
+
+class PersonaComputer:
+    """
+    Synthetic device that fuses a computational engine (FractalEngine)
+    with a symbolic persona (AlienPersona).
+    """
+    def __init__(self, persona, engine):
+        self.persona = persona
+        self.engine = engine
+        self.memory = {}
+
+    def execute(self, instructions):
+        """
+        Execute a symbolic program with instructions:
+        LOAD key value
+        GEN seed
+        LINK
+        MAP
+        OUT
+        """
+        for instr in instructions:
+            op = instr[0]
+            args = instr[1:]
+
+            if op == "LOAD":
+                key, value = args
+                self.memory[key] = value
+            elif op == "GEN":
+                seed = args[0] if args else None
+                self.memory["network"] = self.engine.generate(seed)
+            elif op == "LINK":
+                # "Link" the network – here we just store a reference
+                self.memory["linked"] = self.memory.get("network", None)
+            elif op == "MAP":
+                network = self.memory.get("linked", None)
+                self.memory["persona_output"] = self.persona.present(network)
+            elif op == "OUT":
+                # Save the image and print metadata
+                output = self.memory.get("persona_output", None)
+                if output and output["computation"] is not None:
+                    img = output["computation"]
+                    plt.figure(figsize=(10, 10), dpi=150)
+                    plt.imshow(img, origin='lower', extent=[-1,1,-1,1])
+                    plt.axis('off')
+                    plt.tight_layout(pad=0)
+                    plt.savefig('persona_computer_output.png', dpi=300, bbox_inches='tight', pad_inches=0)
+                    plt.show()
+                    print("Persona-computer output saved as 'persona_computer_output.png'")
+                else:
+                    print("No network to output. Run GEN first.")
+            else:
+                raise ValueError(f"Unknown instruction: {op}")
+
+        return self.memory
+
+# ============================================================
+# 4. MAIN – Run the persona-computer
+# ============================================================
+
+if __name__ == "__main__":
+    # Instantiate the layers
+    alien = AlienPersona()
+    fractal = FractalEngine(seed=42)          # Seed for reproducibility
+    synthetic_pc = PersonaComputer(alien, fractal)
+
+    # Define a program
+    program = [
+        ("LOAD", "seed", 42),                 # not strictly needed, but shows LOAD
+        ("GEN", 42),                          # generate field with seed 42
+        ("LINK",),                            # link the generated network
+        ("MAP",),                             # overlay persona
+        ("OUT",)                              # save and show
+    ]
+
+    # Run it
+    synthetic_pc.execute(program)
+```
+
+---
+
+## What this script does
+
+- It generates the exact same high‑resolution 1:1 filamentary backdrop as before, but now **the generation is encapsulated in `FractalEngine`**.
+- It defines an **`AlienPersona`** that wraps the output with a symbolic identity.
+- The **`PersonaComputer`** fuses the two and exposes a simple **symbolic instruction set** (`LOAD`, `GEN`, `LINK`, `MAP`, `OUT`).
+- When you run the script, it executes the program, generates the backdrop, applies the persona, and saves the final image as `persona_computer_output.png`.
+
+You now have a single Python file that is both:
+
+- A standalone filamentary field generator (the cosmic web / network engine).
+- A universal persona‑computer with a symbolic programming interface.
+
+Everything is combined, no loss, no external dependencies beyond SciPy and Matplotlib.
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
