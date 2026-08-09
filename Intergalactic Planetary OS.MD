@@ -3,9 +3,12 @@ https://www.deviantart.com/analisjohnsmith/art/1366213097?action=published
  # A Civilizational Computational Platform
 
 This system is designed as more than a conventional operating system. It is a proposed **civilizational-scale 
-computational platform**: a unified architecture intended to connect software, knowledge, simulation, living systems, molecular structures, planetary environments, and larger cosmological models within a common computational framework.
+computational platform**: a unified architecture intended to connect software, knowledge, simulation, living systems, molecular 
+structures, planetary environments, and larger cosmological models within a common computational framework.
 
-At its foundation is a sovereign runtime and kernel architecture providing core operating capabilities such as storage, filesystems, scheduling, messaging, networking, security, APIs, querying, sandboxing, state machines, metrics, and persistent state. Above this foundation, the system introduces the **AM.KI language and modality stack**, providing specialized computational domains rather than treating every problem as ordinary software.
+At its foundation is a sovereign runtime and kernel architecture providing core operating capabilities such as storage, filesystems, s
+cheduling, messaging, networking, security, APIs, querying, sandboxing, state machines, metrics, and persistent state. Above this foundation, 
+the system introduces the **AM.KI language and modality stack**, providing specialized computational domains rather than treating every problem as ordinary software.
 
 Its capabilities extend from the molecular scale upward. The **NANO** modality explicitly models a molecular substrate progressing from **atom → bond → molecule → factory**, while **TREE** provides a symbolic and molecular archive. The **LIVING** layer connects the Book of Living with OmniReality and the Hazeru runtime. **COSMOS** extends the representational hierarchy toward stars, systems, clusters, and filaments.
 
