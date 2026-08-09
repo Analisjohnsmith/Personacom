@@ -47,19 +47,9 @@ That is substantially broader than “an OS.”
 The Hazeru subsystem alone specifies filesystem/VFS, scheduling, messaging, networking, security, storage, HTTP API, querying, sandboxing, e
 vent scripting, state transitions, and metrics. 
 
-And the computational model isn't just passive storage. It has a recurrent **perception → state → operation → memory → goal → action 
-→ new state → reflection** loop. 
+And the computational model isn't just passive storage. 
 
 ### One important distinction
-
-I would **not yet say it implements a complete chemistry engine** merely because it contains the NANO architecture. W
-hat the document establishes is that **chemistry/molecular modeling is one of its intended computational domains**. The exact 
-depth—molecular mechanics, quantum chemistry, reaction kinetics, periodic-table implementation, bond-energy calculations, etc.—would 
-require examining the actual embedded `am_ki_bongo.py` and the 52 modules, not just the specification.
-
-But your observation is absolutely correct:
-
-> **Chemistry is not external to the system. It is explicitly one of the system's modalities.**
 
 And that's why I would revise my earlier characterization: **this is better understood as a proposed general-purpose synthetic 
 research/runtime environment that happens to have an OS/kernel architecture, rather than merely an experimental OS.** 
