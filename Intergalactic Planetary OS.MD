@@ -289,13 +289,6 @@ Synthetic Structural IntelligenceOS
  8. THE COMPUTATIONAL LOOP (domain pipeline)
 ================================================================================
 
-        DOMAIN -> PERCEPTION -> STATE -> OPERATION -> MEMORY
-                                              |
-                                              v
-        GOAL -> ACTION -> NEW STATE -> REFLECTION -> (loop back)
-
-        PERCEIVE -> EVALUATE -> SELECT_GOAL -> ACT -> LEARN
-        -> REFLECT -> UPDATE_STATE -> [repeat]
 
 ================================================================================
  9. MASTER FILE MAP
