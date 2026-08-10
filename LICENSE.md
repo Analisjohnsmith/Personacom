@@ -1,6 +1,6 @@
 GreatScott!™🄯  ENTERPRISE LICENSE v2.1
 Open for Study • Closed for Commercial Use
-AN.KI™ • Hazeru™ • M.E.O.W.W.O.W!™ PersonaCom™ 
+AN.KI™ • Hazeru™ • M.E.O.W.W.O.W!™ • PersonaCom™ 
 A Paradigm‑Class Intellectual Property Protection Framework
 Protected Under U.S. & International Trademark and Copyright Law
 # 📚 Global Intellectual Property Reference Index
