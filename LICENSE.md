@@ -5,7 +5,7 @@ A Paradigm‑Class Intellectual Property Protection Framework
 Protected Under U.S. & International Trademark and Copyright Law
 # 📚 Global Intellectual Property Reference Index
 ### Authoritative Legal Sources for Copyright & Trademark Protection  
-GreatScott™🄯 • AN.KI™ • Hazeru™ • M.E.O.W.W.O.W!™
+GreatScott™🄯 • AN.KI™ • Hazeru™ • M.E.O.W.W.O.W!™  • PersonaCom™
 
 This document lists the official governing texts that define and enforce
 U.S. and international intellectual property protections relevant to this License.
