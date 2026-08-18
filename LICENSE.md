@@ -7,7 +7,25 @@ PersonaCom™ Hatsuseno ©™
 
 © 2026 Analisjohnsmith(Darrell Lee Stiltner)                       
 
+8/18/26 TL;DR 
+Free to study, experiment, and have fun. Closed to commercial use. No confusingly similar expression.
 
+That is a much clearer licensing philosophy than the full draft currently communicates.
+
+The draft already says essentially this in places: the public/community may use the work for fun or research,
+while commercial use requires a license. It also contains an explicit “Prohibition on Confusingly Similar Systems” section.
+
+So for the intention you just stated, I would revise my score upward to about 88/100 for clarity of the intended policy, but the document itself still needs consolidation because it currently contains several different licensing formulations.
+
+The core could literally be reduced to:
+
+Study: Free
+Research: Free
+Personal/educational use: Free
+Fun/experimentation: Free
+Commercial use: Closed unless licensed
+Confusingly similar expression: Prohibited
+Ownership: Retained by © 2026 Analisjohnsmith(Darrell Lee Stiltner)                       
 
 
 
