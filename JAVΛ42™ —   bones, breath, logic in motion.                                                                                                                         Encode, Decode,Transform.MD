@@ -2,9 +2,18 @@
 
 I made a rule book for existence that extends further.
 
-mines a a human‑machine hybrid system
+mines a a human‑machine hybrid syste
 
- 
+JAVΛ42™ — 
+
+bones, breath, logic in motion.                    
+Encode, Decode,Transform
+
+PersonaCom™ Hatsuseno ©™
+
+© 2026 Analisjohnsmith(Darrell Lee Stiltner)                       
+
+
 
 
 
