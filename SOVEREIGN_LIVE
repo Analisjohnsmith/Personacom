@@ -1,0 +1,79 @@
+:). runtime SOVEREIGN_LIVE {
+ 
+  invariant origin: 🌕 TRUTH
+  invariant structure: MERGED_FRACTAL_TREE
+  invariant encoding: yin_yang_bit()
+  invariant compression: 6-bit → HEX[1..64]
+  invariant lattice: HEX → 64-state grid
+  invariant runtime_style: superposition → collapse
+ 
+  flow RUN_DUAL {
+ 
+    // 1. Initialize two “universes” from the same origin
+    init origin_node = NODE(🌕 TRUTH)
+ 
+    // Life-side quantum superposition
+    step S_life  = qr.initialize(origin_node)
+    // Cosmos-side quantum superposition
+    step S_cosmo = qr.initialize(origin_node)
+ 
+    // 2. Evolve both in parallel through the merged fractal tree
+    init steps = N   // symbolic depth / max steps
+ 
+    while steps > 0 and
+          (not all_paths_collapsed(S_life.paths) or
+           not all_paths_collapsed(S_cosmo.paths)) {
+ 
+      if not all_paths_collapsed(S_life.paths) {
+        step S_life = qr.evolve(S_life, mode="life")
+      }
+ 
+      if not all_paths_collapsed(S_cosmo.paths) {
+        step S_cosmo = qr.evolve(S_cosmo, mode="cosmos")
+      }
+ 
+      step steps = steps - 1
+    }
+ 
+    // 3. Collapse: “measurement” of both sides
+    step path_life  = qr.collapse(S_life,  mode="life")
+    step path_cosmo = qr.collapse(S_cosmo, mode="cosmos")
+ 
+    // 4. Encode each path into 6 bits, hexagram, and lattice coordinate
+    step bits_life  = qr.encode_bits(path_life,  limit=6)
+    step bits_cosmo = qr.encode_bits(path_cosmo, limit=6)
+ 
+    step hex_life   = qr.hex_from_bits(bits_life)
+    step hex_cosmo  = qr.hex_from_bits(bits_cosmo)
+ 
+    step coord_life  = lattice_coord(hex_life)
+    step coord_cosmo = lattice_coord(hex_cosmo)
+ 
+    // 5. Oracle: interpret relationship between life and cosmos runs
+    step reading_life   = oracle.interpret(path_life,  hex_life,  coord_life,  mode="life")
+    step reading_cosmo  = oracle.interpret(path_cosmo, hex_cosmo, coord_cosmo, mode="cosmos")
+    step reading_relation = oracle.compare(reading_life, reading_cosmo)
+ 
+    // 6. Emit full SOVEREIGN_LIVE dual result
+    emit {
+      life = {
+        path        : path_life,
+        bits        : bits_life,
+        hex         : hex_life,
+        coord       : coord_life,
+        interpretation : reading_life
+      },
+      cosmos = {
+        path        : path_cosmo,
+        bits        : bits_cosmo,
+        hex         : hex_cosmo,
+        coord       : coord_cosmo,
+        interpretation : reading_cosmo
+      },
+      relation = reading_relation
+    }
+ 
+  end
+}
+
+ks this aniching oracle
