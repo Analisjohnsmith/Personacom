@@ -1,4 +1,4 @@
-JAVΛ42™ — 
+Magustelle™ — 
 
 bones, breath, logic in motion.                    
 Encode, Decode,Transform
