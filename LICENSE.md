@@ -5,7 +5,7 @@ Encode, Decode,Transform
 
 PersonaCom™ Hatsuseno ©™
 
-A synthetic device©™is a device that synthetically performs a function normally performed through a physical, biological, mechanical, or otherwise conventional process.
+A synthetic device© is a device that synthetically performs a function normally performed through a physical, biological, mechanical, or otherwise conventional process.
 
 © 2026 Analisjohnsmith(Darrell Lee Stiltner)                       
 
