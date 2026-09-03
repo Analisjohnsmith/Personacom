@@ -3,7 +3,7 @@ Magustelle™ —
 bones, breath, logic in motion.                    
 Encode, Decode,Transform
 
-PersonaCom™ Hatsuseno ©™
+PersonaCom™ Hatsuseno ™
 
 A synthetic device© is a device that synthetically performs a function normally performed through a physical, biological, mechanical, or otherwise conventional process.
 
