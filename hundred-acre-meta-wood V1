@@ -1,11 +1,8 @@
-Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 
-This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
-To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/
 [package]
 name = "hundred-acre-meta-wood"
 version = "0.1.0"
-license = "CC-BY-NC-SA-4.0"
+license = "Great Scott!"
 mod reflection; // ← this line wires in src/reflection.rs
 
 //! 🌳 Hundred Acre Meta‑Wood — Monolithic Rust Prototype
