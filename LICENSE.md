@@ -1,23 +1,32 @@
-Magustelle™ — 
+NEW GREAT SCOTT NIXOS RUNTIME COMING 
 
+
+
+
+Magustelle™Brand name:is a creative synthetic universe device capable of anything synthetic or logical, spans music, gaming, comic, cinema,narrative.etc.under dev 
 bones, breath, logic in motion.                    
-Encode, Decode,Transform
+Encode, Decode,Transform©
+PersonaCom™ Hatsuseno™a synthetic creative design studio and research development lab.
+WowKernel©™
+HSON :Human Sagittarius Object Notation.©
 
-PersonaCom™ Hatsuseno ™
+AN.KI™ research/ Development LAB
+A synthetic device©is a device that synthetically performs a function normally performed through a physical, biological, mechanical, or otherwise conventional process.
+“No confusingly similar expression.”  
+“Reproduction, imitation, modification… of AN.KI or Hazeru names, branding, environment descriptions… is strictly prohibited.”
+Reproduction, imitation, modification, distribution… is strictly prohibited.”  
+“All derivative works… prohibited unless licensed.”  
+“Unauthorized use may result in civil and criminal penalties.”
 
-A synthetic device© is a device that synthetically performs a function normally performed through a physical, biological, mechanical, or otherwise conventional process.
-
+Reverse engineering is derivative work creation + imitation + reproduction.
+So your license already bans it.
 © 2026 Analisjohnsmith(Darrell Lee Stiltner)                       
-
+All rights reserved
 8/18/26 TL;DR 
 Free to study, experiment, and have fun. Closed to commercial use. No confusingly similar expression.
-
+A synthetic device ©™is a device that synthetically performs a function normally performed through a physical, biological, mechanical, or otherwise conventional process.
 That is a much clearer licensing philosophy than the full draft currently communicates.
-
-The draft already says essentially this in places: the public/community may use the work for fun or research,
-while commercial use requires a license. It also contains an explicit “Prohibition on Confusingly Similar Systems” section.
-
-So for the intention you just stated, I would revise my score upward to about 88/100 for clarity of the intended policy, but the document itself still needs consolidation because it currently contains several different licensing formulations.
+ 88/100 for clarity of the intended policy, but the document itself still needs consolidation
 
 The core could literally be reduced to:
 
@@ -29,21 +38,21 @@ Commercial use: Closed unless licensed
 Confusingly similar expression: Prohibited
 Ownership: Retained by © 2026 Analisjohnsmith(Darrell Lee Stiltner)                       
 
-
-
+=====================
 GreatScott!™🄯  ENTERPRISE LICENSE v2.1
 Open for Study • Closed for Commercial Use
-AN.KI™ • Hazeru™ • M.E.O.W.W.O.W!™ • PersonaCom™ 
+AN.KI™ • Hatsuseno™ • M.E.O.W.W.O.W!™ • PersonaCom™
 A Paradigm‑Class Intellectual Property Protection Framework
 Protected Under U.S. & International Trademark and Copyright Law
 # 📚 Global Intellectual Property Reference Index
 ### Authoritative Legal Sources for Copyright & Trademark Protection  
-GreatScott™🄯 • AN.KI™ • Hazeru™ • M.E.O.W.W.O.W!™  • PersonaCom™
+GreatScott™🄯 • AN.KI™ • Hatsuseno™ • Magustelle™ !™•PersonaCom™
 
 This document lists the official governing texts that define and enforce
 U.S. and international intellectual property protections relevant to this License.
 
 ---
+
 
 ## 🇺🇸 U.S. Copyright Law  
 ### Title 17 — United States Code (U.S. Copyright Act)
