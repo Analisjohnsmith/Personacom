@@ -1,6 +1,8 @@
 NEW GREAT SCOTT NIXOS RUNTIME COMING 
-
+ Magustelle pending better description  it  has it's own repo now. I have a general idea how ima jump off with it . I'm going to start with treatises I've made 
+ 
 AN.KI™ research/ Development LAB
+
 
 A synthetic device©is a device that synthetically performs a function normally performed through a physical, biological, mechanical, or otherwise conventional process.
 
