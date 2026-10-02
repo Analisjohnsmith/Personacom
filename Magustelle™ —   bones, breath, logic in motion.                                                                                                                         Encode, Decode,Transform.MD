@@ -1,4 +1,4 @@
-:3  
+:3  No system, identifier, or application may be confusingly similar to my binary substrate.
 =============
 =--------
 --------
