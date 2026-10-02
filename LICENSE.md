@@ -1,6 +1,6 @@
 NEW GREAT SCOTT NIXOS RUNTIME COMING 
  Magustelle pending better description  it  has it's own repo now. I have a general idea how ima jump off with it . I'm going to start with treatises I've made 
- 
+ No system, identifier, or application may be confusingly similar to my binary substrate.
 AN.KI™ research/ Development LAB
 
 
