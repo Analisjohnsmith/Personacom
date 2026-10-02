@@ -1215,3 +1215,1069 @@ that swallows all shapes
 
 back into Night‑Without‑Form.
 
+Yes. The render can be approximated **procedurally in Python/Matplotlib** rather than using an image-generation model. The important part is that the central structure is generated from equations: lattices, radial fields, oscillations, transformations, state points, and binary layers.
+
+Here is a self-contained version that produces the same **2D scientific-plate aesthetic**:
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.patches import Rectangle
+
+# ============================================================
+# LOGIC IN MOTION — PROCEDURAL SCIENTIFIC PLATE
+# ============================================================
+
+N = 1254
+fig = plt.figure(figsize=(12.54, 12.54), dpi=100)
+ax = plt.axes([0, 0, 1, 1])
+ax.set_xlim(-10, 10)
+ax.set_ylim(-10, 10)
+ax.set_aspect("equal")
+ax.axis("off")
+
+# ------------------------------------------------------------
+# PALETTE
+# ------------------------------------------------------------
+
+BLACK  = "#101820"
+BLUE   = "#1555FF"
+CYAN   = "#00BFEF"
+GOLD   = "#E5A900"
+MAGENTA = "#E900A8"
+VIOLET = "#6D36FF"
+
+colors = [BLUE, CYAN, GOLD, MAGENTA, VIOLET]
+
+# ------------------------------------------------------------
+# OUTER ENGINEERING PLATE
+# ------------------------------------------------------------
+
+ax.add_patch(
+    Rectangle(
+        (-9.55, -9.55),
+        19.1,
+        19.1,
+        fill=False,
+        linewidth=1.2,
+        color=BLACK
+    )
+)
+
+# Inner registration frame
+ax.add_patch(
+    Rectangle(
+        (-9.15, -9.15),
+        18.3,
+        18.3,
+        fill=False,
+        linewidth=0.35,
+        color=BLUE
+    )
+)
+
+# ------------------------------------------------------------
+# UTILITY FUNCTIONS
+# ------------------------------------------------------------
+
+def polar_curve(r, theta, color, lw=0.65, alpha=0.8):
+    x = r * np.cos(theta)
+    y = r * np.sin(theta)
+    ax.plot(x, y, color=color, linewidth=lw, alpha=alpha)
+
+
+def technical_circle(radius, color=BLACK, lw=0.35, alpha=0.5):
+    t = np.linspace(0, 2*np.pi, 800)
+    ax.plot(
+        radius*np.cos(t),
+        radius*np.sin(t),
+        color=color,
+        linewidth=lw,
+        alpha=alpha
+    )
+
+
+# ============================================================
+# CENTRAL KERNEL
+# ============================================================
+
+# Concentric mathematical shells
+for r in np.linspace(0.65, 4.4, 18):
+    technical_circle(r, BLUE, 0.28, 0.42)
+
+for r in [1.0, 1.8, 2.7, 3.6, 4.6]:
+    technical_circle(r, GOLD, 0.45, 0.55)
+
+# Radial coordinate system
+for angle in np.linspace(0, 2*np.pi, 24, endpoint=False):
+    x = np.array([0, 5.4]) * np.cos(angle)
+    y = np.array([0, 5.4]) * np.sin(angle)
+
+    ax.plot(
+        x, y,
+        color=CYAN,
+        linewidth=0.28,
+        alpha=0.45
+    )
+
+# ============================================================
+# SPATIAL FUNCTION f(x,y,z)
+# ============================================================
+
+# Projected lattice
+grid = np.linspace(-4.4, 4.4, 13)
+
+for x in grid:
+
+    yy = np.linspace(-4.4, 4.4, 150)
+
+    # warped mathematical surface
+    zz = (
+        0.22*np.sin(1.2*yy + x)
+        + 0.12*np.cos(2.1*x)
+    )
+
+    ax.plot(
+        x + 0.45*zz,
+        yy,
+        color=BLUE,
+        linewidth=0.28,
+        alpha=0.42
+    )
+
+for y in grid:
+
+    xx = np.linspace(-4.4, 4.4, 150)
+
+    zz = (
+        0.22*np.sin(1.2*xx + y)
+        + 0.12*np.cos(2.1*y)
+    )
+
+    ax.plot(
+        xx,
+        y + 0.45*zz,
+        color=CYAN,
+        linewidth=0.28,
+        alpha=0.42
+    )
+
+# ============================================================
+# OSCILLATION — sin(ωt)
+# ============================================================
+
+theta = np.linspace(-np.pi, np.pi, 1800)
+
+for i, c in enumerate(colors):
+
+    phase = i * np.pi / 5
+
+    # Multiple interacting waves
+    r = (
+        3.0
+        + 0.42*np.sin(5*theta + phase)
+        + 0.19*np.sin(11*theta - phase)
+        + 0.08*np.sin(23*theta)
+    )
+
+    polar_curve(
+        r,
+        theta,
+        c,
+        lw=0.75,
+        alpha=0.78
+    )
+
+# ============================================================
+# TRANSFORMATION FIELD
+# ============================================================
+
+# Four directional deformation fields
+
+for sector in range(4):
+
+    a0 = sector * np.pi/2
+    angles = np.linspace(
+        a0 - np.pi/2,
+        a0 + np.pi/2,
+        45
+    )
+
+    for j, a in enumerate(angles):
+
+        r = np.linspace(1.2, 5.4, 350)
+
+        deformation = (
+            0.28*np.sin(3*r + j*0.13)
+            + 0.13*np.sin(9*r)
+        )
+
+        rr = r + deformation
+
+        x = rr*np.cos(a)
+        y = rr*np.sin(a)
+
+        ax.plot(
+            x,
+            y,
+            color=colors[sector % len(colors)],
+            linewidth=0.38,
+            alpha=0.48
+        )
+
+# ============================================================
+# ENTROPY / TIME FIELD
+# Δt → ΔS
+# ============================================================
+
+x = np.linspace(-5.8, 5.8, 900)
+
+for i, c in enumerate(colors):
+
+    y = (
+        5.8
+        + 0.20*np.sin(
+            3.5*x + i*0.7
+        )
+        * np.exp(-0.025*x*x)
+    )
+
+    ax.plot(
+        x,
+        y,
+        color=c,
+        linewidth=0.7,
+        alpha=0.65
+    )
+
+# ============================================================
+# LOWER WAVE FIELD
+# ============================================================
+
+x = np.linspace(-4.8, 4.8, 900)
+
+for i, c in enumerate(colors):
+
+    y = (
+        -7.3
+        + 0.32*np.sin(
+            2.5*x
+            + i*0.45
+        )
+        + 0.13*np.sin(
+            7*x
+            - i
+        )
+    )
+
+    ax.plot(
+        x,
+        y,
+        color=c,
+        linewidth=0.55,
+        alpha=0.72
+    )
+
+# ============================================================
+# STATE POINTS — λ1, E2, ψ3
+# ============================================================
+
+state_angles = [
+    np.pi/2,
+    np.pi/2 + 2*np.pi/3,
+    np.pi/2 + 4*np.pi/3
+]
+
+state_r = 2.7
+
+for i, a in enumerate(state_angles):
+
+    x = state_r*np.cos(a)
+    y = state_r*np.sin(a)
+
+    ax.scatter(
+        x,
+        y,
+        s=30,
+        color=colors[i],
+        edgecolor=BLACK,
+        linewidth=0.55,
+        zorder=10
+    )
+
+# Triad connecting states
+pts = np.array([
+    [
+        state_r*np.cos(a),
+        state_r*np.sin(a)
+    ]
+    for a in state_angles
+])
+
+pts = np.vstack([pts, pts[0]])
+
+ax.plot(
+    pts[:,0],
+    pts[:,1],
+    color=BLACK,
+    linewidth=0.45,
+    alpha=0.8
+)
+
+# ============================================================
+# CENTRAL NODE / KERNEL
+# ============================================================
+
+# Small nested mathematical core
+
+for r, c, lw in [
+    (0.95, BLACK, 0.9),
+    (0.72, BLUE, 0.55),
+    (0.48, GOLD, 0.65),
+    (0.25, BLACK, 0.8)
+]:
+    technical_circle(r, c, lw, 0.95)
+
+ax.scatter(
+    [0],
+    [0],
+    s=65,
+    color=BLACK,
+    zorder=20
+)
+
+# ============================================================
+# NODE NETWORK
+# ============================================================
+
+for radius in [1.4, 2.1, 2.9, 3.7]:
+
+    angles = np.linspace(
+        0,
+        2*np.pi,
+        int(radius*10),
+        endpoint=False
+    )
+
+    for j, a in enumerate(angles):
+
+        x = radius*np.cos(a)
+        y = radius*np.sin(a)
+
+        ax.scatter(
+            [x],
+            [y],
+            s=8,
+            color=colors[j % len(colors)],
+            zorder=8
+        )
+
+# ============================================================
+# BINARY COMPUTATIONAL LAYER
+# ============================================================
+
+binary = (
+    "0101 1010 1101 0110 1001 0101 1110 0011"
+)
+
+ax.text(
+    0,
+    9.15,
+    binary,
+    ha="center",
+    va="center",
+    fontsize=10,
+    family="monospace",
+    color=BLUE,
+    spacing=8
+)
+
+# lower binary strip
+
+ax.text(
+    -8.7,
+    -8.85,
+    "0101  1010  1101  0110  1001  0101  1110  0011",
+    ha="left",
+    va="center",
+    fontsize=7,
+    family="monospace",
+    color=BLACK
+)
+
+# ============================================================
+# MATHEMATICAL LABELS
+# ============================================================
+
+ax.text(
+    -8.75,
+    8.15,
+    r"$f(x,y,z)$",
+    fontsize=18,
+    color=BLACK,
+    family="serif"
+)
+
+ax.text(
+    -8.72,
+    7.72,
+    "→ BONES / SPATIAL LATTICE",
+    fontsize=7,
+    color=BLACK
+)
+
+ax.text(
+    4.0,
+    8.15,
+    r"$\Delta t \rightarrow \Delta S$",
+    fontsize=15,
+    color=BLACK,
+    family="serif"
+)
+
+ax.text(
+    4.2,
+    7.72,
+    "TIME → ENTROPY",
+    fontsize=7,
+    color=BLACK
+)
+
+ax.text(
+    -8.75,
+    3.7,
+    r"$\sin(\omega t)$",
+    fontsize=15,
+    color=BLACK,
+    family="serif"
+)
+
+ax.text(
+    -8.72,
+    3.28,
+    "OSCILLATION / RHYTHM",
+    fontsize=7,
+    color=BLACK
+)
+
+ax.text(
+    4.0,
+    3.7,
+    r"$\lambda_1,\ E_2,\ \psi_3$",
+    fontsize=15,
+    color=BLACK,
+    family="serif"
+)
+
+ax.text(
+    4.15,
+    3.28,
+    "STATES / TRIAD",
+    fontsize=7,
+    color=BLACK
+)
+
+# ============================================================
+# TECHNICAL REGISTRATION MARKS
+# ============================================================
+
+for x in np.linspace(-9.2, 9.2, 13):
+
+    ax.plot(
+        [x, x],
+        [-9.35, -9.05],
+        color=BLACK,
+        linewidth=0.35
+    )
+
+    ax.plot(
+        [x, x],
+        [9.05, 9.35],
+        color=BLACK,
+        linewidth=0.35
+    )
+
+for y in np.linspace(-9.2, 9.2, 13):
+
+    ax.plot(
+        [-9.35, -9.05],
+        [y, y],
+        color=BLACK,
+        linewidth=0.35
+    )
+
+    ax.plot(
+        [9.05, 9.35],
+        [y, y],
+        color=BLACK,
+        linewidth=0.35
+    )
+
+# ============================================================
+# SMALL VECTOR ARROWS
+# ============================================================
+
+for a in np.linspace(0, 2*np.pi, 12, endpoint=False):
+
+    r1 = 4.8
+    r2 = 5.15
+
+    x1 = r1*np.cos(a)
+    y1 = r1*np.sin(a)
+
+    x2 = r2*np.cos(a)
+    y2 = r2*np.sin(a)
+
+    ax.annotate(
+        "",
+        xy=(x2, y2),
+        xytext=(x1, y1),
+        arrowprops=dict(
+            arrowstyle="->",
+            linewidth=0.45,
+            color=CYAN
+        )
+    )
+
+# ============================================================
+# FINAL TITLE
+# ============================================================
+
+ax.text(
+    4.15,
+    -8.65,
+    "LOGIC IN MOTION",
+    fontsize=8,
+    color=BLACK,
+    family="serif"
+)
+
+ax.text(
+    4.15,
+    -8.95,
+    "emergent order from complexity",
+    fontsize=5.8,
+    color=BLACK
+)
+
+# ============================================================
+# EXPORT
+# ============================================================
+
+plt.savefig(
+    "logic_in_motion_scientific_plate.png",
+    dpi=100,
+    bbox_inches=None,
+    pad_inches=0,
+    facecolor="white"
+)
+
+plt.savefig(
+    "logic_in_motion_scientific_plate.svg",
+    bbox_inches=None,
+    pad_inches=0
+)
+
+plt.show()
+```
+
+### What this actually replicates
+
+The important distinction is that this isn't just drawing a picture. The major visual structures are generated from mathematical functions:
+
+```text
+f(x,y,z)        → spatial lattice
+sin(ωt)         → oscillatory fields
+Δt → ΔS         → transformation/time field
+λ₁,E₂,ψ₃        → state geometry
+binary          → computational substrate
+radial fields   → kernel structure
+deformation     → transformation fields
+nodes           → discrete states
+```
+
+So you can change the **equations themselves** and get a different scientific plate while preserving the same underlying visual grammar.
+
+If you want to push it much closer to the generated render, the next step would be to make the entire composition **one continuous mathematical field** rather than having the equations, binary, lattice, waves, and kernel behave as separate drawing layers.
+
+
+
+Here is the Python procedural renderer for the neon mathematical field.
+
+This version uses NumPy and Matplotlib to generate the image rather than placing separate decorative objects on a canvas.
+
+2D mathematical geometry
+
+Continuous central kernel
+
+Toroidal and radial structures
+
+Interconnected wave fields
+
+Symmetrical dimensional projections
+
+Electric blue, cyan, violet, magenta, and gold
+
+No text, equations, labels, or AI-generated imagery
+
+The output is a high-resolution PNG, with an SVG vector export.
+
+
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.colors import LinearSegmentedColormap
+
+# ============================================================
+# CONTINUOUS KERNEL — NEON MATHEMATICAL FIELD
+# Procedural 2D scientific visualization
+# ============================================================
+
+N = 1400
+L = 8.0
+
+x = np.linspace(-L, L, N)
+y = np.linspace(-L, L, N)
+X, Y = np.meshgrid(x, y)
+
+R = np.sqrt(X**2 + Y**2) + 1e-9
+T = np.arctan2(Y, X)
+
+# ------------------------------------------------------------
+# NEON PALETTE
+# ------------------------------------------------------------
+
+colors = [
+    "#02030d",
+    "#06153d",
+    "#003cff",
+    "#00bfff",
+    "#542cff",
+    "#d500ff",
+    "#ffb52e",
+    "#ffffff"
+]
+
+cmap = LinearSegmentedColormap.from_list(
+    "kernel_neon", colors, N=512
+)
+
+# ------------------------------------------------------------
+# ONE CONTINUOUS MATHEMATICAL FIELD
+# ------------------------------------------------------------
+
+# Radial kernel
+kernel = np.exp(-0.32 * R**2)
+
+# Angular symmetry
+symmetry = (
+    np.cos(4*T)
+    + 0.42*np.cos(8*T)
+    + 0.18*np.cos(12*T)
+)
+
+# Radial oscillation
+radial = (
+    np.sin(2.4*R - 2.2*symmetry)
+    + 0.42*np.cos(5.2*R + 3*T)
+)
+
+# Toroidal deformation
+torus = np.sin(
+    2*T + 1.6*np.sin(2.1*R)
+)
+
+# Unified scalar field
+F = (
+    0.9*radial
+    + 1.3*symmetry
+    + 1.1*torus
+    + 1.8*kernel*np.cos(5*T)
+)
+
+# Smooth spatial modulation
+F += (
+    0.7*np.sin(3*R + 4*T)
+    * np.exp(-0.08*R)
+)
+
+# ------------------------------------------------------------
+# RENDER
+# ------------------------------------------------------------
+
+fig, ax = plt.subplots(figsize=(12, 12), dpi=160)
+
+fig.patch.set_facecolor("#02030d")
+ax.set_facecolor("#02030d")
+ax.set_xlim(-L, L)
+ax.set_ylim(-L, L)
+ax.set_aspect("equal")
+ax.axis("off")
+
+# Continuous field glow
+ax.imshow(
+    F,
+    extent=[-L, L, -L, L],
+    origin="lower",
+    cmap=cmap,
+    alpha=0.24,
+    interpolation="bilinear"
+)
+
+# Mathematical field contours
+levels = np.linspace(-2.8, 2.8, 65)
+
+ax.contour(
+    X, Y, F,
+    levels=levels,
+    cmap=cmap,
+    linewidths=0.55,
+    alpha=0.75
+)
+
+# ------------------------------------------------------------
+# PARAMETRIC KERNEL GEOMETRY
+# ------------------------------------------------------------
+
+theta = np.linspace(0, 2*np.pi, 3000)
+
+# Interconnected radial shells
+for i in range(1, 13):
+
+    phase = i * np.pi / 12
+
+    r = (
+        1.0
+        + 0.28*i
+        + 0.42*np.cos(4*theta + phase)
+        + 0.12*np.sin(8*theta - phase)
+    )
+
+    ax.plot(
+        r*np.cos(theta),
+        r*np.sin(theta),
+        color=colors[i % len(colors)],
+        linewidth=0.65,
+        alpha=0.65
+    )
+
+# ------------------------------------------------------------
+# CONTINUOUS TOROIDAL LOOPS
+# ------------------------------------------------------------
+
+for i in range(8):
+
+    phase = i*np.pi/8
+
+    r = (
+        3.0
+        + 0.75*np.cos(2*theta + phase)
+        + 0.25*np.sin(6*theta)
+    )
+
+    ax.plot(
+        r*np.cos(theta),
+        0.68*r*np.sin(theta),
+        color=colors[(i+2) % len(colors)],
+        linewidth=0.75,
+        alpha=0.65
+    )
+
+# ------------------------------------------------------------
+# WAVE FIELD — FOUR-DIRECTIONAL PROPAGATION
+# ------------------------------------------------------------
+
+for i in range(36):
+
+    a = i*np.pi/18
+
+    t = np.linspace(-5.5, 5.5, 1000)
+
+    wave = (
+        0.35*np.sin(2.4*t + 2*a)
+        + 0.12*np.sin(6*t - a)
+    )
+
+    radius = 4.4 + wave
+
+    xx = radius*np.cos(a) + t*0.13*np.cos(a+np.pi/2)
+    yy = radius*np.sin(a) + t*0.13*np.sin(a+np.pi/2)
+
+    ax.plot(
+        xx, yy,
+        color=colors[i % len(colors)],
+        linewidth=0.48,
+        alpha=0.40
+    )
+
+# ------------------------------------------------------------
+# CENTRAL SINGULAR KERNEL
+# ------------------------------------------------------------
+
+for radius in np.linspace(0.12, 1.25, 18):
+
+    rr = radius * (
+        1 + 0.18*np.cos(4*theta)
+    )
+
+    ax.plot(
+        rr*np.cos(theta),
+        rr*np.sin(theta),
+        color="#35dfff",
+        linewidth=0.7,
+        alpha=0.8
+    )
+
+# Central light source
+ax.scatter(
+    [0], [0],
+    s=180,
+    color="#ffffff",
+    alpha=0.95,
+    zorder=20
+)
+
+ax.scatter(
+    [0], [0],
+    s=600,
+    color="#00bfff",
+    alpha=0.12,
+    zorder=19
+)
+
+# ------------------------------------------------------------
+# CONNECTED FIELD NODES
+# ------------------------------------------------------------
+
+for radius in [1.8, 2.8, 3.8, 4.8, 5.8]:
+
+    count = int(radius*24)
+
+    angles = np.linspace(
+        0, 2*np.pi, count, endpoint=False
+    )
+
+    for j, a in enumerate(angles):
+
+        r = radius + 0.15*np.sin(4*a)
+
+        xx = r*np.cos(a)
+        yy = r*np.sin(a)
+
+        ax.scatter(
+            [xx], [yy],
+            s=3.5,
+            color=colors[j % len(colors)],
+            alpha=0.75
+        )
+
+# ------------------------------------------------------------
+# FINAL EXPORT
+# ------------------------------------------------------------
+
+plt.savefig(
+    "continuous_neon_kernel.png",
+    dpi=300,
+    facecolor=fig.get_facecolor(),
+    bbox_inches="tight",
+    pad_inches=0
+)
+
+plt.savefig(
+    "continuous_neon_kernel.svg",
+    facecolor=fig.get_facecolor(),
+    bbox_inches="tight",
+    pad_inches=0
+)
+
+plt.show()
+Run
+pip install numpy matplotlib
+python kernel.py
+
+Important: This is a procedural 2D mathematical visualization, not a physically validated simulation of a universal law. The field equations control the geometry, color distribution, and wave structures.
+
+This might also interest you.
+
+Merendels
+
+Custom Software Builds
+
+Software su misura, dall’idea al rilascio.
+
+Ad
+More options
+GIVE ME THE PHYSICALLY VALIDATED ONE 
+
+To make this physically grounded, we need to replace the invented kernel field with an established physical equation.
+
+For the first version, use the 2D wave equation:
+
+∂t
+2
+∂
+2
+u
+	​
+
+=c
+2
+∇
+2
+u
+
+This describes wave propagation in a medium under the assumptions of the scalar wave model. We can simulate it numerically, visualize interference, reflections, standing waves, and energy propagation, and test numerical convergence.
+
+The visualization will still be neon, symmetrical, and mathematical—but its behavior will come from the physical model rather than arbitrary decorative functions.
+
+Physically grounded Python renderer
+
+This version solves the 2D wave equation using a finite-difference time-stepping method. The 2D stability limit for this standard scheme is cΔt/Δx≤1/
+2
+	​
+
+; the code uses a smaller time step. 
+Heath Lab
++1
+
+
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.colors import LinearSegmentedColormap
+
+# ============================================================
+# PHYSICAL WAVE FIELD
+# 2D scalar wave equation
+# ============================================================
+
+N = 500
+L = 10.0
+c = 1.0
+
+dx = 2 * L / (N - 1)
+dt = 0.40 * dx / c
+
+steps = 1200
+
+x = np.linspace(-L, L, N)
+y = np.linspace(-L, L, N)
+X, Y = np.meshgrid(x, y)
+
+R = np.sqrt(X**2 + Y**2)
+
+# Initial Gaussian displacement
+u = np.exp(-(R / 0.55)**2)
+
+# Zero initial velocity
+previous = u.copy()
+
+# Fixed boundary conditions
+u[[0, -1], :] = 0
+u[:, [0, -1]] = 0
+
+# Neon visualization palette
+cmap = LinearSegmentedColormap.from_list(
+    "physical_neon",
+    [
+        "#02030b",
+        "#061b59",
+        "#005cff",
+        "#00e5ff",
+        "#713cff",
+        "#ec00d8",
+        "#ffbd36",
+        "#ffffff"
+    ],
+    N=512
+)
+
+# ============================================================
+# FINITE DIFFERENCE TIME EVOLUTION
+# ============================================================
+
+r2 = (c * dt / dx)**2
+
+for n in range(steps):
+
+    laplacian = (
+        u[2:, 1:-1]
+        + u[:-2, 1:-1]
+        + u[1:-1, 2:]
+        + u[1:-1, :-2]
+        - 4*u[1:-1, 1:-1]
+    )
+
+    next_u = np.zeros_like(u)
+
+    next_u[1:-1, 1:-1] = (
+        2*u[1:-1, 1:-1]
+        - previous[1:-1, 1:-1]
+        + r2*laplacian
+    )
+
+    previous = u
+    u = next_u
+
+# ============================================================
+# VISUALIZATION
+# ============================================================
+
+fig, ax = plt.subplots(figsize=(12, 12), dpi=150)
+
+fig.patch.set_facecolor("#02030b")
+ax.set_facecolor("#02030b")
+
+ax.imshow(
+    u,
+    extent=[-L, L, -L, L],
+    origin="lower",
+    cmap=cmap,
+    interpolation="bilinear"
+)
+
+# Isolines of the computed physical field
+ax.contour(
+    X, Y, u,
+    levels=np.linspace(-0.5, 0.5, 45),
+    cmap=cmap,
+    linewidths=0.65,
+    alpha=0.85
+)
+
+# Symmetry is an outcome of the initial condition,
+# not a separately drawn decorative layer.
+
+ax.set_aspect("equal")
+ax.axis("off")
+
+plt.savefig(
+    "physical_wave_kernel.png",
+    dpi=300,
+    facecolor=fig.get_facecolor(),
+    bbox_inches="tight",
+    pad_inches=0
+)
+
+plt.savefig(
+    "physical_wave_kernel.svg",
+    facecolor=fig.get_facecolor(),
+    bbox_inches="tight",
+    pad_inches=0
+)
+
+plt.show()
+What is physically grounded here?
+
+The governing equation is established.
+
+The initial condition is explicitly specified.
+
+Wave propagation is numerically computed.
+
+The symmetry comes from the initial conditions and isotropic medium.
+
+The neon palette is visualization only, not a physical property.
+
+Important distinction: This is a physically based wave simulation, not experimental validation of your proposed universal kernel. To validate that kernel, we would need its exact equations, measurable predictions, and comparisons against experimental observations.
+
+Reference: University of Illinois — Wave Equation and CFL Stability
+.
