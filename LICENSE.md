@@ -1,3001 +1,336 @@
-GreatScott!™🄯  ENTERPRISE LICENSE v2.1
-Open for Study • Closed for Commercial Use
-AN.KI™ • Hatsuseno™ • M.E.O.W.W.O.W!™ • PersonaCom™
-A Paradigm‑Class Intellectual Property Protection Framework
-Protected Under U.S. & International Trademark and Copyright Law
-# 📚 Global Intellectual Property Reference Index
-### Authoritative Legal Sources for Copyright & Trademark Protection  
-GreatScott™🄯 • AN.KI™ • Hatsuseno™ • M.E.O.W.W.O.W!™
-
-This document lists the official governing texts that define and enforce
-U.S. and international intellectual property protections relevant to this License.
+AN.KI™ research/ Development LAB
 
----
-
-## 🇺🇸 U.S. Copyright Law  
-### Title 17 — United States Code (U.S. Copyright Act)
-
-**Official Text:**  
-https://www.copyright.gov/title17/
-
-**Government Publishing Office (GPO) Version:**  
-https://uscode.house.gov/view.xhtml?path=/prelim@title17&edition=prelim
-
-Covers:  
-- Copyright ownership  
-- Exclusive rights  
-- Derivative works  
-- Enforcement  
-- Duration (life + 70 years in the U.S.)  
-- Civil & criminal penalties  
-
----
-
-## 🇺🇸 U.S. Trademark Law  
-### Lanham Act — 15 U.S.C. §§ 1051–1141
-
-**Official Text:**  
-https://uscode.house.gov/view.xhtml?path=/prelim@title15/chapter22&edition=prelim
-
-Covers:  
-- Trademark registration  
-- Trademark enforcement  
-- Protection of marks (AN.KI™, Hazeru™, GreatScott™🄯, Hatsuseno™,M.E.O.W.W.O.W!™)  
-- Anti‑counterfeiting  
-- Dilution & infringement penalties  
-
----
-
-## 🌍 International Copyright Law  
-### Berne Convention for the Protection of Literary and Artistic Works
-
-**Official Text (WIPO):**  
-https://www.wipo.int/treaties/en/ip/berne/
-
-Covers:  
-- Automatic worldwide copyright  
-- No registration required  
-- National treatment  
-- Minimum protection standards  
-- Life + 50 years minimum duration  
-
----
-
-## 🌍 International Trademark Law  
-### Madrid Protocol / Madrid System (WIPO)
-
-**Official Text:**  
-https://www.wipo.int/treaties/en/registration/madrid/
-
-Covers:  
-- International trademark registration  
-- Global protection of marks  
-- Unified filing system  
-- Enforcement across 120+ jurisdictions  
-
----
-
-## 🌐 Global IP Enforcement  
-### TRIPS Agreement (WTO)  
-Trade‑Related Aspects of Intellectual Property Rights
-
-**Official Text:**  
-https://www.wto.org/english/docs_e/legal_e/27-trips_01_e.htm
-
-Covers:  
-- International enforcement standards  
-- Copyright & trademark obligations  
-- Cross‑border penalties  
-- Anti‑piracy & anti‑counterfeiting rules  
-
----
-
-## 🛡️ Summary of Applicability to GreatScott™🄯  
-These documents collectively protect:
-
-- Source code  
-- Engines, runtimes, modules  
-- Symbols, glyphs, metaphysics, lore  
-- Documentation, diagrams, blueprints  
-- Trademarks (AN.KI™, Hazeru™, GreatScott™🄯, M.E.O.W.W.O.W!™)  
-- Derivative works  
-- Narrative structures and cognitive models  
-
-All rights remain fully reserved by the Licensor.
-
----
-
-## 🔗 Guided Links for Further Explanation  
-- **[U.S. Copyright Act](ca://s?q=Explain_US_Copyright_Act)**  
-- **[Lanham Act](ca://s?q=Explain_Lanham_Act)**  
-- **[Berne Convention](ca://s?q=Explain_Berne_Convention)**  
-- **[Madrid Protocol](ca://s?q=Explain_Madrid_Protocol)**  
-- **[TRIPS Agreement](ca://s?q=Explain_TRIPS_Agreement)**
-
-
-The public/community can use AN.KI/Hazeru/GreatScott for fun or research 
- closed for commercial use unless you recive commerical LICENSE
- This one of the most paranoid, most protective, most locked‑down license in the world.
-The point of the  linscse is  to be perfect for Paradigm platforms because it lets the 
-community explore the new  idea while preventing companies from stealing, cloning, monetizing, or weaponizing it.
-Understanding  "Paradigm"
-A paradigm refers to a broad, overarching framework or worldview that shapes how things  are 
-developed, applied, and perceived in a given era. It defines the general outlook on productive problems that firms and industries face,
-and it prescribes the direction in which technological change will evolve
-This license text may be freely read, studied, analyzed, and discussed by anyone, provided that the Software itself remains governed by the restrictions herein
-
-## 🛡️ SUCCESSION & CONTINUITY CLAUSE  
-### (Post‑Death Ownership, Enforcement, Authority Transfer)
-
-In the event of the Licensor’s death, incapacity, or legal inability to administer GreatScott™🄯, AN.KI™, Hazeru™, or M.E.O.W.W.O.W!™ assets, all rights, restrictions, prohibitions, and enforcement powers defined in this License shall remain fully in effect and shall transfer to the Licensor’s designated successor.
-
-### 🔒 1. Designated Successor Authority
-Upon the Licensor’s death, all intellectual property rights, enforcement powers, and licensing authority automatically transfer to:
-- the Licensor’s legally recognized heir(s),  
-- or the executor of the Licensor’s estate,  
-- or a successor entity explicitly named in the Licensor’s estate documents.
-
-The successor assumes full authority to:
-- approve or deny licenses  
-- enforce restrictions  
-- revoke existing licenses  
-- initiate audits  
-- pursue legal action  
-- maintain all bans and prohibitions  
-
-### 🔒 2. Continuity of Restrictions
-All restrictions defined in this License remain:
-- active  
-- enforceable  
-- binding  
-- non‑negotiable  
-
-This includes:
-- government/military restrictions  
-- export‑control restrictions  
-- data‑handling requirements  
-- access‑control rules  
-- audit rights  
-- revocation conditions  
-
-No restriction expires due to the Licensor’s death.
-
-### 🔒 3. No Automatic License Expansion
-The Licensor’s death does **not**:
-- expand existing licenses  
-- grant new rights  
-- weaken restrictions  
-- permit unauthorized use  
-- allow derivative creation  
-- allow governments/militaries to bypass licensing  
-
-All terms remain exactly as written.
-
-### 🔒 4. Pending Applications
-Any government, military, commercial, or institutional license applications pending at the time of the Licensor’s death shall:
-- be suspended until successor review  
-- not be automatically approved  
-- not be automatically denied  
-- require successor authorization  
-
-### 🔒 5. Successor Modification Rights
-The successor may:
-- update license terms  
-- maintain existing terms  
-- strengthen restrictions  
-- deny all future licensing  
-- freeze licensing permanently  
-
-The successor may **not**:
-- retroactively authorize past unauthorized use  
-- invalidate prior bans without explicit documentation  
-- transfer rights to prohibited entities  
-
-### 🔒 6. Posthumous Enforcement
-The successor retains full authority to:
-- pursue civil penalties  
-- pursue criminal penalties  
-- revoke licenses  
-- demand destruction of assets  
-- enforce export‑control compliance  
-- initiate audits and inspections  
-
-All enforcement powers survive the Licensor’s death.
-
-### 🔒 7. Perpetual Protection
-If no successor is named, all protected assets shall:
-- remain fully restricted  
-- remain non‑transferable  
-- remain non‑licensable  
-- remain prohibited for government/military use  
-- remain protected under copyright and IP law  
-
-No entity may claim ownership or usage rights due to the absence of a successor.
-
-### 🔒 8. Estate Documentation
-The Licensor may specify:
-- a named successor  
-- a foundation  
-- a trust  
-- a legal entity  
-- or a permanent freeze  
-
-Such designation overrides all default succession rules.
-
-### 🔒 9. Enforcement After Death
-Any unauthorized use after the Licensor’s death remains subject to:
-- civil penalties  
-- criminal penalties  
-- permanent bans  
-- international enforcement actions  
-
-All rights remain fully reserved by the Licensor and successor.
-
-
-AN.KI™  
-Hazeru™  
-AN.KI, Hazeru, the AN.KI Environment, the Hazeru System, and all associated
-identities, symbols, systems, constructs, and representations are protected
-under U.S. and international trademark and copyright law.
-
-Reproduction, imitation, modification, distribution, or public display of the
-AN.KI or Hazeru names, branding, environment descriptions, platform identities,
-or any associated materials is strictly prohibited without explicit written
-permission from the trademark owner.
-
-This protection applies to ALL AN.KI- and Hazeru-related assets, including but
-not limited to:
-- Source code, engine code, runtime code, modules, libraries, and subsystems
-- Specifications, technical documents, architecture diagrams, schematics, and blueprints
-- Design documents, UX flows, symbolic systems, narrative structures, and cognitive models
-- Artwork, illustrations, icons, glyphs, logos, and visual identity elements
-- Literature, lore, worldbuilding, metaphysics, and universe definitions
-- Audio, sound design, ritual cues, emotional engines, and temporal cycle logic
-- Data files, configuration files, templates, manifests, and environment descriptors
-- All derivative works, transformations, translations, or encoded forms
-© 2026 Darrell Lee Stiltner. All Rights Reserved.
-AN.KI, Hazeru, the M.E.O.W.W.O.W! Framework (Machine‑Encoded Ontic WhorL
-Within Ontological World),
-and all associated identities, symbols, systems, constructs, and representations
-are protected under U.S. and international trademark and copyright law.
-
-No rights to use, copy, modify, distribute, sublicense, or create derivatives of
-AN.KI, Hazeru, the AN.KI Environment, or the Hazeru System are granted unless
-formally authorized in writing. Unauthorized use may result in civil and
-criminal penalties.
-
-All goodwill associated with the AN.KI™ and Hazeru™ marks remains exclusively
-with the trademark owner.
-
-
-
-# 🏢 GreatScott License Overview
-
-AN.KI is released under a **dual license model**:
-
-- **Apache License 2.0** → Free for open‑source, academic, and non‑commercial use.  
-- **GreatScott Enterprise Commercial License** → Required for all proprietary, closed‑source, or revenue‑generating use.  
-
----
-
-## 🔓 Public (Apache 2.0)
-
-- ✅ Free to use, share, and modify.  
-- ✅ Suitable for research, learning, and open projects.  
-- ⚠️ Must share source code if distributing modifications.  
-- 🚫 Cannot be used in business or commercial products.  
-
----
-
-## 🔒 Enterprise (Commercial License)
-
-- ✅ Use in proprietary or closed‑source systems.  
-- ✅ Integrate with internal or external products.  
-- ✅ Deploy on servers, cloud, or hardware.  
-- ✅ Keep modifications private.  
-- ✅ Sell products that include GreatScott.  
-- 🚫 Cannot resell GreatScott itself as a standalone product.  
-- 🚫 Cannot sublicense without written permission.  
-
----
-
-## 📌 Key Rules
-
-- **No free commercial use.**  
-  Companies must purchase a commercial license.  
-- **Public users only get Apache 2.0.**  
-  That version comes with sharing obligations.  
-- **Commercial license overrides Apache obligations.**  
-  Enterprises gain freedom to keep code private.  
-
----
-
-## ⚖️ Ownership
-
-- Licensor (Darrell Lee Stiltner) retains full ownership of ANKI, GreatScott, trademarks, and future versions.  
-- Customers own their proprietary integrations, forks, and modules.  
-
----
-
-## 🛠️ Support
-
-- Provided **as‑is**.  
-- Optional support packages available for updates, bug fixes, and consulting.  
-
----
-
-## 📢 Bottom Line
-
-- **Apache 2.0** → Free, open, share‑alike.  
-- **Commercial License** → Paid, private, enterprise‑grade.  
-- **Rule** → No company can use the free version commercially.  
- 
-# =============================================================================
-#  Copyright (C) 2026  Darrell Lee (Līlā) Stiltner
-#Documents, math, diagrams etc..
-#  This work is licensed under the Creative Commons
-#  Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
-#
-#  You are free to share and adapt this code for non‑commercial purposes,
-#  provided that proper attribution is given to the author.
-#
-#  To view a copy of this license, visit:
-#      https://creativecommons.org/licenses/by-nc/4.0/
-#
-#  This code is provided "AS IS", without warranties or conditions of any kind.
-# =============================================================================
-
-# Apache License
-Version 2.0, January 2004
-http://www.apache.org/licenses/
-
-TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
-
-## 1. Definitions
-
-"License" shall mean the terms and conditions for use, reproduction,
-and distribution as defined by Sections 1 through 9 of this document.
-
-"Licensor" shall mean the copyright owner or entity authorized by
-the copyright owner that is granting the License.
-
-"Legal Entity" shall mean the union of the acting entity and all
-other entities that control, are controlled by, or are under common
-control with that entity.
-
-"Source" form shall mean the preferred form for making modifications,
-including but not limited to software source code, documentation
-source, and configuration files.
-
-"Object" form shall mean any form resulting from mechanical
-transformation or translation of a Source form, including but not
-limited to compiled object code, generated documentation, and
-conversions to other media types.
-
-"Work" shall mean the work of authorship, whether in Source or
-Object form, made available under the License.
-
-"Derivative Works" shall mean any work, whether in Source or Object
-form, that is based on (or derived from) the Work and for which the
-editorial revisions, annotations, elaborations, or other modifications
-represent, as a whole, an original work of authorship.
-
-"Contribution" shall mean any work of authorship, including the
-original version of the Work and any modifications or additions to
-that Work, that is intentionally submitted to Licensor for inclusion
-in the Work.
-
-"Contributor" shall mean Licensor and any individual or Legal Entity
-on behalf of whom a Contribution has been received by Licensor.
-
-## 2. Grant of Copyright License
-
-Subject to the terms and conditions of this License, Licensor hereby
-grants you a perpetual, worldwide, non-exclusive, no-charge,
-royalty-free, irrevocable copyright license to reproduce, prepare
-Derivative Works of, publicly display, publicly perform, sublicense,
-and distribute the Work and such Derivative Works in Source or
-Object form.
-
-## 3. Grant of Patent License
-
-Subject to the terms and conditions of this License, Licensor hereby
-grants you a perpetual, worldwide, non-exclusive, no-charge,
-royalty-free, irrevocable patent license to make, have made, use,
-offer to sell, sell, import, and otherwise transfer the Work.
-
-## 4. Redistribution
-
-You may reproduce and distribute copies of the Work or Derivative
-Works thereof in any medium, with or without modifications, provided
-that you meet the following conditions:
-
-(a) You must give any other recipients a copy of this License.
-
-(b) You must cause any modified files to carry prominent notices
-stating that you changed the files.
-
-(c) You must retain all copyright, patent, trademark, and attribution
-notices from the Source form of the Work.
-
-(d) If the Work includes a "NOTICE" text file, you must include a
-copy of the NOTICE file.
-
-## 5. Submission of Contributions
-
-Unless explicitly stated otherwise, any Contribution intentionally
-submitted for inclusion in the Work shall be licensed under this
-License.
-
-## 6. Trademarks
-
-This License does not grant permission to use the trade names,
-trademarks, service marks, or product names of the Licensor.
-
-## 7. Disclaimer of Warranty
-
-Unless required by applicable law or agreed to in writing, Licensor
-provides the Work on an "AS IS" BASIS, WITHOUT WARRANTIES OR
-CONDITIONS OF ANY KIND.
-
-## 8. Limitation of Liability
-
-In no event and under no legal theory shall any Contributor be liable
-to you for damages arising from the use of the Work.
-
-## 9. Accepting Warranty or Additional Liability
-
-You may offer support or warranty protection for a fee, but you do
-so on your own behalf, not on behalf of any Contributor.
-
-END OF TERMS AND CONDITIONS
-
-# GreatScott Enterprise Commercial License
-Version 1.0 — © Darrell Lee Stiltner
-
-This Commercial License (“License”) is a legally binding agreement
-between the Licensee (“Customer”) and the Licensor (“Darrell Lee
-Stiltner”), governing the commercial use of the AN.KI software
-platform (“AN.KI”).
-
-This License grants Customer commercial rights that exceed and
-override the public Apache License 2.0 version of GreatScott.
-
----
-
-## 1. Definitions
-
-**AN.KI**  
-source code, binaries, documentation, virtual hardware modules,
-curvature engines, and all related components.
-
-**Customer**  
-The individual or legal entity obtaining commercial rights under
-this License.
-
-**Commercial Use**  
-Any use of GreatScott in proprietary, closed-source, internal,
-external, or revenue-generating systems.
-
-**Exclusive License**  
-A paid license granting Customer exclusive rights within a defined
-scope (industry, region, application, or time period).
-
-**Non-Exclusive License**  
-A paid license granting Customer commercial rights without exclusivity.
-
-**Derivative Works**  
-Any modifications, extensions, integrations, or enhancements made
-to GreatScott by Customer.
-
----
-
-## 2. Grant of Commercial License
-
-Licensor grants Customer the following rights:
-
-### 2.1 Non-Exclusive Commercial Rights
-Customer may:
-- use AN.KI in proprietary or closed-source systems  
-- integrate AN.KI with internal or external products  
-- deploy AN.KI on private servers, cloud systems, or hardware  
-- create private forks or modifications  
-- keep all derivative works proprietary  
-- distribute products containing GreatScott without releasing source code  
-
-### 2.2 Optional Exclusive Rights
-Customer may purchase exclusive rights within a defined scope,
-including but not limited to:
-- industry verticals  
-- geographic regions  
-- product categories  
-- research domains  
-- time-limited exclusivity  
-
-Exclusive rights must be explicitly negotiated and documented.
-
----
-
-## 3. Ownership
-
-Licensor retains full ownership of:
-- AN.KI  
-- all intellectual property  
-- all trademarks  
-- all future versions  
-- all derivative works created by Licensor  
-
-Customer owns:
-- their proprietary integrations  
-- their private forks  
-- their internal modifications  
-- their hardware drivers  
-- their proprietary modules  
-
----
-
-## 4. No Copyleft Obligations
-
-Commercial License customers are **not** required to:
-- release source code  
-- disclose modifications  
-- publish derivative works  
-- open-source proprietary integrations  
-- comply with Apache 2.0 for commercial usage  
-
-This License **overrides** the open-source obligations of the public version.
-
----
-
-## 5. Redistribution Rights
-
-Customer may:
-- distribute products containing GreatScott  
-- embed GreatScott in proprietary systems  
-- sell products that include GreatScott  
-- deploy GreatScott internally or externally  
-
-Customer may **not**:
-- resell AN.KI itself as a standalone product  
-- sublicense GreatScott to third parties without written permission  
-
----
-
-## 6. Support
-
-Licensor is **not obligated** to provide:
-- technical support  
-- maintenance  
-- updates  
-- bug fixes  
-- consulting  
-- training  
-
-Support may be purchased separately if desired.
-
----
-
-## 7. Confidentiality
-
-Customer may keep:
-- all integrations  
-- all proprietary modules  
-- all internal documentation  
-- all private forks  
-- all derivative works  
-
-Licensor agrees not to disclose Customer’s proprietary information.
-
----
-
-## 8. Indemnification
-
-Customer agrees to indemnify Licensor against:
-- misuse of GreatScott  
-- illegal applications  
-- unsafe deployments  
-- violations of third-party rights  
-
-Licensor provides GreatScott **as-is**, without warranty.
-
----
-
-## 9. Limitation of Liability
-
-Licensor is not liable for:
-- damages  
-- data loss  
-- business interruption  
-- hardware failures  
-- research outcomes  
-- financial losses  
-
-Maximum liability is limited to the amount paid by Customer.
-
----
-
-## 10. Termination
-
-This License may be terminated if Customer:
-- violates redistribution rules  
-- attempts to resell GreatScott  
-- sublicenses GreatScott without permission  
-
-Upon termination:
-- Customer retains proprietary modifications  
-- Customer must cease distributing GreatScott  
-- Customer may continue internal use unless explicitly revoked  
-
----
-
-## 11. Governing Law
-
-This License is governed by the laws of the United States and the
-State of Tennessee.
-
----
-
-## 12. Entire Agreement
-
-This License constitutes the entire agreement between Customer and
-Licensor regarding commercial use of GreatScott.
-
----
-
-# END OF LICENSE
-
-
-
-
-
-
-
-# Apache License
-Version 2.0, January 2004
-http://www.apache.org/licenses/
-
-TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
-
-## 1. Definitions
-
-"License" shall mean the terms and conditions for use, reproduction,
-and distribution as defined by Sections 1 through 9 of this document.
-
-"Licensor" shall mean the copyright owner or entity authorized by
-the copyright owner that is granting the License.
-
-"Legal Entity" shall mean the union of the acting entity and all
-other entities that control, are controlled by, or are under common
-control with that entity.
-
-"Source" form shall mean the preferred form for making modifications,
-including but not limited to software source code, documentation
-source, and configuration files.
-
-"Object" form shall mean any form resulting from mechanical
-transformation or translation of a Source form, including but not
-limited to compiled object code, generated documentation, and
-conversions to other media types.
-
-"Work" shall mean the work of authorship, whether in Source or
-Object form, made available under the License.
-
-"Derivative Works" shall mean any work, whether in Source or Object
-form, that is based on (or derived from) the Work and for which the
-editorial revisions, annotations, elaborations, or other modifications
-represent, as a whole, an original work of authorship.
-
-"Contribution" shall mean any work of authorship, including the
-original version of the Work and any modifications or additions to
-that Work, that is intentionally submitted to Licensor for inclusion
-in the Work.
-
-"Contributor" shall mean Licensor and any individual or Legal Entity
-on behalf of whom a Contribution has been received by Licensor.
-
-## 2. Grant of Copyright License
-
-Subject to the terms and conditions of this License, Licensor hereby
-grants you a perpetual, worldwide, non-exclusive, no-charge,
-royalty-free, irrevocable copyright license to reproduce, prepare
-Derivative Works of, publicly display, publicly perform, sublicense,
-and distribute the Work and such Derivative Works in Source or
-Object form.
-
-## 3. Grant of Patent License
-
-Subject to the terms and conditions of this License, Licensor hereby
-grants you a perpetual, worldwide, non-exclusive, no-charge,
-royalty-free, irrevocable patent license to make, have made, use,
-offer to sell, sell, import, and otherwise transfer the Work.
-
-## 4. Redistribution
-
-You may reproduce and distribute copies of the Work or Derivative
-Works thereof in any medium, with or without modifications, provided
-that you meet the following conditions:
-
-(a) You must give any other recipients a copy of this License.
-
-(b) You must cause any modified files to carry prominent notices
-stating that you changed the files.
-
-(c) You must retain all copyright, patent, trademark, and attribution
-notices from the Source form of the Work.
-
-(d) If the Work includes a "NOTICE" text file, you must include a
-copy of the NOTICE file.
-
-## 5. Submission of Contributions
-
-Unless explicitly stated otherwise, any Contribution intentionally
-submitted for inclusion in the Work shall be licensed under this
-License.
-
-## 6. Trademarks
-
-This License does not grant permission to use the trade names,
-trademarks, service marks, or product names of the Licensor.
-
-## 7. Disclaimer of Warranty
-
-Unless required by applicable law or agreed to in writing, Licensor
-provides the Work on an "AS IS" BASIS, WITHOUT WARRANTIES OR
-CONDITIONS OF ANY KIND.
-
-## 8. Limitation of Liability
-
-In no event and under no legal theory shall any Contributor be liable
-to you for damages arising from the use of the Work.
-
-## 9. Accepting Warranty or Additional Liability
-
-You may offer support or warranty protection for a fee, but you do
-so on your own behalf, not on behalf of any Contributor.
-
-END OF TERMS AND CONDITIONS
-
-# GreatScott Enterprise Commercial License
-Version 1.0 — © Darrell Lee Stiltner
-
-This Commercial License (“License”) is a legally binding agreement
-between the Licensee (“Customer”) and the Licensor (“Darrell Lee
-Stiltner”), governing the commercial use of the GreatScott software
-platform (“GreatScott”).
-
-This License grants Customer commercial rights that exceed and
-override the public Apache License 2.0 version of GreatScott.
-
----
-
-## 1. Definitions
-
-**GreatScott**  
-The GreatScott spacetime simulation and control platform, including
-source code, binaries, documentation, virtual hardware modules,
-curvature engines, and all related components.
-
-**Customer**  
-The individual or legal entity obtaining commercial rights under
-this License.
-
-**Commercial Use**  
-Any use of GreatScott in proprietary, closed-source, internal,
-external, or revenue-generating systems.
-
-**Exclusive License**  
-A paid license granting Customer exclusive rights within a defined
-scope (industry, region, application, or time period).
-
-**Non-Exclusive License**  
-A paid license granting Customer commercial rights without exclusivity.
-
-**Derivative Works**  
-Any modifications, extensions, integrations, or enhancements made
-to GreatScott by Customer.
-
----
-
-## 2. Grant of Commercial License
-
-Licensor grants Customer the following rights:
-
-### 2.1 Non-Exclusive Commercial Rights
-Customer may:
-- use GreatScott in proprietary or closed-source systems  
-- integrate GreatScott with internal or external products  
-- deploy GreatScott on private servers, cloud systems, or hardware  
-- create private forks or modifications  
-- keep all derivative works proprietary  
-- distribute products containing GreatScott without releasing source code  
-
-### 2.2 Optional Exclusive Rights
-Customer may purchase exclusive rights within a defined scope,
-including but not limited to:
-- industry verticals  
-- geographic regions  
-- product categories  
-- research domains  
-- time-limited exclusivity  
-
-Exclusive rights must be explicitly negotiated and documented.
-
----
-
-## 3. Ownership
-
-Licensor retains full ownership of:
-- GreatScott  
-- all intellectual property  
-- all trademarks  
-- all future versions  
-- all derivative works created by Licensor  
-
-Customer owns:
-- their proprietary integrations  
-- their private forks  
-- their internal modifications  
-- their hardware drivers  
-- their proprietary modules  
-
----
-
-## 4. No Copyleft Obligations
-
-Commercial License customers are **not** required to:
-- release source code  
-- disclose modifications  
-- publish derivative works  
-- open-source proprietary integrations  
-- comply with Apache 2.0 for commercial usage  
-
-This License **overrides** the open-source obligations of the public version.
-
----
-
-## 5. Redistribution Rights
-
-Customer may:
-- distribute products containing GreatScott  
-- embed GreatScott in proprietary systems  
-- sell products that include GreatScott  
-- deploy GreatScott internally or externally  
-
-Customer may **not**:
-- resell GreatScott itself as a standalone product  
-- sublicense GreatScott to third parties without written permission  
-
----
-
-## 6. Support
-
-Licensor is **not obligated** to provide:
-- technical support  
-- maintenance  
-- updates  
-- bug fixes  
-- consulting  
-- training  
-
-Support may be purchased separately if desired.
-
----
-
-## 7. Confidentiality
-
-Customer may keep:
-- all integrations  
-- all proprietary modules  
-- all internal documentation  
-- all private forks  
-- all derivative works  
-
-Licensor agrees not to disclose Customer’s proprietary information.
-
----
-
-## 8. Indemnification
-
-Customer agrees to indemnify Licensor against:
-- misuse of GreatScott  
-- illegal applications  
-- unsafe deployments  
-- violations of third-party rights  
-
-Licensor provides GreatScott **as-is**, without warranty.
-
----
-
-## 9. Limitation of Liability
-
-Licensor is not liable for:
-- damages  
-- data loss  
-- business interruption  
-- hardware failures  
-- research outcomes  
-- financial losses  
-
-Maximum liability is limited to the amount paid by Customer.
-
----
-
-## 10. Termination
-
-This License may be terminated if Customer:
-- violates redistribution rules  
-- attempts to resell GreatScott  
-- sublicenses GreatScott without permission  
-
-Upon termination:
-- Customer retains proprietary modifications  
-- Customer must cease distributing GreatScott  
-- Customer may continue internal use unless explicitly revoked  
-
----
+A synthetic device©is a device that synthetically performs a function normally performed through a physical, biological, mechanical, or otherwise conventional process.
 
-## 11. Governing Law
+“No confusingly similar expression.”  
 
-This License is governed by the laws of the United States and the
-State of Tennessee.
 
----
-
-## 12. Entire Agreement
-
-This License constitutes the entire agreement between Customer and
-Licensor regarding commercial use of GreatScott.
-
----
-
-# END OF LICENSE
-
-
-
-
-
-
-
-
-
-
-Copyright 2026 Darrell Lee Stiltner
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use MeowWow! files except in compliance with the License.
-You may obtain a copy of the License at:
-
-    https://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-
-
-
-
-
-
-
-
-
-
-
-
-Apache License
-                           Version 2.0, January 2004
-                        http://www.apache.org/licenses/
-
-   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
-
-   1. Definitions.
-
-      "License" shall mean the terms and conditions for use, reproduction,
-      and distribution as defined by Sections 1 through 9 of this document.
-
-      "Licensor" shall mean the copyright owner or entity authorized by
-      the copyright owner that is granting the License.
-
-      "Legal Entity" shall mean the union of the acting entity and all
-      other entities that control, are controlled by, or are under common
-      control with that entity. For the purposes of this definition,
-      "control" means (i) the power, direct or indirect, to cause the
-      direction or management of such entity, whether by contract or
-      otherwise, or (ii) ownership of fifty percent (50%) or more of the
-      outstanding shares, or (iii) beneficial ownership of such entity.
-
-      "You" (or "Your") shall mean an individual or Legal Entity
-      exercising permissions granted by this License.
-
-      "Source" form shall mean the preferred form for making modifications,
-      including but not limited to software source code, documentation
-      source, and configuration files.
-
-      "Object" form shall mean any form resulting from mechanical
-      transformation or translation of a Source form, including but
-      not limited to compiled object code, generated documentation,
-      and conversions to other media types.
-
-      "Work" shall mean the work of authorship, whether in Source or
-      Object form, made available under the License, as indicated by a
-      copyright notice that is included in or attached to the work
-      (an example is provided in the Appendix below).
-
-      "Derivative Works" shall mean any work, whether in Source or Object
-      form, that is based on (or derived from) the Work and for which the
-      editorial revisions, annotations, elaborations, or other modifications
-      represent, as a whole, an original work of authorship. For the purposes
-      of this License, Derivative Works shall not include works that remain
-      separable from, or merely link (or bind by name) to the interfaces of,
-      the Work and Derivative Works thereof.
-
-      "Contribution" shall mean any work of authorship, including
-      the original version of the Work and any modifications or additions
-      to that Work or Derivative Works thereof, that is intentionally
-      submitted to Licensor for inclusion in the Work by the copyright owner
-      or by an individual or Legal Entity authorized to submit on behalf of
-      the copyright owner. For the purposes of this definition, "submitted"
-      means any form of electronic, verbal, or written communication sent
-      to the Licensor or its representatives, including but not limited to
-      communication on electronic mailing lists, source code control systems,
-      and issue tracking systems that are managed by, or on behalf of, the
-      Licensor for the purpose of discussing and improving the Work, but
-      excluding communication that is conspicuously marked or otherwise
-      designated in writing by the copyright owner as "Not a Contribution."
-
-      "Contributor" shall mean Licensor and any individual or Legal Entity
-      on behalf of whom a Contribution has been received by Licensor and
-      subsequently incorporated within the Work.
-
-   2. Grant of Copyright License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      copyright license to reproduce, prepare Derivative Works of,
-      publicly display, publicly perform, sublicense, and distribute the
-      Work and such Derivative Works in Source or Object form.
-
-   3. Grant of Patent License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      (except as stated in this section) patent license to make, have made,
-      use, offer to sell, sell, import, and otherwise transfer the Work,
-      where such license applies only to those patent claims licensable
-      by such Contributor that are necessarily infringed by their
-      Contribution(s) alone or by combination of their Contribution(s)
-      with the Work to which such Contribution(s) was submitted. If You
-      institute patent litigation against any entity (including a
-      cross-claim or counterclaim in a lawsuit) alleging that the Work
-      or a Contribution incorporated within the Work constitutes direct
-      or contributory patent infringement, then any patent licenses
-      granted to You under this License for that Work shall terminate
-      as of the date such litigation is filed.
-
-   4. Redistribution. You may reproduce and distribute copies of the
-      Work or Derivative Works thereof in any medium, with or without
-      modifications, and in Source or Object form, provided that You
-      meet the following conditions:
-
-      (a) You must give any other recipients of the Work or
-          Derivative Works a copy of this License; and
-
-      (b) You must cause any modified files to carry prominent notices
-          stating that You changed the files; and
-
-      (c) You must retain, in the Source form of any Derivative Works
-          that You distribute, all copyright, patent, trademark, and
-          attribution notices from the Source form of the Work,
-          excluding those notices that do not pertain to any part of
-          the Derivative Works; and
-
-      (d) If the Work includes a "NOTICE" text file as part of its
-          distribution, then any Derivative Works that You distribute must
-          include a readable copy of the attribution notices contained
-          within such NOTICE file, excluding those notices that do not
-          pertain to any part of the Derivative Works, in at least one
-          of the following places: within a NOTICE text file distributed
-          as part of the Derivative Works; within the Source form or
-          documentation, if provided along with the Derivative Works; or,
-          within a display generated by the Derivative Works, if and
-          wherever such third-party notices normally appear. The contents
-          of the NOTICE file are for informational purposes only and
-          do not modify the License. You may add Your own attribution
-          notices within Derivative Works that You distribute, alongside
-          or as an addendum to the NOTICE text from the Work, provided
-          that such additional attribution notices cannot be construed
-          as modifying the License.
-
-      You may add Your own copyright statement to Your modifications and
-      may provide additional or different license terms and conditions
-      for use, reproduction, or distribution of Your modifications, or
-      for any such Derivative Works as a whole, provided Your use,
-      reproduction, and distribution of the Work otherwise complies with
-      the conditions stated in this License.
-
-   5. Submission of Contributions. Unless You explicitly state otherwise,
-      any Contribution intentionally submitted for inclusion in the Work
-      by You to the Licensor shall be under the terms and conditions of
-      this License, without any additional terms or conditions.
-      Notwithstanding the above, nothing herein shall supersede or modify
-      the terms of any separate license agreement you may have executed
-      with Licensor regarding such Contributions.
-
-   6. Trademarks. This License does not grant permission to use the trade
-      names, trademarks, service marks, or product names of the Licensor,
-      except as required for reasonable and customary use in describing the
-      origin of the Work and reproducing the content of the NOTICE file.
-
-   7. Disclaimer of Warranty. Unless required by applicable law or
-      agreed to in writing, Licensor provides the Work (and each
-      Contributor provides its Contributions) on an "AS IS" BASIS,
-      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
-      implied, including, without limitation, any warranties or conditions
-      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
-      PARTICULAR PURPOSE. You are solely responsible for determining the
-      appropriateness of using or redistributing the Work and assume any
-      risks associated with Your exercise of permissions under this License.
-
-   8. Limitation of Liability. In no event and under no legal theory,
-      whether in tort (including negligence), contract, or otherwise,
-      unless required by applicable law (such as deliberate and grossly
-      negligent acts) or agreed to in writing, shall any Contributor be
-      liable to You for damages, including any direct, indirect, special,
-      incidental, or consequential damages of any character arising as a
-      result of this License or out of the use or inability to use the
-      Work (including but not limited to damages for loss of goodwill,
-      work stoppage, computer failure or malfunction, or any and all
-      other commercial damages or losses), even if such Contributor
-      has been advised of the possibility of such damages.
-
-   9. Accepting Warranty or Additional Liability. While redistributing
-      the Work or Derivative Works thereof, You may choose to offer,
-      and charge a fee for, acceptance of support, warranty, indemnity,
-      or other liability obligations and/or rights consistent with this
-      License. However, in accepting such obligations, You may act only
-      on Your own behalf and on Your sole responsibility, not on behalf
-      of any other Contributor, and only if You agree to indemnify,
-      defend, and hold each Contributor harmless for any liability
-      incurred by, or claims asserted against, such Contributor by reason
-      of your accepting any such warranty or additional liability.
-
-   END OF TERMS AND CONDITIONS
-
-   APPENDIX: How to apply the Apache License to your work.
-
-      To apply the Apache License to your work, attach the following
-      boilerplate notice, with the fields enclosed by brackets "[]"
-      replaced with your own identifying information. (Don't include
-      the brackets!)  The text should be enclosed in the appropriate
-      comment syntax for the file format. We also recommend that a
-      file or class name and description of purpose be included on the
-      same "printed page" as the copyright notice for easier
-      identification within third-party archives.
-
-   Copyright [yyyy] [name of copyright owner]
-
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
-### Prohibition on Confusingly Similar Systems
-
-You may not create, distribute, or market any software, platform, or system
-that is confusingly similar to this project. This includes:
-
-- derivative works that replicate core functionality,
-- rebranded versions of the system,
-- substantially similar architectures or implementations,
-- naming, branding, or presentation likely to cause user confusion.
-
-No license is granted for the development of systems that imitate this project
-in a way that could reasonably mislead users into believing they are related,
-# GreatScott Enterprise Commercial License v2.0  
-© 2026 Darrell Lee (Līlā) Stiltner  
-All Rights Reserved.
-
-This Commercial License (“License”) is a legally binding agreement between the
-Customer (“Customer”) and the Licensor (“Darrell Lee Stiltner”), governing the
-commercial use of the AN.KI™, Hazeru™, GreatScott™, and related software systems.
-
-This License overrides all obligations of the public Apache 2.0 version and
-grants expanded commercial rights under the terms below.
-
----
-
-# 1. Definitions
-
-**Software**  
-Refers to AN.KI, Hazeru, GreatScott, and all related components, including
-source code, binaries, virtual hardware modules, curvature engines, symbolic
-systems, metaphysics, cognitive models, and runtime environments.
-
-**Customer**  
-The individual or legal entity obtaining commercial rights under this License.
-
-**Commercial Use**  
-Any proprietary, closed‑source, internal, external, or revenue‑generating use
-of the Software.
-
-**Derivative Works**  
-Any modifications, extensions, integrations, or enhancements made by Customer.
-
-**Exclusive License**  
-A paid license granting Customer exclusive rights within a defined scope.
-
----
-
-# 2. Grant of Commercial Rights
-
-Customer is granted the following rights:
-
-- Use the Software in proprietary or closed‑source systems  
-- Integrate the Software into internal or external products  
-- Deploy the Software on servers, cloud systems, or hardware  
-- Create private forks or modifications  
-- Keep all derivative works proprietary  
-- Sell products that include the Software  
-- Use the Software without Apache 2.0 obligations  
-
-Customer may **not**:
-
-- Resell the Software as a standalone product  
-- Sublicense the Software without written permission  
-- Redistribute the Software outside Customer’s organization  
-
----
-
-# 3. Trademark and Identity Restrictions
-
-Customer may not use AN.KI™, Hazeru™, GreatScott™, or any related marks,
-symbols, glyphs, metaphysical constructs, universe names, or identity elements
-in marketing, branding, product naming, or public communication without written
-permission.
-
-All trademark rights remain exclusively with Licensor.
-
----
-
-# 4. Documentation License (CC BY‑NC 4.0)
-
-All documentation, diagrams, math, symbolic systems, metaphysics, and universe
-definitions are licensed under **CC BY‑NC 4.0** for non‑commercial use only.
-
-Commercial use of documentation requires a paid license.
-
----
-
-# 5. No Copyleft Obligations
-
-Commercial customers are not required to:
-
-- release source code  
-- disclose modifications  
-- publish derivative works  
-- comply with Apache 2.0 for commercial usage  
-
-This License fully overrides public obligations.
-
----
-
-# 6. Redistribution Rights
-
-Customer may:
-
-- distribute products containing the Software  
-- embed the Software in proprietary systems  
-- deploy the Software internally or externally  
-
-Customer may **not**:
-
-- redistribute the Software standalone  
-- sublicense the Software  
-- offer the Software as a hosted platform or API  
-
----
-
-# 7. Confidentiality
-
-Customer may keep all proprietary integrations, modules, forks, and internal
-documentation private.
-
-Licensor agrees not to disclose Customer’s proprietary information.
-
----
-
-# 8. Indemnification
-
-Customer agrees to indemnify Licensor against:
-
-- misuse of the Software  
-- illegal applications  
-- unsafe deployments  
-- violations of third‑party rights  
-
-The Software is provided **as‑is**, without warranty.
-
----
-
-# 9. Limitation of Liability
-
-Licensor is not liable for:
-
-- damages  
-- data loss  
-- business interruption  
-- hardware failures  
-- financial losses  
-
-Maximum liability is limited to the amount paid by Customer.
-
----
-
-# 10. Termination
-
-This License may be terminated if Customer:
-
-- violates redistribution rules  
-- attempts to resell the Software  
-- sublicenses without permission  
-- engages in harmful or prohibited use  
-
-Upon termination:
-
-- Customer retains proprietary modifications  
-- Customer must cease distribution  
-- Internal use may continue unless explicitly revoked  
-
----
-
-# 11. AI Training and Machine Learning Restrictions
-
-Customer may not use the Software to train, fine‑tune, evaluate, or generate
-datasets for machine learning systems or artificial intelligence models without
-explicit written permission.
-
-This includes:
-
-- LLM training  
-- embedding extraction  
-- dataset creation  
-- model distillation  
-- autonomous agent development  
-
-AI‑related use requires a separate license.
-
----
-
-# 12. Non‑Violence and No Harmful Use
-
-Customer may not use the Software in the development or operation of:
-
-- weapons  
-- autonomous targeting systems  
-- military robotics  
-- harmful surveillance  
-- violent applications  
-- systems intended to inflict physical injury  
-
-Licensor may revoke the license immediately for harmful use.
-
----
-
-# 13. Export Control Compliance
-
-Customer is responsible for complying with all applicable export laws,
-including EAR, ITAR, and regional restrictions.
-
-Customer may not export the Software to prohibited countries or entities.
 
----
-
-# 14. Audit Rights
-
-Licensor may request written certification of compliance.
-
-If violations are suspected, Customer agrees to cooperate with a limited audit
-focused solely on verifying license compliance.
-
----
-
-# 15. Data Privacy
-
-Licensor does not process Customer data except when required for optional
-support services.
-
-Customer is responsible for compliance with all data privacy laws.
-
----
-
-# 16. License Tier Definitions
-
-### **Standard Commercial License**
-- Internal business use  
-- Closed‑source integration  
-- Private forks  
-
-### **Enterprise License**
-- External product integration  
-- Cloud/SaaS deployment  
-- Hardware embedding  
-
-### **Exclusive License**
-- Industry exclusivity  
-- Regional exclusivity  
-- Domain exclusivity  
-- Time‑limited exclusivity  
-
----
-
-# 17. No Platform Resale
-
-Customer may not offer the Software as:
-
-- a hosted service  
-- a platform  
-- an API  
-- a cloud engine  
-
-unless explicitly permitted.
-
----
-
-# 18. Ethical Use Clause
-
-Customer agrees to use the Software in ways that respect:
-
-- human rights  
-- privacy  
-- safety  
-- lawful conduct  
-
-Licensor may revoke the license for unethical use.
-
----
-
-# 19. Survival of Terms
-
-The following obligations survive termination:
-
-- confidentiality  
-- trademark restrictions  
-- non‑violence clause  
-- AI restrictions  
-- export compliance  
-- liability limits  
-
----
-
-# 20. Governing Law
-
-This License is governed by the laws of the United States and the State of
-Tennessee.
-
----
-
-# 21. Entire Agreement
-
-This License constitutes the entire agreement between Customer and Licensor
-regarding commercial use of the Software.
-
-22.## 🔒 Protected Assets (Inclusive & Comprehensive)
-
-The following categories are **strictly protected** under U.S. and international trademark and copyright law.  
-No reproduction, imitation, modification, distribution, or derivative use is permitted without explicit written authorization.  
-This protection applies universally, across all forms, formats, and transformations.
-
-- **[Software systems](ca://s?q=Software_systems_in_license)** → Source code, runtime modules, libraries, subsystems, specifications, and technical documentation.  
-- **[Design frameworks](ca://s?q=Design_frameworks_in_license)** → Architecture diagrams, schematics, UX flows, symbolic models, and system blueprints.  
-- **[Visual identity](ca://s?q=Visual_identity_in_license)** → Artwork, illustrations, icons, glyphs, logos, branding, and graphical assets.  
-- **[Narrative content](ca://s?q=Narrative_content_in_license)** → Literature, lore, worldbuilding, metaphysics, universe definitions, and cultural narratives.  
-- **[Audio domain](ca://s?q=Audio_domain_in_license)** → All sound assets, compositions, cues, signals, and audio design elements supporting interaction or identity.  
-- **[Data structures](ca://s?q=Data_structures_in_license)** → Configuration files, templates, manifests, environment descriptors, and encoded forms.  
-- **[Derivative works](ca://s?q=Derivative_works_in_license)** → Any transformations, translations, adaptations, or re‑representations of the above categories.  
-- **[Emergent forms](ca://s?q=Emergent_forms_in_license)** → Future, unforeseen, or novel expressions of identity, whether digital, symbolic, ritual, or experiential.  
-
----
-
-## ⚖️ Ownership
-
-- Licensor retains **absolute ownership** of GreatScott™, AN.KI™, Hazeru™, and all associated intellectual property.  
-- Customers retain ownership of their proprietary integrations, forks, and modules — but only within the scope of this license.  
-- All goodwill associated with the marks remains exclusively with the Licensor.  
-
----
-
-## 🛠️ Support
-
-- Provided strictly **as‑is**.  
-- Optional support packages may be purchased for updates, bug fixes, and consulting.  
-- No warranty, guarantee, or obligation is implied.  
-
----
-
-## 📢 Enforcement Principle
-
-Every aspect of GreatScott™, AN.KI™, Hazeru™, and related frameworks — whether technical, artistic, symbolic, or experiential — is considered **core intellectual property**.  
-Unauthorized use in **any domain** (commercial, cultural, academic, or experimental) may result in civil and criminal penalties.  
-Licensor reserves the right to pursue enforcement across all jurisdictions and mediums, including emergent or unforeseen technologies.  
-
----
-
-## ⚠️ Termination
-
-This License may be terminated if Customer:  
-- Violates redistribution rules.  
-- Attempts to resell GreatScott as a standalone product.  
-- Sublicenses without permission.  
-
-Upon termination:  
-- Customer retains proprietary modifications.  
-- Customer must cease distribution of GreatScott.  
-- Internal use may continue only if not explicitly revoked.  
-
----
+Magustelle presents_AN.KI™ ,one of the oldest recorded word for “universe.”. AN.KI: a vessel carrying humanity’s continuity. wowkernel™ is a transmission decoded from the Wow signal(. HSON™amendment in License).AN.KI is a synthetic device research/Development LAB+ continuity engine that mirrors behavior of our universe. One gave birth to two.
 
-## 🛡️ Governing Law
 
-This License is governed by the laws of the United States and the State of Tennessee.  
-Jurisdiction applies globally to all uses, regardless of location or medium.  
 
----
-
-## 📜 Entire Agreement
-
-This License constitutes the entire agreement between Customer and Licensor regarding commercial use of GreatScott.  
-No verbal or implied agreements override these terms.  
-# 🔒 Ultra‑Inclusive & Ultra‑Paranoid Protection Expansion
-### *(Markdown‑ready section for GreatScott™ Enterprise License v2.1)*
-
-The following additional domains are hereby incorporated into the GreatScott™ Enterprise License v2.1.  
-These protections extend to **all present, future, emergent, and unforeseen forms** of expression, interaction, computation, or representation.  
-No use, reproduction, imitation, transformation, or derivative creation is permitted without explicit written authorization.
-
----
-
-## 1. Behavioral & Interaction Systems
-
-- Behavioral engines — All user‑interaction patterns, emotional response flows, ritual logic, and behavioral sequencing.  
-- Interaction signatures — Any recognizable “feel,” cadence, or experiential rhythm produced by GreatScott.  
-- Cognitive‑behavioral mappings — Any structure that influences user perception, decision‑making, or symbolic interpretation.
-
----
-
-## 2. Semantic & Ontological Structures
-
-- Semantic frameworks — Terminology, invented words, conceptual categories, and ontological scaffolding.  
-- Meaning‑layer constructs — Symbolic or linguistic systems defining worldview, metaphysics, or narrative logic.  
-- Paradigm‑aligned definitions — All conceptual structures tied to the paradigm model described in the license.
-
----
-
-## 3. AI‑Adjacent Outputs & Representations
+Magustelle presents _PersonaCom™ a synthetic creative design studio that grows with you.One may be game/anime creation while another may be engineering‑focused.Each playground evolves its own logic, style, and purpose. A synthetic device is an engineered system that creates/emulates functions of physical or natural devices.Two gave birth to three
 
-- Embeddings — Vectorized representations, latent‑space mappings, and model fingerprints.  
-- AI‑derived transformations — Any output produced by machine learning systems trained on GreatScott assets.  
-- Autonomous agent behaviors — Any agent logic derived from GreatScott’s metaphysics, symbols, or systems.
 
----
-
-## 4. Hardware, Device & Timing Mappings
-
-- Virtual hardware modules — Curvature engines, device bindings, synthetic hardware layers.  
-- Timing domains — Clocking logic, temporal synchronization, cycle‑based metaphysics.  
-- Physical interface mappings — Any translation of GreatScott logic into hardware, robotics, or embedded systems.
-
----
-
-## 5. Human‑Experience Derivatives
-
-- Emotional engines — All emotional, symbolic, or ritualized experiential cues.  
-- Identity‑linked interactions — Any experience tied to user identity, persona, or symbolic role.  
-- Cultural derivatives — Any cultural, psychological, or experiential reinterpretation of GreatScott.
-
----
-
-## 6. Cross‑Media Transformations
 
-- Media translations — Film, animation, comics, VR, AR, holography, installations.  
-- Hybrid media constructs — Mixed‑format reinterpretations or multimedia derivatives.  
-- Experiential media — Any transformation into immersive or sensory formats.
+IHATOV_-Hazeru-drenched-in-yesterday
 
----
+IGE_ a AAA multimedia meta game console ecosystem It's a living synthetic existence of the Ihatov works.no major code here .Magustelle Bones,breath, Logic in motion_brand is a creative synthetic universe device capable of anything synthetic or logical, spans music, gaming, comic, cinema,narrative.etc.under dev ,Three gave birth to all things.
 
-## 7. Temporal Logic & Chronological Structures
+Lila theory of everything.
 
-- Temporal metaphysics — Time‑based triggers, chronological structures, calendar systems.  
-- Event‑driven metaphysics — Logic tied to cycles, rituals, or temporal sequencing.  
-- Chrono‑symbolic systems — Symbolic or narrative structures tied to time.
+A system is maintained through interaction of its complementary components and stable structure emerges when the interaction satisfies the system's constraints:Complexity therefore does not require an externally imposed form. It can emerge recursively from a minimal initial condition representing unbounded structural development Ch.42 .link for TOE
 
----
 
-## 8. Ecosystem Governance & Community Protocols
 
-- Governance logic — Community rules, moderation systems, platform governance.  
-- Protocol structures — Ecosystem behaviors, participation rules, symbolic authority systems.  
-- Social‑system derivatives — Any attempt to replicate GreatScott’s community or cultural ecosystem.
 
----
+Magustelle™Multimedia Brand name:is a creative synthetic universe device capable of anything synthetic or logical, spans music, gaming, comic, cinema,narrative.etc.under dev 
+bones, breath, logic in motion.                    
+Encode, Decode,Transform©
+PersonaCom™ Hatsuseno™a synthetic creative design studio and research development lab.
+WowKernel©™
+HSON :Human Sagittarius Object Notation.©
 
-# ⭐ Layman Summary
-
-This expansion makes your license:
-
-- **More inclusive** → protects every type of creative, cultural, experiential, semantic, and behavioral output.  
-- **More paranoid** → blocks AI embeddings, hardware mappings, temporal logic, cross‑media transformations, and ecosystem governance.  
-- **Future‑proof** → covers emergent, unforeseen, symbolic, ritual, experiential, and paradigm‑level derivatives.
-
-## 🔒 Cross‑Media Transformation Clause
-
-The GreatScott™, AN.KI™, Hazeru™, and M.E.O.W.W.O.W!™ systems, including all associated identities, symbols, metaphysics, narrative structures, experiential cues, and technical constructs, are protected against any and all forms of cross‑media transformation. No individual, group, organization, or entity may translate, adapt, reinterpret, transform, or re‑express any protected asset into another medium without explicit written authorization from the Licensor.
-
-This prohibition applies universally to all present, future, emergent, and unforeseen media formats, including but not limited to:
-
-- Film, cinema, motion pictures, and theatrical productions  
-- Animation, anime, motion graphics, and visual storytelling formats  
-- Comics, graphic novels, illustrated narratives, and sequential art  
-- Virtual reality (VR), augmented reality (AR), mixed reality (MR), and holographic systems  
-- Immersive installations, experiential environments, and interactive exhibitions  
-- Video games, simulations, gamified systems, and ludic interfaces  
-- Audio dramas, podcasts, soundscapes, musical compositions, and sonic reinterpretations  
-- Live performances, ritual enactments, theatrical metaphysics, and symbolic staging  
-- Physical merchandise, toys, sculptures, figurines, and tangible representations  
-- Digital reinterpretations, remixes, machinima, derivative renderings, and multimedia hybrids  
-- Any transformation into sensory, experiential, ritual, symbolic, or identity‑based formats  
-- Any medium not yet invented, discovered, or technologically feasible at the time of this License
-
-No cross‑media transformation may:
-
-- replicate the aesthetic, symbolic, metaphysical, narrative, experiential, or emotional identity of GreatScott™  
-- reinterpret or re‑express any protected asset in a new medium  
-- create derivative works that mimic the “feel,” cadence, or experiential logic of the platform  
-- embed, encode, or translate protected assets into alternate sensory or symbolic channels  
-- simulate or virtualize any protected construct in another medium or experiential domain  
-
-Any unauthorized cross‑media transformation constitutes a violation of this License and may result in civil and criminal penalties. The Licensor reserves full rights to enforce this clause across all jurisdictions, technologies, and emergent media formats.
-
-All goodwill associated with GreatScott™, AN.KI™, Hazeru™, and M.E.O.W.W.O.W!™ remains exclusively with the Licensor.
-## 🔮 Future Technologies & Emergent Systems Clause
-
-The GreatScott™, AN.KI™, Hazeru™, and M.E.O.W.W.O.W!™ systems, including all associated identities, symbols, metaphysics, narrative structures, experiential cues, technical constructs, and derivative forms, are protected against any and all uses involving present, future, emergent, speculative, or yet‑to‑be‑invented technologies. No individual, group, organization, or entity may utilize, integrate, translate, simulate, embed, or derive any protected asset through any technological means—current or future—without explicit written authorization from the Licensor.
-
-This prohibition applies universally to all technological domains, including but not limited to:
-
-- Artificial intelligence (AI), machine learning (ML), deep learning (DL), and neural networks  
-- Autonomous agents, synthetic cognition, and artificial general intelligence (AGI)  
-- Quantum computing, quantum simulation, and quantum‑enhanced inference systems  
-- Neural interfaces, brain‑computer interfaces (BCI), cognitive‑mapping devices, and neuro‑symbolic systems  
-- Holographic systems, volumetric displays, light‑field engines, and photonic computation  
-- Virtual reality (VR), augmented reality (AR), mixed reality (MR), and immersive simulation engines  
-- Distributed ledger systems, blockchain‑based computation, and decentralized autonomous systems  
-- Bio‑digital systems, genetic computation, and synthetic biological processors  
-- Temporal computation, chrono‑logic engines, and time‑based processing architectures  
-- Any emergent or speculative technology not yet invented, discovered, theorized, or technologically feasible at the time of this License
-
-No future‑technology use may:
-
-- train, fine‑tune, embed, vectorize, fingerprint, or map GreatScott™ assets  
-- simulate or virtualize any protected construct in synthetic or computational environments  
-- derive latent‑space representations, embeddings, or symbolic fingerprints  
-- generate autonomous agents, behaviors, or cognitive models based on protected assets  
-- translate metaphysics, narrative structures, or symbolic systems into computational logic  
-- encode or transform protected assets into quantum, neural, holographic, or emergent formats  
-- utilize GreatScott™ assets as input, seed, prompt, or substrate for any future technology
-
-Any unauthorized use of protected assets within future or emergent technologies constitutes a violation of this License and may result in civil and criminal penalties. The Licensor reserves full rights to enforce this clause across all jurisdictions, mediums, computational paradigms, and emergent technological domains.
-## 🛡️ CONDITIONAL GOVERNMENT & MILITARY USE CLAUSE  
-### (Use Prohibited Unless a Government/Military License Is Acquired)
-
-The GreatScott™🄯, AN.KI™, Hazeru™, and M.E.O.W.W.O.W!™ systems — including all identities, symbols, metaphysics, narrative structures, experiential cues, technical constructs, data forms, and derivative expressions — are strictly prohibited from any form of use, access, integration, training, redistribution, or deployment by **any government or military entity worldwide**, **unless** the entity has obtained an official **Government/Military License** issued directly by the Licensor.
-
-### 🔒 1. Default Prohibition
-Without a Government/Military License, the following entities may not use GreatScott™🄯:
-
-- national governments  
-- federal agencies  
-- state, provincial, or regional governments  
-- municipal or local governments  
-- military branches of any nation  
-- defense organizations  
-- intelligence agencies  
-- law‑enforcement bodies  
-- state‑affiliated research institutions  
-- government‑controlled universities or laboratories  
-
-### 🔒 2. Prohibited Actions Without a License
-Governmental or military entities **without** a license may not:
-
-- use GreatScott™ in any operational, administrative, or strategic capacity  
-- integrate GreatScott™ into defense, security, or intelligence systems  
-- deploy GreatScott™ on government or military infrastructure  
-- train AI/ML/DL systems using GreatScott™ assets  
-- embed or vectorize GreatScott™ data  
-- derive cognitive models, simulations, or symbolic systems  
-- create any form of derivative work  
-- redistribute or transmit GreatScott™ assets  
-- utilize GreatScott™ for surveillance, enforcement, or investigatory purposes  
-
-### 🔒 3. Licensed Use (Conditional Permission)
-Government or military entities **with** a valid Government/Military License may:
-
-- use GreatScott™ only within the scope defined in the license  
-- access specific modules or subsystems authorized by the Licensor  
-- deploy GreatScott™ in controlled environments  
-- integrate GreatScott™ with approved systems  
-- receive updates, patches, or support as defined in the license  
-
-All licensed use must comply with:
-
-- export‑control laws  
-- international IP law  
-- the terms of the GreatScott™🄯 Enterprise License  
-- any additional restrictions defined in the Government/Military License  
-
-### 🔒 4. Enforcement
-Any government or military use **without** a valid license constitutes unauthorized use and may result in:
-
-- civil penalties  
-- criminal penalties  
-- revocation of all licenses  
-- permanent commercial bans  
-- international IP enforcement  
-
-The Licensor reserves full rights to enforce this clause across all jurisdictions, mediums, technologies, and emergent paradigms.
-
-
-### 🔒 5. No Implied Permission
-No government or military entity may assume, infer, or claim permission to use GreatScott™🄯 under any circumstance without an explicitly granted Government/Military License.  
-Silence, omission, prior access, prior possession, or exposure to protected assets does **not** constitute authorization.
-
-All permissions must be:
-- written  
-- signed  
-- dated  
-- issued directly by the Licensor  
-- stored in the Licensor’s official records  
-
-Any use outside the exact scope of the issued license is considered **unauthorized**.
-
-### 🔒 6. Scope of Licensed Use
-A Government/Military License grants **only** the specific rights listed within the license document.  
-All other rights remain fully reserved by the Licensor.
-
-Licensed entities may not:
-- expand use beyond the defined scope  
-- transfer or share access with other agencies  
-- sublicense GreatScott™🄯  
-- modify or derive from protected assets  
-- integrate GreatScott™🄯 into unapproved systems  
-- use GreatScott™🄯 for AI training, embedding, or simulation unless explicitly permitted  
-
-### 🔒 7. Revocation Conditions
-The Licensor may revoke a Government/Military License immediately if the entity:
-- violates any term of the license  
-- attempts unauthorized modification or derivation  
-- engages in prohibited AI training or embedding  
-- redistributes protected assets  
-- fails to comply with export‑control or IP law  
-- attempts to bypass technical or legal restrictions  
-
-Upon revocation:
-- all access must cease  
-- all copies must be destroyed  
-- all integrations must be removed  
-- all systems must be audited  
-- all future use is permanently prohibited unless reinstated by the Licensor  
-## 🛡️ LICENSE ACQUISITION REQUIREMENTS  
-### (Eligibility, Documentation, Verification)
-
-To obtain a Government/Military License for GreatScott™🄯, AN.KI™, Hazeru™, or M.E.O.W.W.O.W!™, an applicant must meet all eligibility criteria and provide complete, verifiable documentation. No application will be reviewed unless all requirements are satisfied.
-
-### 🔒 1. Eligibility Criteria
-Applicants must be:
-- a formally recognized governmental or military entity  
-- an authorized representative with legal signing authority  
-- compliant with all applicable export‑control laws  
-- capable of maintaining secure, controlled environments  
-- able to undergo audits, inspections, and compliance verification  
-
-### 🔒 2. Required Documentation
-Applicants must submit:
-- official government/military identification  
-- proof of agency authorization  
-- a signed request letter on official letterhead  
-- a detailed description of intended use  
-- security clearance documentation (if applicable)  
-- compliance certifications (ITAR, EAR, OFAC, etc.)  
-- infrastructure security overview (systems, networks, storage)  
-
-### 🔒 3. Verification & Background Review
-The Licensor will perform:
-- identity verification  
-- agency authorization validation  
-- export‑control compliance checks  
-- infrastructure security assessment  
-- risk evaluation  
-- misuse potential analysis  
-
-### 🔒 4. Application Completeness
-Incomplete applications will be:
-- rejected  
-- returned without review  
-- not eligible for resubmission until all missing items are provided  
-
-### 🔒 5. No Automatic Approval
-Submission of an application does **not** guarantee approval.  
-The Licensor retains full discretion to:
-- approve  
-- deny  
-- request additional information  
-- suspend review  
-- terminate the application process  
-
-All decisions are final unless otherwise stated by the Licensor.
-## 🛡️ LICENSE ACQUISITION REQUIREMENTS  
-### (Eligibility, Documentation, Verification)
-
-To obtain a Government/Military License for GreatScott™🄯, AN.KI™, Hazeru™, or M.E.O.W.W.O.W!™, an applicant must meet all eligibility criteria and provide complete, verifiable documentation. No application will be reviewed unless all requirements are satisfied.
-
-### 🔒 1. Eligibility Criteria
-Applicants must be:
-- a formally recognized governmental or military entity  
-- an authorized representative with legal signing authority  
-- compliant with all applicable export‑control laws  
-- capable of maintaining secure, controlled environments  
-- able to undergo audits, inspections, and compliance verification  
-
-### 🔒 2. Required Documentation
-Applicants must submit:
-- official government/military identification  
-- proof of agency authorization  
-- a signed request letter on official letterhead  
-- a detailed description of intended use  
-- security clearance documentation (if applicable)  
-- compliance certifications (ITAR, EAR, OFAC, etc.)  
-- infrastructure security overview (systems, networks, storage)  
-
-### 🔒 3. Verification & Background Review
-The Licensor will perform:
-- identity verification  
-- agency authorization validation  
-- export‑control compliance checks  
-- infrastructure security assessment  
-- risk evaluation  
-- misuse potential analysis  
-
-### 🔒 4. Application Completeness
-Incomplete applications will be:
-- rejected  
-- returned without review  
-- not eligible for resubmission until all missing items are provided  
-
-### 🔒 5. No Automatic Approval
-Submission of an application does **not** guarantee approval.  
-The Licensor retains full discretion to:
-- approve  
-- deny  
-- request additional information  
-- suspend review  
-- terminate the application process  
-
-All decisions are final unless otherwise stated by the Licensor.
-## 🛡️ TECHNICAL ACCESS CONTROL CLAUSE  
-### (Access Granting, Authentication, Environment Restrictions)
-
-All access to GreatScott™🄯, AN.KI™, Hazeru™, and M.E.O.W.W.O.W!™ systems must occur through secure, controlled, and authenticated technical channels. No entity may access protected assets without explicit authorization issued by the Licensor.
-
-### 🔒 1. Authorized Access Channels
-Access may only be granted through:
-- secure, authenticated endpoints  
-- encrypted communication channels  
-- approved deployment environments  
-- systems explicitly listed in the Government/Military License  
-
-No alternative or improvised access paths are permitted.
-
-### 🔒 2. Authentication Requirements
-All users must authenticate using:
-- multi‑factor credentials  
-- cryptographically signed tokens  
-- hardware‑bound identity keys  
-- time‑limited access certificates  
-
-Credentials may not be shared, transferred, duplicated, or reused outside authorized environments.
-
-### 🔒 3. Environment Restrictions
-Protected assets may only be accessed within:
-- secure, monitored networks  
-- hardened infrastructure  
-- isolated compute environments  
-- systems meeting the Licensor’s security standards  
-
-Access is strictly prohibited on:
-- public networks  
-- unverified cloud platforms  
-- shared or multi‑tenant systems  
-- unsecured or unmanaged devices  
-
-### 🔒 4. Logging & Monitoring
-All access must be:
-- logged  
-- timestamped  
-- cryptographically sealed  
-- retained for audit review  
-
-Logs must include:
-- user identity  
-- access time  
-- accessed modules  
-- executed operations  
-- environment identifiers  
-
-Tampering with logs constitutes a violation of this License.
-
-### 🔒 5. Access Revocation
-The Licensor may revoke access immediately if:
-- misuse is detected  
-- unauthorized environments are used  
-- credentials are compromised  
-- prohibited actions occur  
-- license terms are violated  
-
-Upon revocation:
-- all access tokens must be invalidated  
-- all sessions terminated  
-- all protected assets removed from systems  
-- all logs preserved for audit  
-
-### 🔒 6. No Circumvention
-Entities may not:
-- bypass authentication  
-- spoof credentials  
-- intercept or replay access tokens  
-- modify access control systems  
-- create unauthorized interfaces  
-- reverse‑engineer access mechanisms  
-
-Any attempt to circumvent access controls constitutes immediate unauthorized use.
-
-### 🔒 7. Technical Access Is Not a License
-Possession of credentials, tokens, or access pathways does **not** constitute permission to use protected assets.  
-Only a valid Government/Military License grants legal authorization.
-
-All other rights remain fully reserved by the Licensor.
-## 🛡️ DATA HANDLING & STORAGE REQUIREMENTS  
-### (Secure Storage, Encryption, Transmission, Destruction)
-
-All GreatScott™🄯, AN.KI™, Hazeru™, and M.E.O.W.W.O.W!™ assets must be stored, transmitted, and handled in strict compliance with the following requirements. These rules apply to all licensed entities, including government and military organizations.
-
-### 🔒 1. Secure Storage Environments
-Protected assets must be stored only within:
-- hardened, access‑controlled environments  
-- encrypted storage volumes  
-- isolated compute nodes  
-- secure government/military infrastructure  
-- systems explicitly approved by the Licensor  
-
-Storage is **prohibited** on:
-- public cloud platforms  
-- shared or multi‑tenant environments  
-- personal devices  
-- unmanaged or unmonitored systems  
-
-### 🔒 2. Encryption Requirements
-All protected assets must be encrypted using:
-- AES‑256 or stronger symmetric encryption  
-- RSA‑4096 or stronger asymmetric encryption  
-- FIPS‑validated cryptographic modules  
-- hardware‑backed key storage (TPM, HSM, etc.)  
-
-Encryption keys must:
-- be rotated regularly  
-- never be stored alongside encrypted data  
-- never be transmitted in plaintext  
-- be accessible only to authorized personnel  
-
-### 🔒 3. Transmission Requirements
-All transmission of protected assets must use:
-- end‑to‑end encrypted channels  
-- mutually authenticated endpoints  
-- cryptographically signed payloads  
-- tamper‑evident transport mechanisms  
-
-Transmission is **prohibited** over:
-- public networks  
-- unsecured Wi‑Fi  
-- unencrypted channels  
-- consumer messaging platforms  
-
-### 🔒 4. Backup & Redundancy Rules
-Backups must:
-- be encrypted  
-- be stored in secure, access‑controlled environments  
-- follow strict chain‑of‑custody procedures  
-- be limited to the minimum number required for continuity  
-
-Backups may **not**:
-- be stored off‑premises without approval  
-- be replicated to unapproved systems  
-- be transferred to third‑party infrastructure  
-
-### 🔒 5. Access Logging & Audit Trails
-All access to protected assets must be:
-- logged  
-- timestamped  
-- cryptographically sealed  
-- retained for audit review  
-
-Logs must include:
-- user identity  
-- access time  
-- accessed modules  
-- executed operations  
-- environment identifiers  
-
-Log tampering constitutes a violation of this License.
-
-### 🔒 6. Data Integrity & Modification Controls
-Entities may not:
-- alter protected assets  
-- modify internal structures  
-- change metadata  
-- inject new data  
-- remove embedded identifiers  
-
-Any modification requires explicit written authorization from the Licensor.
-
-### 🔒 7. Data Destruction Requirements
-Upon revocation, expiration, or termination of a license, all protected assets must be:
-- securely deleted  
-- cryptographically wiped  
-- removed from all systems  
-- purged from backups  
-- certified destroyed in writing  
-
-Destruction must follow:
-- NIST 800‑88  
-- DoD 5220.22‑M  
-- or an equivalent government‑approved sanitization standard  
-
-### 🔒 8. No External Storage or Replication
-Protected assets may **not** be:
-- uploaded to external services  
-- mirrored  
-- forked  
-- cloned  
-- replicated  
-- archived outside approved environments  
-
-All rights not explicitly granted remain fully reserved by the Licensor.
-## 🛡️ COMPLIANCE & EXPORT‑CONTROL CLAUSE  
-### (Legal, Regulatory, and International Transfer Restrictions)
-
-All government, military, commercial, and institutional use of GreatScott™🄯, AN.KI™, Hazeru™, and M.E.O.W.W.O.W!™ must comply with all applicable domestic and international laws governing restricted technologies, including export‑control regulations.
-
-### 🔒 1. Export‑Control Compliance
-Licensed entities must comply with:
-- ITAR (International Traffic in Arms Regulations)  
-- EAR (Export Administration Regulations)  
-- OFAC sanctions programs  
-- applicable national security regulations  
-- any additional export‑control rules relevant to the jurisdiction  
-
-No protected asset may be:
-- exported  
-- transferred  
-- transmitted  
-- shared  
-- or accessed  
-by any foreign entity or jurisdiction prohibited under these regulations.
-
-### 🔒 2. Transfer Restrictions
-Protected assets may not be:
-- transferred across borders  
-- shared with foreign agencies  
-- moved to foreign infrastructure  
-- provided to foreign contractors  
-without explicit written authorization from the Licensor.
-
-### 🔒 3. Dual‑Use Technology Controls
-If GreatScott™🄯 or its derivatives qualify as dual‑use technology, all use must follow:
-- national security guidelines  
-- restricted‑use protocols  
-- controlled distribution rules  
-
-### 🔒 4. Compliance Certification
-Licensed entities must provide:
-- annual compliance certifications  
-- updated export‑control documentation  
-- proof of adherence to all regulatory requirements  
-
-Failure to maintain compliance results in immediate license revocation.
-
-### 🔒 5. Enforcement
-Any violation of export‑control or compliance rules constitutes unauthorized use and may result in:
-- civil penalties  
-- criminal penalties  
-- permanent bans  
-- international enforcement actions  
-
-All rights remain fully reserved by the Licensor.
-## 🛡️ AUDIT & INSPECTION RIGHTS  
-### (Verification, Oversight, Compliance Enforcement)
-
-The Licensor retains full authority to audit, inspect, and verify any environment, system, or infrastructure where GreatScott™🄯, AN.KI™, Hazeru™, or M.E.O.W.W.O.W!™ assets are stored, accessed, integrated, or deployed. These rights apply to all licensed government, military, commercial, and institutional entities.
-
-### 🔒 1. Audit Authorization
-The Licensor may initiate:
-- scheduled audits  
-- unscheduled audits  
-- remote inspections  
-- on‑site inspections  
-- infrastructure reviews  
-- compliance verification procedures  
-
-Audits may occur at any time without prior notice.
-
-### 🔒 2. Required Cooperation
-Licensed entities must:
-- provide full access to relevant systems  
-- supply logs, reports, and documentation  
-- grant access to personnel involved in usage  
-- disclose all environments where assets are stored or deployed  
-- cooperate with all inspection procedures  
-
-Failure to cooperate constitutes a violation of this License.
-
-### 🔒 3. Access to Systems & Infrastructure
-The Licensor may inspect:
-- servers  
-- storage systems  
-- compute environments  
-- network infrastructure  
-- access control systems  
-- backup systems  
-- audit logs  
-- deployment pipelines  
-
-Entities must ensure all systems remain accessible for inspection.
-
-### 🔒 4. Log & Record Review
-The Licensor may request:
-- access logs  
-- authentication logs  
-- usage logs  
-- modification records  
-- transmission records  
-- backup inventories  
-
-All logs must be:
-- complete  
-- unaltered  
-- cryptographically sealed  
-- retained for the required duration  
-
-Log tampering constitutes immediate unauthorized use.
-
-### 🔒 5. Compliance Verification
-Audits may verify:
-- adherence to license terms  
-- adherence to data‑handling requirements  
-- adherence to export‑control regulations  
-- adherence to environment restrictions  
-- adherence to access control rules  
-
-Any deviation is considered a breach.
-
-### 🔒 6. Remediation Requirements
-If an audit identifies violations, the Licensor may require:
-- immediate corrective action  
-- removal of unauthorized integrations  
-- destruction of unauthorized copies  
-- reconfiguration of insecure systems  
-- updated compliance documentation  
-
-Failure to remediate results in license revocation.
-
-### 🔒 7. Audit Confidentiality
-Audit findings may be:
-- documented  
-- archived  
-- used for enforcement  
-- shared with regulatory authorities if required  
-
-Audit data will be handled according to applicable security and confidentiality standards.
-
-### 🔒 8. Enforcement
-Any refusal, obstruction, or failure during an audit or inspection constitutes unauthorized use and may result in:
-- civil penalties  
-- criminal penalties  
-- revocation of all licenses  
-- permanent prohibition  
-- international enforcement actions  
-
-All rights remain fully reserved by the Licensor.
-## 🛡️ INCIDENT REPORTING & BREACH PROTOCOL  
-### (Emergency Response, Notification, Containment, Documentation)
-
-All licensed entities must immediately report any security incident, breach, misuse, unauthorized access, or suspected compromise involving GreatScott™🄯, AN.KI™, Hazeru™, or M.E.O.W.W.O.W!™ assets. Failure to report an incident constitutes a violation of this License.
-
-### 🔒 1. Immediate Notification Requirement
-Entities must notify the Licensor:
-- **within 1 hour** of discovering a breach  
-- **immediately** if protected assets are exposed  
-- **immediately** if unauthorized access is suspected  
-- **immediately** if credentials or keys are compromised  
-
-Notification must be sent through the Licensor’s designated secure communication channel.
-
-### 🔒 2. Required Incident Information
-Incident reports must include:
-- description of the incident  
-- time and date of discovery  
-- systems affected  
-- assets involved  
-- identities of users or systems accessing protected data  
-- suspected cause  
-- actions taken prior to reporting  
-- current containment status  
-
-Incomplete reports are considered non‑compliant.
-
-### 🔒 3. Mandatory Containment Actions
-Upon discovering an incident, entities must:
-- terminate all active sessions  
-- revoke compromised credentials  
-- isolate affected systems  
-- disable unauthorized interfaces  
-- block suspicious network activity  
-- preserve all logs and forensic data  
-
-Containment must begin **before** reporting the incident.
-
-### 🔒 4. Forensic Preservation
-Entities must preserve:
-- access logs  
-- authentication logs  
-- system event logs  
-- network traffic records  
-- backup inventories  
-- relevant configuration files  
-
-All forensic data must remain unaltered and cryptographically sealed.
-
-### 🔒 5. Licensor Response Authority
-The Licensor may:
-- initiate an emergency audit  
-- require immediate shutdown of affected systems  
-- demand removal of protected assets  
-- require destruction of compromised copies  
-- suspend or revoke the license  
-- require additional security measures  
-
-The Licensor’s directives are mandatory and must be executed without delay.
-
-### 🔒 6. Post‑Incident Reporting
-Within **72 hours**, entities must submit a full incident report including:
-- root‑cause analysis  
-- timeline reconstruction  
-- containment actions taken  
-- remediation steps  
-- updated security controls  
-- certification of compliance  
-
-Failure to submit a complete report may result in license revocation.
-
-### 🔒 7. Recurrence Prevention Requirements
-Entities must implement:
-- updated access controls  
-- improved monitoring  
-- enhanced encryption  
-- stricter environment restrictions  
-- revised operational procedures  
-
-The Licensor may require additional measures based on incident severity.
-
-### 🔒 8. Enforcement
-Any failure to report, contain, preserve, or remediate an incident constitutes unauthorized use and may result in:
-- civil penalties  
-- criminal penalties  
-- revocation of all licenses  
-- permanent prohibition  
-- international enforcement actions  
-
-All rights remain fully reserved by the Licensor.
-## 🛡️ TERMINATION & POST‑REVOCATION OBLIGATIONS  
-### (Destruction, Removal, Certification, Continuing Restrictions)
-
-Upon termination, expiration, or revocation of a Government/Military License, all rights granted to the licensed entity immediately cease. The entity must comply with the following obligations without delay.
-
-### 🔒 1. Immediate Cessation of Use
-Upon revocation, the entity must:
-- stop all access to protected assets  
-- terminate all active sessions  
-- disable all integrations  
-- cease all operational, administrative, or analytical use  
-
-Continued use after revocation constitutes unauthorized use.
-
-### 🔒 2. Mandatory Destruction of Protected Assets
-Entities must:
-- securely delete all copies of protected assets  
-- cryptographically wipe all storage locations  
-- purge all backups  
-- remove all embedded or integrated components  
-- destroy all derivative works  
-
-Destruction must follow:
-- NIST 800‑88  
-- DoD 5220.22‑M  
-- or an equivalent government‑approved sanitization standard  
-
-### 🔒 3. Removal from Systems & Infrastructure
-Entities must remove protected assets from:
-- servers  
-- storage systems  
-- compute environments  
-- network infrastructure  
-- deployment pipelines  
-- monitoring systems  
-- backup archives  
-
-No residual data may remain.
-
-### 🔒 4. Certification of Destruction
-Within **30 days**, the entity must submit a formal certification including:
-- a signed destruction affidavit  
-- a list of systems where assets were removed  
-- verification logs  
-- sanitization reports  
-- confirmation of compliance with destruction standards  
-
-Failure to certify destruction constitutes a breach.
-
-### 🔒 5. Continuing Restrictions After Revocation
-Even after revocation, entities may not:
-- use any surviving knowledge to recreate protected assets  
-- develop derivatives based on prior access  
-- simulate or model protected systems  
-- disclose proprietary information  
-- attempt to regain access without authorization  
-
-All intellectual property rights remain fully reserved by the Licensor.
-
-### 🔒 6. Prohibition on Re‑Application
-Entities whose licenses were revoked for:
-- misuse  
-- breach  
-- non‑compliance  
-- unauthorized access  
-- export‑control violations  
-
-are **permanently prohibited** from re‑applying unless explicitly reinstated by the Licensor.
-
-### 🔒 7. Enforcement
-Any failure to comply with post‑revocation obligations may result in:
-- civil penalties  
-- criminal penalties  
-- permanent bans  
-- international enforcement actions  
-- referral to regulatory authorities  
-
-All rights remain fully reserved by the Licensor.
-## 🛡️ IP INHERITANCE & TRANSFER CLAUSE  
-### (Ownership Transfer, Estate Authority, Successor Rights)
-
-Upon the Licensor’s death, incapacity, or legal inability to administer GreatScott™🄯, AN.KI™, Hazeru™, or M.E.O.W.W.O.W!™ assets, all intellectual property rights, ownership claims, enforcement powers, and licensing authority shall transfer according to the Licensor’s legally recognized estate plan, successor designation, or applicable inheritance law.
-
-### 🔒 1. Automatic Transfer of Ownership
-All protected assets—including code, systems, metaphysics, symbols, narrative structures, derivative rights, and all associated IP—shall automatically transfer to:
-- the Licensor’s legally recognized heir(s),  
-- or the executor of the Licensor’s estate,  
-- or a successor entity explicitly named in estate documents,  
-- or a designated trust or foundation created for IP stewardship.
-
-This transfer occurs immediately and without interruption.
-
-### 🔒 2. Successor Rights & Powers
-The successor inherits full authority to:
-- approve or deny licenses  
-- enforce all restrictions  
-- revoke existing licenses  
-- initiate audits and inspections  
-- pursue civil or criminal penalties  
-- maintain or strengthen bans  
-- freeze licensing permanently  
-- update or preserve license terms  
-
-The successor may not:
-- retroactively authorize past unauthorized use  
-- weaken export‑control compliance  
-- transfer rights to prohibited entities  
-- invalidate permanent bans without explicit documentation  
-
-### 🔒 3. Non‑Transferability to Unauthorized Entities
-Protected assets may **not** be:
-- transferred to foreign governments  
-- transferred to military organizations  
-- transferred to prohibited jurisdictions  
-- sold to entities barred under export‑control law  
-- inherited by organizations that violate license restrictions  
-
-Any attempted transfer to a prohibited entity is void.
-
-### 🔒 4. Estate Administration Authority
-The executor of the Licensor’s estate may:
-- manage IP during probate  
-- enforce restrictions  
-- suspend licensing  
-- deny pending applications  
-- preserve protected assets  
-- appoint a temporary steward  
-
-The executor may not:
-- grant new licenses without successor approval  
-- authorize derivative creation  
-- modify protected assets  
-
-### 🔒 5. Pending Licenses & Applications
-At the time of the Licensor’s death:
-- all pending applications are suspended  
-- no automatic approvals occur  
-- no implied permissions exist  
-- successor review is required for continuation  
-
-### 🔒 6. Permanent Protection if No Successor Exists
-If no successor is named and no heir is legally recognized:
-- all protected assets remain fully restricted  
-- all licensing is permanently frozen  
-- all government/military access is prohibited  
-- all rights remain locked under copyright  
-- no entity may claim ownership or usage rights  
-
-This prevents unauthorized takeover of the IP.
-
-### 🔒 7. Transfer Documentation Requirements
-Any transfer of ownership must be:
-- documented  
-- signed  
-- notarized  
-- archived  
-- recorded in the Licensor’s official IP ledger  
-
-Unrecorded transfers are invalid.
-
-### 🔒 8. Enforcement After Transfer
-The successor or estate retains full authority to:
-- pursue civil penalties  
-- pursue criminal penalties  
-- revoke licenses  
-- demand destruction of assets  
-- enforce export‑control compliance  
-- initiate audits and inspections  
-
-All enforcement powers survive the Licensor’s death.
-
-### 🔒 9. Perpetual Reservation of Rights
-All rights not explicitly transferred remain fully reserved by:
-- the Licensor  
-- the Licensor’s estate  
-- the designated successor  
-- or the designated trust/foundation  
-
-No entity may claim rights through silence, omission, or lack of successor designation.
-## 🛡️ POSTHUMOUS ENFORCEMENT CLAUSE  
-### (Continuing Restrictions, Successor Enforcement, Permanent Protection)
-
-All restrictions, prohibitions, obligations, and enforcement powers defined in this License shall remain fully active and enforceable after the Licensor’s death, incapacity, or legal inability to administer protected assets. No entity may claim rights, permissions, or exemptions due to the Licensor’s absence.
-
-### 🔒 1. Survival of All Restrictions
-All license terms—including government/military prohibitions, export‑control rules, data‑handling requirements, access‑control rules, audit rights, and revocation conditions—remain fully enforceable after the Licensor’s death.  
-No restriction expires or weakens due to the Licensor’s absence.
-
-### 🔒 2. Successor Enforcement Authority
-The Licensor’s designated successor, heir, executor, trust, or foundation retains full authority to:
-- enforce all license terms  
-- revoke existing licenses  
-- deny new licenses  
-- initiate audits and inspections  
-- pursue civil and criminal penalties  
-- demand destruction of protected assets  
-- maintain or strengthen bans  
-
-Successor authority activates immediately upon the Licensor’s death.
-
-### 🔒 3. No Implied Permissions After Death
-The Licensor’s death does **not**:
-- grant new rights  
-- authorize continued use  
-- permit derivative creation  
-- allow governments/militaries to bypass licensing  
-- weaken any restrictions  
-- allow entities to claim ownership  
-
-All rights remain fully reserved.
-
-### 🔒 4. Permanent Prohibition of Unauthorized Use
-Any unauthorized use after the Licensor’s death constitutes:
-- a violation of this License  
-- grounds for civil penalties  
-- grounds for criminal penalties  
-- grounds for permanent bans  
-- grounds for international enforcement  
-
-Death does not reduce penalties or enforcement power.
-
-### 🔒 5. Mandatory Post‑Death Compliance
-All licensed entities must:
-- continue following all license terms  
-- maintain all security requirements  
-- preserve all logs  
-- comply with audits  
-- report incidents  
-- follow successor directives  
-
-Non‑compliance results in immediate revocation.
-
-### 🔒 6. Enforcement by Estate or Trust
-If the Licensor’s estate, executor, or trust assumes control, they may:
-- freeze licensing  
-- deny all future applications  
-- enforce bans  
-- pursue legal action  
-- maintain perpetual protection  
-
-Their authority is equal to the Licensor’s.
-
-### 🔒 7. Permanent Protection if No Successor Exists
-If no successor is named:
-- all protected assets remain fully restricted  
-- all licensing is permanently frozen  
-- all government/military access is prohibited  
-- all rights remain locked under copyright  
-- no entity may claim ownership or usage rights  
-
-This prevents unauthorized takeover of the IP.
-
-### 🔒 8. Posthumous Violations
-Any violation occurring after the Licensor’s death may result in:
-- civil penalties  
-- criminal penalties  
-- destruction orders  
-- permanent bans  
-- international enforcement actions  
-
-All enforcement powers survive indefinitely.
-## 🛡️ PERPETUAL LICENSE FREEZE CLAUSE  
-### (Permanent Shutdown of Licensing After Death)
-
-Upon the Licensor’s death, incapacity, or legal inability to administer GreatScott™🄯, AN.KI™, Hazeru™, or M.E.O.W.W.O.W!™ assets, all licensing activity shall be permanently frozen. No new licenses may be issued under any circumstance.
-
-### 🔒 1. Permanent Closure of Licensing
-Effective immediately upon the Licensor’s death:
-- all pending applications are canceled  
-- all future applications are prohibited  
-- all licensing channels are permanently closed  
-- no successor may reopen licensing  
-
-Licensing is frozen forever.
-
-### 🔒 2. No Successor Licensing Authority
-The Licensor’s successor, heir, executor, trust, or foundation:
-- may enforce existing licenses  
-- may revoke existing licenses  
-- may pursue penalties  
-- may maintain bans  
-
-But they **may not**:
-- issue new licenses  
-- expand existing licenses  
-- authorize new use cases  
-- reopen licensing channels  
-
-All licensing authority ends with the Licensor.
-
-### 🔒 3. Existing Licenses After Death
-Existing licenses:
-- remain valid only within their original scope  
-- may be revoked by the successor  
-- may not be expanded  
-- may not be transferred  
-- may not be renewed  
-
-No new rights may be granted.
-
-### 🔒 4. Permanent Government/Military Prohibition
-After the Licensor’s death:
-- all government/military licensing is permanently prohibited  
-- no government or military entity may apply  
-- no successor may authorize government/military use  
-- all government/military access requires revocation and destruction  
-
-This prohibition is eternal.
-
-### 🔒 5. Permanent Protection of IP
-All protected assets remain:
-- fully restricted  
-- non‑transferable  
-- non‑licensable  
-- prohibited for derivative creation  
-- prohibited for training, embedding, or simulation  
-
-No entity may claim rights due to the Licensor’s absence.
-
-### 🔒 6. No Implied Permissions
-The Licensor’s death does **not**:
-- grant new rights  
-- weaken restrictions  
-- authorize continued use  
-- allow derivative creation  
-- allow governments/militaries to bypass licensing  
-
-All rights remain fully reserved.
-
-### 🔒 7. Enforcement After Freeze
-The successor, estate, or trust retains full authority to:
-- revoke licenses  
-- demand destruction of assets  
-- enforce restrictions  
-- pursue civil penalties  
-- pursue criminal penalties  
-- maintain permanent bans  
-
-All enforcement powers survive indefinitely.
-
-### 🔒 8. Irreversible Freeze
-The perpetual freeze:
-- cannot be undone  
-- cannot be overridden  
-- cannot be amended  
-- cannot be reversed by any successor  
-- cannot be challenged by any entity  
-
-Licensing ends permanently with the Licensor’s death.
-# 📚 Global Intellectual Property Reference Index
-### Authoritative Legal Sources for Copyright & Trademark Protection  
-GreatScott™🄯 • AN.KI™ • Hazeru™ • M.E.O.W.W.O.W!™
-
-This document lists the official governing texts that define and enforce
-U.S. and international intellectual property protections relevant to this License.
+AN.KI™ research/ Development LAB
+A synthetic device©is a device that synthetically performs a function normally performed through a physical, biological, mechanical, or otherwise conventional process.
+“No confusingly similar expression.”  
+“Reproduction, imitation, modification… of AN.KI or Hazeru names, branding, environment descriptions… is strictly prohibited.”
+Reproduction, imitation, modification, distribution… is strictly prohibited.”  
+“All derivative works… prohibited unless licensed.”  
+“Unauthorized use may result in civil and criminal penalties.”
 
----
+Reverse engineering is derivative work creation + imitation + reproduction.
+So your license already bans it.
+© 2026 Analisjohnsmith(Darrell Lee Stiltner)                       
+All rights reserved
+8/18/26 TL;DR 
+Free to study, experiment, and have fun. Closed to commercial use. No confusingly similar expression.
+A synthetic device ©™is a device that synthetically performs a function normally performed through a physical, biological, mechanical, or otherwise conventional process.
+That is a much clearer licensing philosophy than the full draft currently communicates.
+ 88/100 for clarity of the intended policy, but the document itself still needs consolidation
 
-## 🇺🇸 U.S. Copyright Law  
-### Title 17 — United States Code (U.S. Copyright Act)
+The core could literally be reduced to:
 
-**Official Text:**  
-https://www.copyright.gov/title17/
+Study: Free
+Research: Free
+Personal/educational use: Free
+Fun/experimentation: Free
+Commercial use: Closed unless licensed
+Confusingly similar expression: Prohibited
+Ownership: Retained by © 2026 Analisjohnsmith(Darrell Lee Stiltner)                       
 
-**Government Publishing Office (GPO) Version:**  
-https://uscode.house.gov/view.xhtml?path=/prelim@title17&edition=prelim
 
-Covers:  
-- Copyright ownership  
-- Exclusive rights  
-- Derivative works  
-- Enforcement  
-- Duration (life + 70 years in the U.S.)  
-- Civil & criminal penalties  
 
----
 
-## 🇺🇸 U.S. Trademark Law  
-### Lanham Act — 15 U.S.C. §§ 1051–1141
 
-**Official Text:**  
-https://uscode.house.gov/view.xhtml?path=/prelim@title15/chapter22&edition=prelim
+# GREATSCOTT™ ECOSYSTEM PUBLIC NONCOMMERCIAL LICENSE
+## Version 3.0 — Release Candidate 2 (RC2)
+**Review date:** October 9, 2026  
+**Proposed licensor:** Darrell Lee Stiltner, personally, only for rights he actually owns or controls and after rights confirmation  
+**Commercial licensing contact:** Pending  
+**Status:** Owner decisions incorporated. Not approved for publication; rights confirmation, project notices, prior-grant review, canonical URL, and a monitored commercial contact remain outstanding.
 
-Covers:  
-- Trademark registration  
-- Trademark enforcement  
-- Protection of marks (AN.KI™, Hazeru™, GreatScott™🄯, M.E.O.W.W.O.W!™)  
-- Anti‑counterfeiting  
-- Dilution & infringement penalties  
+> **IMPORTANT:** This is a source-available license with noncommercial restrictions. It is **not** an OSI-approved open-source license. It does not automatically cover every work associated with the GreatScott™ ecosystem, transfer ownership of third-party material, revoke earlier licenses, or guarantee that every restriction will be enforceable. Have a Tennessee-licensed attorney review this document before relying on it.
 
 ---
-
-## 🌍 International Copyright Law  
-### Berne Convention for the Protection of Literary and Artistic Works
 
-**Official Text (WIPO):**  
-https://www.wipo.int/treaties/en/ip/berne/
+## 1. Purpose and one-license policy
 
-Covers:  
-- Automatic worldwide copyright  
-- No registration required  
-- National treatment  
-- Minimum protection standards  
-- Life + 50 years minimum duration  
+This document establishes one common public noncommercial license for original materials that Darrell Lee Stiltner personally owns or is authorized to license and expressly designates as **Covered Materials**. Personal ownership is the selected policy direction, not a finding that every ecosystem asset is owned by him; confirm actual title and licensing authority for each covered item before publication.
 
----
-
-## 🌍 International Trademark Law  
-### Madrid Protocol / Madrid System (WIPO)
+The same master license may be used for multiple projects, products, runtimes, repositories, releases, and media in the GreatScott™ ecosystem. Each project must include a project notice identifying the project, release or version, the Covered Materials, exclusions, the rights holder (after confirmation), and the canonical location of this license. The chosen coverage method is one master license plus project-specific notices; the master license does not automatically cover every ecosystem asset.
 
-**Official Text:**  
-https://www.wipo.int/treaties/en/registration/madrid/
+The ecosystem may include GreatScott™, AN.KI™, Hazeru™, Hatsuseno™, M.E.O.W.W.O.W!™, PersonaCom™, Magustelle™, WowKernel™, HSON™, and related software, runtimes, modules, specifications, documentation, treatises, artwork, audio, video, animation, stories, and other original works. Listing a name here does not, by itself, establish ownership of that name, project, contribution, or any material associated with it.
 
-Covers:  
-- International trademark registration  
-- Global protection of marks  
-- Unified filing system  
-- Enforcement across 120+ jurisdictions  
-
----
+## 2. Who grants the license and what it covers
 
-## 🌐 Global IP Enforcement  
-### TRIPS Agreement (WTO)  
-Trade‑Related Aspects of Intellectual Property Rights
+**“Licensor”** means Darrell Lee Stiltner, acting in his personal capacity, solely with respect to rights he actually owns or controls and is legally authorized to license. A project notice must not identify him as rights holder for material unless that status has been confirmed. If rights are later transferred to an entity, update the relevant notices and licensing documents after verifying the transfer and authority.
 
-**Official Text:**  
-https://www.wto.org/english/docs_e/legal_e/27-trips_01_e.htm
+**“Covered Materials”** means only the specific files, source code, object code, documentation, creative works, and other assets that:
+1. are identified as covered in a project notice, repository notice, or other written designation referring to this license; and
+2. are owned by the Licensor or are subject to rights that authorize the Licensor to grant the permissions stated here.
 
-Covers:  
-- International enforcement standards  
-- Copyright & trademark obligations  
-- Cross‑border penalties  
-- Anti‑piracy & anti‑counterfeiting rules  
+A project notice may identify a whole repository or release, or list excluded directories, files, dependencies, generated assets, and third-party components. If the notice does not clearly identify whether material is covered, do not assume that this license applies to it; request written clarification.
 
----
+**“Recipient”** means a person or organization exercising rights under this license.
 
-## 🛡️ Summary of Applicability to GreatScott™🄯  
-These documents collectively protect:
+**“Noncommercial Purpose”** means a use not primarily intended for, directed toward, or carried out for commercial advantage or monetary compensation. Whether a use is noncommercial depends on the actual circumstances, not merely on the user’s label or legal form.
 
-- Source code  
-- Engines, runtimes, modules  
-- Symbols, glyphs, metaphysics, lore  
-- Documentation, diagrams, blueprints  
-- Trademarks (AN.KI™, Hazeru™, GreatScott™🄯, M.E.O.W.W.O.W!™)  
-- Derivative works  
-- Narrative structures and cognitive models  
+**“Commercial Use”** means any use primarily intended for, directed toward, or carried out for commercial advantage or monetary compensation. Commercial Use includes, without limitation:
+- use in a product, service, platform, hosted service, API, or offering sold, licensed, rented, or monetized;
+- use in business operations or to perform work for an employer, customer, or paying client;
+- use by or on behalf of a for-profit business for internal production, deployment, integration, testing, or operational purposes;
+- use in paid consulting, contract work, commercial research and development, or a revenue-generating workflow;
+- bundling, distributing, or making Covered Materials available as part of a paid or monetized product or service; and
+- use where access is free but the Covered Materials materially support a monetized service, advertising-supported offering, paid membership, or other commercial activity.
 
-All rights remain fully reserved by the Licensor.
+A use is not automatically Noncommercial because the user is an individual, a student, a nonprofit, a researcher, or a public institution; because no direct fee is charged; or because the user calls the activity “testing,” “evaluation,” “research,” or “educational.” Grants, donations, sponsorships, advertising, mixed-purpose activity, and publicly funded work must be assessed in context. If a Recipient is unsure whether a proposed use is Commercial Use, the Recipient must obtain written clarification or a Commercial License before proceeding with that use.
 
----
+**“Commercial License”** means a separate written agreement signed by the Licensor and the customer that expressly authorizes the relevant Commercial Use.
 
-## 🔗 Guided Links for Further Explanation  
-- **[U.S. Copyright Act](ca://s?q=Explain_US_Copyright_Act)**  
-- **[Lanham Act](ca://s?q=Explain_Lanham_Act)**  
-- **[Berne Convention](ca://s?q=Explain_Berne_Convention)**  
-- **[Madrid Protocol](ca://s?q=Explain_Madrid_Protocol)**  
-- **[TRIPS Agreement](ca://s?q=Explain_TRIPS_Agreement)**
+**“Derivative Material”** means a modification or adaptation of Covered Materials to the extent recognized by applicable law. This term does not claim ownership of independently created works, unprotectable ideas, or material that the Licensor does not own.
 
+## 3. Public license grant
 
-# GREATSCOTT ENTERPRISE LICENSE v3.1
+Subject to all terms of this license, the Licensor grants each Recipient a worldwide, royalty-free, non-exclusive, non-transferable license, for **Noncommercial Purposes only**, to:
+- access and run the Covered Software;
+- study the Covered Software;
+- reproduce Covered Materials;
+- modify Covered Software and create Derivative Materials; and
+- share unmodified or modified copies of Covered Materials,
 
-**Effective Date:** [DATE]
-**Version:** 3.1
+provided that the Recipient complies with this license and applicable third-party terms.
 
-## PART 1: DEFINITIONS AND SCOPE
+For purposes of this license, **“Covered Software”** means the software components included in Covered Materials. Permissions to copy or adapt creative works apply only to the extent those works are identified as Covered Materials and applicable law permits those acts.
 
-### 1.1 Definitions
+The public grant does not authorize Commercial Use. A Recipient must obtain a Commercial License signed by the Licensor before beginning any Commercial Use. No oral statement, email acknowledgment that does not form a signed agreement, invoice, payment alone, public demonstration, repository access, silence, or failure to respond grants Commercial Use rights. A signed agreement may specify that electronic signatures or acceptance through a defined electronic process are sufficient.
 
-- **"Software"** means the source code, object code, documentation, artwork, trademarks, and other materials provided by Licensor under this License.
+The license does not grant a patent license, trademark license, publicity right, or other right except to the extent expressly stated in this document or required by law. No express patent license is granted under this public license. Nothing here limits a right that cannot lawfully be waived or restricted.
 
-- **"Licensor"** means [INSERT NAME/ENTITY].
+## 4. Conditions for noncommercial use and redistribution
 
-- **"Customer"** means the individual or entity accepting this License.
+When using, modifying, or redistributing Covered Materials under the public grant, the Recipient must:
 
-- **"Protected Assets"** include only materials in which Licensor possesses rights recognized under applicable law, including software, documentation, artwork, trademarks, logos, specifications, databases, and other original expressive content. This definition does not extend to ideas, concepts, algorithms, mathematical principles, or scientific discoveries.
+1. **Include this license.** Provide a complete copy of this license with every redistribution of Covered Materials.
+2. **Preserve notices.** Retain copyright, license, attribution, and disclaimer notices that accompany the Covered Materials.
+3. **Mark changes.** Clearly identify modified files and material changes, and date or version the changes where reasonably practicable.
+4. **Avoid false endorsement.** Do not claim or imply that a fork, adaptation, product, or service is official, approved, certified, supported, or endorsed by the Licensor without prior written permission.
+5. **Respect third-party terms.** Preserve and comply with licenses and notices for third-party components. This license does not replace those terms.
+6. **Keep the use noncommercial.** Do not use, distribute, host, or incorporate Covered Materials in Commercial Use without a signed Commercial License.
+7. **Avoid unauthorized sublicensing.** Do not grant others commercial rights in Covered Materials or represent that you can grant rights beyond those provided by this license.
+8. **Comply with law.** Follow applicable laws and regulations.
 
-- **"Commercial License"** means a separate written agreement granting additional rights beyond this public License.
+A Recipient may charge no fee for Covered Materials under this public grant, except that the Recipient may recover reasonable, documented costs of physical media or delivery where legally permitted. Cost recovery does not authorize a broader commercial offering or a fee for access to the Covered Materials themselves.
 
-### 1.2 License Hierarchy
+When redistributing a modified version, the Recipient may license its own original additions under separate terms, but must make clear which terms apply to the Covered Materials and must not use separate terms to remove or expand the rights in the underlying Covered Materials. This license does not require a Recipient to assign ownership of original additions to the Licensor.
 
-The following hierarchy governs all assets:
+## 5. Activities not authorized by the public grant
 
-| Asset Type | License |
-|---|---|
-| Source Code | Apache License 2.0 (unless a Commercial License is purchased) |
-| Documentation | CC BY-NC 4.0 (unless otherwise stated) |
-| Artwork | Copyright Reserved (all rights reserved) |
-| Trademarks | Never licensed except through written authorization |
-| Commercial License | Overrides all other licenses for the licensed Customer, within the scope expressly granted |
+Unless expressly authorized by a signed Commercial License or another written permission from the relevant rights holder, the public grant does not authorize a Recipient to:
 
-### 1.3 Scope of Rights
+- make Commercial Use of Covered Materials, including internal business deployment or use on behalf of a paying client;
+- sell or commercially distribute Covered Materials, or bundle them into a paid or monetized product or service;
+- provide Covered Materials as a commercial hosted service, SaaS product, API, managed service, or paid platform;
+- sublicense, resell, or grant commercial access to Covered Materials;
+- remove or obscure applicable notices or misrepresent the source or status of a project;
+- use the Licensor’s Marks as the Recipient’s own product, company, service, or project name, or in a way likely to confuse people about origin, sponsorship, approval, or affiliation; or
+- use Covered Materials to develop or operate weapons, autonomous targeting systems, harmful surveillance, or systems intended to cause physical injury, to the extent the Licensor has enforceable rights to impose that restriction.
 
-The rights granted under this License apply only to rights recognized under applicable copyright, trademark, patent, trade secret, and contract laws. Nothing in this License claims ownership of ideas, concepts, algorithms, mathematical principles, or scientific facts.
+This section describes the scope of the permission granted by the Licensor; it does not claim to prohibit conduct that the Licensor has no legal right to control. Nothing in this license overrides mandatory law, statutory exceptions, fair use or fair dealing, legally protected security research, or non-waivable interoperability rights.
 
-Independent development of software performing similar functions is not prohibited, provided it does not copy protected expression, infringe trademarks, violate patents, misappropriate trade secrets, or otherwise violate applicable law.
+## 6. AI and machine-learning use
 
----
+To the extent the Licensor owns or controls the relevant rights and applicable law permits these conditions, the public grant does not authorize using Covered Materials as training, fine-tuning, or distillation data; creating embeddings, derived datasets, or model-development corpora from Covered Materials; or using Covered Materials to evaluate or improve a machine-learning model as part of model development.
 
-## PART 2: GRANT OF RIGHTS
+Prior written permission is required for those activities under this license. This clause does not claim ownership of a model merely because it produces similar output, nor does it control independently created material, material not owned or controlled by the Licensor, or activities that applicable law permits without authorization. Its application to particular datasets, model processes, and statutory exceptions may depend on the facts and law.
 
-### 2.1 Public License Grant
+## 7. Reverse engineering and interoperability
 
-Subject to compliance with this License, Licensor grants Customer a worldwide, royalty-free, non-exclusive, non-transferable license to use the Software for internal purposes only.
+Except to the extent expressly permitted by applicable law or separately authorized in writing, the public grant does not authorize bypassing technical protections or reverse engineering, decompiling, or disassembling non-public portions of Covered Materials for purposes outside the granted Noncommercial Purpose.
 
-### 2.2 Commercial License
+This clause does not prohibit an activity that applicable law protects or that cannot lawfully be prohibited, including applicable interoperability, security research, accessibility, repair, or other mandatory exceptions. The Licensor does not claim that every reverse-engineering restriction is enforceable in every jurisdiction or circumstance.
 
-For commercial use, distribution, or any use beyond the scope of the public license, Customer must purchase a separate Commercial License from Licensor.
+## 8. Ownership, contributions, and third-party material
 
-### 2.3 Reservation of Rights
+As between the Licensor and Recipient, the Licensor retains ownership of the rights the Licensor actually holds in Covered Materials. This license grants permissions; it does not transfer ownership.
 
-All rights not expressly granted remain exclusively reserved by Licensor. No implied license arises through possession, observation, reverse engineering, interoperability, publication, demonstration, or any other conduct.
+A contribution is not automatically assigned to the Licensor merely because it is submitted to a repository, discussion, issue tracker, or project. Before accepting contributions for inclusion, the project must clearly state the contribution terms and confirm that the contributor has authority to grant the necessary rights. If assignment or a contributor license agreement is needed, it must be obtained separately and expressly.
 
----
+Third-party software, libraries, datasets, fonts, models, media, and other materials are excluded unless the Licensor has authority to include them under these terms. Each project should maintain a third-party notices and license inventory. If another license applies to a component, that component remains subject to its own license. This license does not cancel, replace, or expand a third party’s rights.
 
-## PART 3: RESTRICTIONS AND PROHIBITED USES
+The license also does not claim exclusive ownership of ideas, facts, scientific principles, mathematical formulas, algorithms as such, concepts, systems, methods of operation, or functionality merely because they are described in Covered Materials. Independent development is not prohibited by this license merely because it performs a similar function. Applicable copyright, patent, trademark, trade-secret, and contract law may protect particular rights where their requirements are met.
 
-### 3.1 AI and Machine Learning Restrictions
+## 9. Marks and branding
 
-Without prior written authorization, Customer may not use the Software or Protected Assets for:
+No trademark or branding license is granted by this document. Marks may include GreatScott™, AN.KI™, Hazeru™, Hatsuseno™, M.E.O.W.W.O.W!™, PersonaCom™, Magustelle™, WowKernel™, HSON™, and other names or logos, but only to the extent the Licensor owns or controls the relevant rights.
 
-- Training machine learning models
-- Fine-tuning AI systems
-- Embedding generation
-- Dataset creation
-- Model distillation
-- Benchmark generation
+Recipients may make factual references necessary to identify the origin of Covered Materials where applicable law permits. They may not adopt a Mark as their own project, product, company, or service name, or imply endorsement, certification, or affiliation without written permission. Use of the ™ symbol does not establish registration or prove ownership.
 
-### 3.2 Trademark Restrictions
+## 10. Commercial licensing
 
-Nothing in this License grants permission to use any trademark, logo, product name, service mark, or branding belonging to Licensor, except as expressly authorized in writing.
+Commercial Use is available only under a separate written Commercial License signed by the Licensor and the customer. This requirement applies to internal business use and testing by or on behalf of a for-profit business, not only to public sale or external distribution. A commercial agreement should specify, at minimum:
 
-Customer may not use branding in a manner likely to cause consumer confusion regarding source, sponsorship, or affiliation. Reasonable nominative reference is permitted where allowed by law.
+- the legal names of the parties and the person authorized to sign;
+- the exact Covered Materials, project, version, and release;
+- authorized use cases, users, devices, deployments, and environments;
+- whether source access, modification, distribution, embedding, SaaS/API, resale, or sublicensing is permitted;
+- fees, payment dates, taxes, renewal, and any usage-based charges;
+- territory, term, and any exclusivity;
+- support, maintenance, security updates, and service levels, if any;
+- ownership and licensing of customer integrations, improvements, and feedback;
+- confidentiality, data protection, and security responsibilities where relevant;
+- representations, warranties, indemnities, liability limits, termination, and post-termination handling; and
+- which terms prevail if the agreement conflicts with this public license.
 
-### 3.3 Derivative Works
+Unless the signed Commercial License expressly grants a right, the customer may not resell Covered Materials as a standalone product, sublicense them, redistribute source code, offer them as a hosted platform or API, or claim exclusivity. A commercial agreement overrides this public license only for the parties, materials, uses, and period it expressly identifies. It does not grant rights in third-party materials unless the relevant rights holder authorizes them.
 
-Any authorized derivative work must clearly identify itself as a modified version. Customer shall not represent modified versions as official releases of Licensor.
+Nothing in this framework promises that a particular price, license tier, remedy, or restriction will be accepted by a customer or enforced by a court. The Licensor may negotiate different commercial terms with different customers, subject to applicable law and any existing contractual obligations.
 
-Only software published directly by Licensor may be described as Official, Certified, Verified, or Reference implementations.
+## 11. Compliance requests and records
 
-### 3.4 Authenticity and Attribution
+If the Licensor has a specific, objective reason to believe that a Recipient is materially violating this license, the Licensor may send a written request describing the suspected violation and asking for reasonable information relevant to it.
 
-Customer shall preserve all copyright notices, trademark notices, patent notices, attribution notices, and license headers. Removal or alteration of ownership notices without authorization is prohibited.
+The Recipient should respond within a reasonable period. Any audit, inspection, access to systems, or disclosure of confidential business information requires a separate written agreement in advance. Any agreed review must be proportionate, limited to information reasonably necessary to assess the identified concern, conducted with reasonable notice, and designed to minimize disruption and protect confidential information. The Licensor has no automatic right under this license to enter premises, access systems, inspect private records, or demand unrestricted audits.
 
-The Software may include digital signatures, cryptographic hashes, watermarks, or other authenticity mechanisms. Circumvention of such mechanisms is prohibited.
+Each party should preserve relevant records where reasonably necessary to address a specific, good-faith compliance dispute, subject to applicable law and confidentiality duties.
 
----
+## 12. Disclaimer of warranties and limitation of liability
 
-## PART 4: COMPLIANCE AND OVERSIGHT
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, COVERED MATERIALS ARE PROVIDED “AS IS” AND “AS AVAILABLE,” WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING TITLE, NON-INFRINGEMENT, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, SECURITY, OR CONTINUOUS AVAILABILITY.
 
-### 4.1 Audit Rights
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSOR WILL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR FOR LOSS OF DATA, PROFITS, GOODWILL, REVENUE, OR BUSINESS INTERRUPTION ARISING OUT OF OR RELATED TO THE COVERED MATERIALS OR THIS LICENSE.
 
-Licensor may request reasonable written evidence demonstrating compliance. If objective evidence suggests a material violation, Licensor may request a compliance audit upon prior written notice.
+Nothing in this section excludes or limits liability that applicable law does not permit to be excluded or limited. These provisions may not be enforceable in every situation, particularly where mandatory consumer-protection or other non-waivable law applies.
 
-Audits shall:
-- Occur during normal business hours
-- Minimize disruption
-- Protect Customer confidential information
-- Remain limited to License compliance
+## 13. Term, breach, and termination
 
-Licensor shall bear audit costs unless a material violation is discovered.
+The public license remains effective for a Recipient while that Recipient complies with its terms and applicable law.
 
-### 4.2 Notice of Breach
+If a Recipient materially breaches this license, the permissions granted to that Recipient terminate to the extent permitted by law. Where the breach is reasonably capable of cure, the Licensor may give written notice describing the breach and allow 30 days to cure it. The Licensor is not required to provide a cure period where immediate action is reasonably necessary to address ongoing unauthorized Commercial Use, infringement, misuse of Marks, disclosure of protected confidential information, or another matter for which immediate relief is legally available.
 
-Except where immediate termination is authorized, Licensor shall provide written notice describing the alleged material breach. Customer shall have thirty (30) days to cure the breach unless it cannot reasonably be cured.
+After termination, the Recipient must stop activities that are no longer authorized and, where legally required, stop distributing or using copies for which the permission has ended. Termination does not automatically transfer ownership of Recipient-created material to the Licensor. Rights, remedies, reinstatement, and survival are subject to applicable law and any separate signed agreement.
 
-### 4.3 Infringement Notification
+## 14. Future versions, assignment, and succession
 
-If Customer becomes aware of unauthorized copying, trademark infringement, or misuse of the Software, Customer shall promptly notify Licensor.
+The Licensor may publish a revised version of this license for future releases. A revised version applies only when a project or release expressly adopts it. A change does not retroactively remove permissions validly granted for earlier versions under an earlier license.
 
-### 4.4 Security Research
+The Licensor may transfer rights or licensing authority to a successor, trust, foundation, or other rights-holding entity only through a legally valid assignment or other instrument. Any transfer is subject to applicable law and existing grants. Death or incapacity does not, by itself, expand or cancel rights already granted. The Licensor should align any succession plan with separate estate-planning and entity documents; this license alone should not be relied on to determine inheritance or future licensing authority.
 
-Nothing in this License prohibits lawful security research performed solely for defensive purposes where permitted by law. Public disclosure of vulnerabilities should be reported privately to Licensor when reasonably practical.
+## 15. Governing law and general terms
 
----
+This license is intended to be governed by the laws of the State of Tennessee and applicable federal law of the United States, subject to any mandatory law that applies. No exclusive venue, arbitration requirement, fee-shifting rule, or waiver of a jury trial is created by this document.
 
-## PART 5: OWNERSHIP AND SUCCESSION
+If a provision is found unenforceable, it should be enforced to the maximum extent legally permitted or severed only to the extent necessary, and the remaining provisions should continue to apply where possible. A failure to enforce a provision is not a waiver unless the waiver is in writing. This license is the complete public license for the Covered Materials identified by the applicable project notice. Any amendment to a Recipient’s grant must be made in a manner permitted by law.
 
-### 5.1 Ownership
+If the license text is translated, the English version controls to the extent permitted by law, unless the Licensor expressly designates another version as controlling in writing.
 
-Licensor retains all ownership rights in the Software, including copyrights, trademarks, patents, and trade secrets. No ownership interest, patent assignment, trademark assignment, copyright assignment, or transfer of goodwill is granted.
+## 16. Required project notice
 
-### 5.2 Succession
+Each covered repository or distribution should include a notice substantially in this form:
 
-Upon Licensor's death or legal incapacity, licensing authority shall pass to Licensor's designated successor in accordance with applicable estate planning documents and governing law. This clause does not supersede applicable probate or inheritance law.
+> **Project:** [project name]  
+> **Version/release:** [version or release identifier]  
+> **Rights holder/licensor:** [legal name or rights-holding entity]  
+> **Covered Materials:** [repository, directories, files, or assets covered; identify exclusions]  
+> **License:** GreatScott Ecosystem Public Noncommercial License, Version 5.0 (RC2; publication version/date to be finalized)  
+> **Canonical license URL:** [insert stable URL]  
+> **Commercial licensing contact:** Pending — do not publish this notice as complete until a monitored contact method is supplied  
+> **Third-party notices:** [path to THIRD-PARTY-NOTICES file or equivalent]  
+>
+> Copyright © [year] [rights holder]. All rights reserved except for the permissions expressly granted by the applicable license.
+>
+> Public use is limited to Noncommercial Purposes under the license terms. Commercial Use requires a separate written Commercial License. This is a source-available license with noncommercial restrictions; it is not an OSI-approved open-source license. Third-party components may be governed by separate licenses.
 
-### 5.3 Assignment
+## 17. Pre-publication checklist — not license terms
 
-Customer may not assign, transfer, sublicense, merge, or otherwise convey this License without prior written consent. Any attempted assignment in violation is void. The rights under this License are personal to the licensed Customer and do not automatically transfer through corporate transactions unless approved in writing.
+Before publication, the Licensor should:
+- confirm the correct legal rights holder for each project and file;
+- identify all materials covered by the master license and clearly mark exclusions;
+- inventory dependencies, generated assets, fonts, models, datasets, media, and other third-party materials;
+- review all previous releases and existing MIT, Apache-2.0, GPL, CC BY-NC, contributor, or other grants; do not assume a new license revokes an earlier grant;
+- choose and test a canonical URL and consistent versioning policy;
+- decide whether to accept contributions and, if so, publish contribution terms before accepting them;
+- maintain evidence of authorship, provenance, release dates, and ownership where reasonably possible;
+- confirm ownership and clearance for each Mark and avoid implying that ™ means registered;
+- provide a monitored commercial licensing contact (currently Pending); and
+- obtain Tennessee legal review of scope, enforceability, patent treatment, AI restrictions, harmful-use restrictions, liability language, and succession planning.
 
 ---
-
-## PART 6: WARRANTIES AND LIABILITY
-
-### 6.1 Disclaimer of Warranties
 
-THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+**End of Release Candidate 2.** The owner’s stated policy decisions have been incorporated. This candidate is not publication-approved: confirm actual rights, audit prior grants and third-party materials, complete each project notice, choose a canonical license URL, and replace “Pending” with a monitored commercial licensing contact. This document is not legal advice.
 
-### 6.2 Limitation of Liability
 
-IN NO EVENT SHALL LICENSOR BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING LOST PROFITS OR DATA, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
-
-### 6.3 Force Majeure
-
-Neither party shall be liable for delays caused by events beyond reasonable control, including natural disasters, war, terrorism, labor disputes, governmental actions, power failures, or widespread network outages.
-
 ---
-
-## PART 7: SURVIVAL AND GENERAL TERMS
 
-### 7.1 Survival
+# OWNER DECISION REGISTER — RC2 IMPLEMENTATION RECORD
+*Administrative record, not part of the public license grant. Keep this in the project administration folder; do not append it to the public LICENSE file unless you intentionally want to publish it.*
 
-The following provisions survive termination:
-- Ownership
-- Trademark Restrictions
-- Liability Limitations
-- Audit Records
-- Payment Obligations
-- Reserved Rights
-- Governing Law
-- Confidentiality
+## Decisions incorporated
 
-### 7.2 Governing Law
+### 1. Licensor ownership — personal ownership selected, subject to confirmation
+**Decision:** Darrell Lee Stiltner is the intended personal licensor, but only for rights he actually owns or controls and is legally authorized to license.
 
-This License shall be governed by and construed in accordance with the laws of [JURISDICTION], without regard to its conflict of law provisions.
+**Consequence:** This does not establish ownership of every GreatScott™ ecosystem project, name, contribution, file, dependency, model, dataset, or media asset. Confirm authorship, assignments, contributor rights, third-party licenses, and any earlier grants before marking any item as Covered Materials. Do not name a rights holder in a project notice without confirming that status.
 
-### 7.3 Severability
+### 2. Business-use policy — strict commercial licensing
+**Decision:** Commercial Use includes internal business use, deployment, integration, testing, and operational use by or on behalf of a for-profit business. A signed Commercial License is required before such use begins.
 
-If any provision is held invalid, illegal, or unenforceable, the remaining provisions remain in full force. Invalid provisions shall be interpreted or modified only to the minimum extent necessary to make them enforceable.
+**Consequence:** This is intentionally stricter than a policy that permits free business evaluation or testing. It may make ordinary workplace experimentation, vendor evaluation, proof-of-concept work, and internal R&D commercial uses requiring permission. The definition may create borderline questions for mixed-purpose, nonprofit, academic, public-sector, grant-funded, and sponsored work; the license directs uncertain users to obtain written clarification or a signed license. This policy is not a guarantee that every application or restriction will be enforceable.
 
-### 7.4 No Waiver
+### 3. AI restriction — keep
+**Decision:** Retain Section 6 as drafted, including its limits to rights the Licensor owns or controls and activities that applicable law permits the Licensor to restrict.
 
-Failure to enforce any provision shall not constitute a waiver. Any waiver must be in writing and signed by Licensor.
+**Consequence:** The license does not authorize specified training, fine-tuning, distillation, embedding/dataset creation, or model-development evaluation under the public grant. The clause expressly does not claim ownership of model outputs or control over independently created or legally exempt material. Its application may depend on the particular material, process, rights, and law.
 
-### 7.5 Entire Agreement
+### 4. Harmful-use restriction — keep
+**Decision:** Retain the restriction on use of Covered Materials to develop or operate weapons, autonomous targeting systems, harmful surveillance, or systems intended to cause physical injury, subject to the stated rights and legal limits.
 
-This License constitutes the complete agreement regarding the Software. No heading, example, explanatory note, marketing statement, or descriptive text modifies the legal effect of the operative provisions unless expressly stated.
+**Consequence:** This expresses the intended restriction but does not create rights the Licensor does not possess, override legal exceptions, or guarantee enforceability. Keep the limiting language in the license.
 
-### 7.6 Version Control
+### 5. Project coverage — one master license plus project notices
+**Decision:** Use one master license. Each project/release notice must identify the project and version, covered repository/files/materials, exclusions, rights holder after confirmation, canonical license URL, third-party notices, and commercial contact.
 
-Each released version is permanently identified by its version number and publication date. Customers remain governed by the version under which rights were granted unless both parties agree in writing to adopt a newer version.
+**Consequence:** This simplifies common terms but requires accurate project-by-project scope notices. Inclusion in the GreatScott™ ecosystem or a repository does not by itself mean every file is covered. Third-party components and earlier grants remain subject to their own terms.
 
-### 7.7 Language
+### 6. Commercial licensing contact — Pending
+**Decision:** Leave the contact field marked “Pending” in this working candidate.
 
-The English version of this License is controlling. Translations are provided for convenience; if a conflict exists, the English version governs.
+**Consequence:** RC2 is not ready for public release with the contact unresolved. Before publication, supply a monitored email address, web form, or other intended public contact channel and update every project notice. Do not invent a contact or publish a private address unintentionally.
 
-### 7.8 Electronic Agreement
+## Remaining publication gates
 
-Electronic acceptance and signatures shall have the same force and effect as written documents where recognized by applicable law.
+- [ ] Confirm rights ownership/licensing authority for every proposed Covered Material.
+- [ ] Audit prior public releases and existing licenses; do not claim this version revokes valid earlier grants.
+- [ ] Complete each project's covered-material and exclusion notice, including third-party notices.
+- [ ] Select and test a stable canonical license URL.
+- [ ] Replace the Pending commercial contact with a monitored channel.
+- [ ] Confirm whether contributions will be accepted and publish contributor terms before accepting them.
+- [ ] Obtain legal review when available, especially for the noncommercial boundary, AI and harmful-use restrictions, ownership, and liability terms. This remains recommended, not represented as completed.
 
-### 7.9 Cumulative Remedies
+The GreatScott™ Ecosystem Public Noncommercial License governs all noncommercial use of Covered Materials.
+Commercial use is not permitted under this public license.
 
-All rights and remedies provided by this License are cumulative. The exercise of one remedy does not prevent pursuing any additional remedy available under law.
-
-### 7.10 Good Faith
-
-The parties agree to exercise rights and perform obligations under this License in good faith and in a commercially reasonable manner.
-
----## License Misapplication and Accidental Sharing
-
-Customer shall not publish, distribute, or otherwise release the Software or
-Protected Assets under any license other than those expressly permitted by
-this Agreement.
-
-Accidental misapplication of a different license (e.g., GPL, MIT, BSD) shall
-be treated as a material breach unless cured within thirty (30) days of
-written notice from Licensor.
-
-Cure requires:
-- Withdrawal of the misapplied license version
-- Replacement with the correct license headers
-- Public correction notice where reasonably practical
-
-Failure to cure within the specified period shall result in immediate
-termination of rights under this License.
-
-
-## VERSION HISTORY
-
-| Version | Date | Changes |
-|---|---|---|
-| v3.1 | [729/26] | Consolidated and reorganized. Clarified license hierarchy, audit rights, trademark policy, AI restrictions, and survival provisions. |
-
----
-
-**END OF LICENSE**
-
-
----
+A separate written Commercial License must be obtained from the Licensor before any business, monetized, or revenue‑generating use of GreatScott™ ecosystem assets. This includes internal business deployment, integration, testing, or use on behalf of a for‑profit entity.
 
-This restructured document eliminates duplicate sections, groups related provisions into logical parts, and presents a clear hierarchy between public and commercial licenses. It's now suitable for enterprise and legal review while preserving the protections developed.
+No oral statements, demonstrations, or repository access grant commercial rights. Only a signed Commercial License provides authorization for commercial use.
