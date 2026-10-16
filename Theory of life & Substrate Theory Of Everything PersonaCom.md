@@ -269,8 +269,8 @@ The TOE image didn’t create it — it formalized, universalized, and protected
     }
   }
 }
-Project: [project name]
-Version/release: [version or release identifier]
+Project: [Personacom,Magustelle,VERSE, AN.KI, Hazeru]
+Version/release: [Version one]
 Rights holder/licensor: Darrell Lee Stiltner (confirmed ownership only)
 Covered Materials: [repository, directories, files, or assets covered; identify exclusions]
 License: GreatScott™ Ecosystem Public Noncommercial License, Version 5.0 (RC2; publication version/date to be finalized)
@@ -278,7 +278,8 @@ Canonical license URL: [insert stable URL]
 Commercial licensing contact: Pending — do not publish this notice as complete until a monitored contact method is supplied
 Third-party notices: [path to THIRD-PARTY-NOTICES file or equivalent]
 
-Copyright © [year] [rights holder].  
+Copyright © [2026] [darrell lee stiltner ].  © 2026 Analisjohnsmith
+
 All rights reserved except for the permissions expressly granted by the applicable license.  
 Public use is limited to Noncommercial Purposes under the license terms.  
 Commercial Use requires a separate written Commercial License.  
