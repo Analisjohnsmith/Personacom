@@ -269,7 +269,7 @@ The TOE image didn’t create it — it formalized, universalized, and protected
     }
   }
 }
-Project: [Personacom,Magustelle,VERSE, AN.KI, Hazeru]
+Project: [Personacom,Magustelle,VERSE, AN.KI, Hazeru,Hatsuseno]
 Version/release: [Version one]
 Rights holder/licensor: Darrell Lee Stiltner (confirmed ownership only)
 Covered Materials: [repository, directories, files, or assets covered; identify exclusions]
