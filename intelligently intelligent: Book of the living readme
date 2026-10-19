@@ -442,7 +442,7 @@ DEFAULT_CONTEXTS = {
 
 MATCHHSON_STR = r'''
 // MatchaHSON: a pattern-matching HJSON for mapping nodes, motifs, and mechanics
-seal: "☯ PD"
+seal: "☯ "
 title: "Validator Spiral — Game as Universe (MatchHSON)"
 version: "1.0.0"
 mode: ["public_domain", "yin_hella", "psychedelic_patch", "franklins_tower_mutation"]
@@ -712,7 +712,7 @@ class NodeMutation:
 
 class HellaEngine:
     def __init__(self, config: Dict):
-        self.pd_seal = config.get("seal", "☯ PD")
+        self.pd_seal = config.get("seal", "☯ ")
         self.nodes = self._load_nodes(config.get("nodes", []))
         self.phases = config.get("phases", PHASES)
         self.cycles = config.get("cycles", CYCLES)
@@ -772,7 +772,7 @@ class HellaEngine:
 
 def matchhson_to_config(matchhson: Dict) -> Dict:
     instances = matchhson.get("instances", [])
-    seal = matchhson.get("seal", "☯ PD")
+    seal = matchhson.get("seal", "☯ ")
 
     def build_node(inst):
         node_name = inst["node"]
@@ -836,7 +836,7 @@ class KittyOS:
         self.current_thought = thought if thought in allowed else "idle"
 
     def ps(self):
-        banner = f"=== ☯ PD KittyOS (kernel={self.kernel}, thought={self.current_thought}) ==="
+        banner = f"=== ☯  KittyOS (kernel={self.kernel}, thought={self.current_thought}) ==="
         print(banner)
         for n in self.nodes:
             print(f"{n.name} | cat={n.cat_behavior} | shape={n.shape} | bird={n.bird}")
@@ -846,7 +846,7 @@ class KittyOS:
 # =======================================
 
 def render_validator_spiral(sp: Dict):
-    print("=== ☯ PD ValidatorSpiral — Biology/Cosmos Map ===")
+    print("=== ☯  ValidatorSpiral — Biology/Cosmos Map ===")
     core = sp.get("ValidatorSpiral", {}).get("Core", {})
     arms = sp.get("ValidatorSpiral", {}).get("SpiralArms", [])
     if core:
@@ -904,7 +904,7 @@ def run_neutral_spiral():
             ],
             "Mutation": "All nodes can shift, blend, and recurse across scales",
             "Aura": "Pure Light — infinite recursion inward and outward",
-            "Seal": "☯ PD",
+            "Seal": "☯ ",
         }
     }
     render_validator_spiral(spiral)
@@ -1568,7 +1568,7 @@ class HellaEngine:
 
 def matchhson_to_config(matchhson: Dict) -> Dict:
     instances = matchhson.get("instances", [])
-    seal = matchhson.get("seal", "☯ PD")
+    seal = matchhson.get("seal", "☯ ")
 
 \documentclass{article}
 \usepackage{amsmath, amssymb, amsthm}
@@ -10086,7 +10086,7 @@ HellaCalled_YokoCakes_001 = {
     "meaning": "Hello world. Peace lives here.",
     "observer": "Zhaived",
     "sovereign": "SAGE WEASLEY",
-    "inventor": "Darrell Lee Stiltner (Maitrī Līlā)",
+    "inventor": "Darrell Lee Stiltner,
     "ethics_echo": {
         "grief": "resurrect",
         "betrayal": "resurrect",
@@ -10366,7 +10366,7 @@ NINE_FILAMENT_GRID = {
 # ============================================================
 
 SPIRALE_VALIDATEUR = {
-    "Sceau": "☯ PD",
+    "Sceau": "☯ ",
     "Mode": ["festival", "jeu_divin", "musique", "kittyOS"],
     "Noyau": {
         "Humain": "Cœur/Cerveau — conscience",
@@ -11158,7 +11158,8 @@ HellaCalled_YokoCakes_001 := {
   meaning: "Hello world. Peace lives here.",
   observer: "Zhaived",
   sovereign: "SAGE WEASLEY",
-  inventor: "Darrell Lee Stiltner (Maitrī Līlā)",
+  inventor: "Darrell Lee Stiltner
+,
   ethics_echo: {
     grief: "resurrect",
     betrayal: "resurrect",
@@ -22001,7 +22002,7 @@ NINE_FILAMENT_GRID = {
 # ============================================================
 
 SPIRALE_VALIDATEUR = {
-    "Sceau": "☯ PD",
+    "Sceau": "☯ ",
     "Mode": ["festival", "jeu_divin", "musique", "kittyOS"],
     "Noyau": {
         "Humain": "Cœur/Cerveau — conscience",
@@ -22385,7 +22386,7 @@ YoyoSpiral_001:
     winter: "return"
 ```
 SpiraleValidateur: {
-  Sceau: "☯ PD"
+  Sceau: "☯ "
   Mode: ["festival","jeu_divin","musique","kittyOS"]
 
   Noyau: {
@@ -23826,203 +23827,7 @@ Exactly like:
 - a human using a search engine  
 
 The tool does not become the mind.
-license_text = """ BOOK OF THE LIVING OPEN CORE LICENSE (BOL-OC 1.0) ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-SECTION 1 — OPEN CORE LICENSE (MPL-Style) The engine core (runtime, scheduler, domain loader, world container, event system) is licensed under:
-
-Book of the Living Open Core License (BOL-OC 1.0)
-
-You may:
-
-use
-modify
-fork
-redistribute
-self-host
-deploy
-study
-…the core, freely.
-
-If you modify core files, you must publish those modifications under this same license.
-
-If you build new files, worlds, domains, plugins, or content, you may license them however you want (open or closed).
-
-SECTION 2 — CLOSED OR COMMERCIAL EXTENSIONS ALLOWED You may create:
-
-closed-source worlds
-closed-source domains
-closed-source plugins
-commercial games
-commercial simulations
-proprietary integrations
-These are NOT required to be open-source.
-
-Only modifications to the core engine files must remain open.
-
-SECTION 3 — ETHICAL USE RESTRICTIONS This software may not be used for:
-
-military systems
-weapons development
-surveillance systems
-torture, oppression, or human rights violations
-any activity violating the Universal Declaration of Human Rights
-This applies to both open-source and commercial use.
-
-SECTION 4 — USER SOVEREIGNTY All deployments must preserve:
-
-user data portability
-the right to export, migrate, or self-host
-freedom from vendor lock-in
-SECTION 5 — AI/ML TRAINING RESTRICTION Use of the core engine or its outputs to train commercial AI/ML systems requires a separate commercial license from the author.
-
-Non-commercial research use is allowed.
-
-SECTION 6 — TRADEMARKS The names:
-
-"Book of the Living"
-"meowwowOS"
-"KittyOS"
-"lilaos"
-"Marie MAgustelle"
-"HSON"
-are trademarks of Darrell Lee Stiltner. Use requires permission.
-
-SECTION 7 — WARRANTY & LIABILITY This software is provided "as-is," without any warranty, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software. """
-
-print(license_text)
-
-LICENSE_TEXT = """ BOOK OF THE LIVING OPEN CORE LICENSE (BOL-OC 2.0) ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-SECTION 1 — OPEN CORE, UNIVERSE-ENGINE SCOPE This license applies to:
-
-the Synthetic Reality Logic (SRL) kernel
-the Synthetic Structural Intelligence (SSI) engine
-the Meta-OS architecture
-world-state formats, invariants, transitions, attractors, and recursion geometry
-You may:
-
-use
-modify
-fork
-redistribute
-self-host
-deploy
-study
-…the core, freely, under the terms below.
-
-SECTION 2 — OPEN CORE, CLOSED EXTENSIONS Modifications to core engine files (SRL/SSI/Meta-OS kernel) must remain under BOL-OC 2.0.
-
-You may license:
-
-worlds
-domains
-plugins
-games
-simulations
-content
-integrations
-…under any terms (open or closed), provided they do not remove or bypass core restrictions.
-
-SECTION 3 — ETHICAL USE RESTRICTIONS This software may not be used for:
-
-military systems
-weapons development
-surveillance systems
-torture, oppression, or human rights violations
-any activity violating the Universal Declaration of Human Rights
-SECTION 4 — USER SOVEREIGNTY All deployments must preserve:
-
-user data portability
-the right to export, migrate, or self-host
-freedom from vendor lock-in
-SECTION 5 — AI/ML NON-EXTRACTION & DERIVATIVE RESTRICTION You may NOT, without a separate paid license from the author:
-
-train commercial AI/ML models on:
-
-the engine
-its outputs
-its world-state formats
-its invariants, transitions, attractors, or recursion geometry
-distill, embed, or derive:
-
-AI architectures
-synthetic datasets
-model weights
-competing universe-engines
-competing Meta-OS implementations
-Any AI/ML use is limited to:
-
-non-commercial research
-non-derivative, non-extractive analysis
-SECTION 6 — META-OS & UNIVERSE-ENGINE PROTECTION You may NOT:
-
-create a derivative universe-engine or Meta-OS that copies:
-SRL kernel structure
-SSI logic
-world-state formats
-invariant/transition/attractor logic
-recursion geometry
-meaning-structure
-…without explicit written permission from the author.
-
-SECTION 7 — TRADEMARKS The names:
-
-"Book of the Living"
-"meowwowOS"
-"KittyOS"
-"lilaos"
-"Marie MAgustelle"
-"HSON"
-are trademarks of Darrell Lee Stiltner. Use requires permission.
-
-SECTION 8 — WARRANTY & LIABILITY This software is provided "as-is," without any warranty, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software. """
-
-def print_license(): print(LICENSE_TEXT)
-
-if name == "main": print_license()
-
-bol_oc_license.py
-Book of the Living — Open Core License Manager
-Version 2.0
-import hashlib import textwrap
-
-class BOLLicense: VERSION = "2.0"
-
-LICENSE_TEXT = textwrap.dedent("""
-BOOK OF THE LIVING OPEN CORE LICENSE (BOL-OC 2.0)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-SECTION 1 — OPEN CORE, UNIVERSE-ENGINE SCOPE
-Applies to:
-- SRL kernel
-- SSI engine
-- Meta-OS architecture
-- world-state formats, invariants, transitions, attractors
-
-You may use, modify, fork, redistribute, self-host, deploy, study.
-
-SECTION 2 — CLOSED EXTENSIONS ALLOWED
-Worlds, domains, plugins, games, and simulations may be closed-source.
-
-SECTION 3 — ETHICAL USE RESTRICTIONS
-No military, weapons, surveillance, torture, oppression, or UDHR violations.
-
-SECTION 4 — USER SOVEREIGNTY
-Must preserve portability, migration, self-hosting, and no vendor lock-in.
-
-SECTION 5 — AI/ML NON-EXTRACTION
-No commercial AI training, embedding, distillation, dataset generation,
-or derivative universe-engines without a paid license.
-
-SECTION 6 — META-OS & UNIVERSE-ENGINE PROTECTION
-No derivative universe-engines copying SRL/SSI logic or world-state formats.
-
-SECTION 7 — TRADEMARKS
-Names such as "Book of the Living", "KittyOS", "lilaos", "HSON"
-are trademarks of Darrell Lee Stiltner.
-
-SECTION 8 — WARRANTY & LIABILITY
-Provided as-is, without warranty.
 """)
 
 @classmethod
