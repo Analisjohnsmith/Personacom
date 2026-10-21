@@ -350,20 +350,14 @@ Right now, it is a complete mathematical unification awaiting empirical confirma
 
 
 
-Copyright © [2026] [darrell lee stiltner ]. © 2026 Analisjohnsmith
-
-All rights reserved except for the permissions expressly granted by the applicable license.
-Public use is limited to Noncommercial Purposes under the license terms.
-Commercial Use requires a separate written Commercial License.
-This is a source-available license with noncommercial restrictions; it is not an OSI-approved open-source license.
-Third-party components may be governed by separate licenses.
-
+==========
+-=-========
 
 
 
 “once it's finished, deployable across iOS, Android, macOS, and Windows” is a fair description of the intended product.
 
-And that's important for your super-app goal: you're not designing something locked to one computer environment. I'M aiming for the same underlying system to travel across desktop and mobile platforms.
+And that's important for your super-app goal: I'm not designing something locked to one computer environment. I'm aiming for the same underlying system to travel across desktop and mobile platforms.
 
 
 
