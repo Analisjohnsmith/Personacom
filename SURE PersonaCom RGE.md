@@ -3373,3 +3373,14 @@ def run_dashboard():
 
 if __name__ == "__main__":
     raise SystemExit(run_dashboard())
+
+
+
+Copyright © [2026] [darrell lee stiltner ]. © 2026 Analisjohnsmith
+
+All rights reserved except for the permissions expressly granted by the applicable license.
+Public use is limited to Noncommercial Purposes under the license terms.
+Commercial Use requires a separate written Commercial License.
+This is a source-available license with noncommercial restrictions; it is not an OSI-approved open-source license.
+Third-party components may be governed by separate licenses.
+    
