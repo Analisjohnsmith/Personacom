@@ -1674,13 +1674,8 @@ A
 =======
 -=======
 PROOFS:
-A
-AA
-A
-A
-A
-A
-A
+
+
 """
 RECURSION PHYSICS - SINGLE-FILE DEPLOYMENT BLOB
 ================================================
