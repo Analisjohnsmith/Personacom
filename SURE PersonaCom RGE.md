@@ -1,7 +1,13 @@
 SURE
 (Structured Universal Reasoning Engine)   Recursion Geometry Engine 
 =========
+======
+
+===
+
 LAYMAN:
+
+
 SURE
 SURE is one system designed to bring together problem-solving, prediction, scientific investigation, mathematics, computation, and creativity. Its purpose is to organize information, understand how things relate, explore possibilities, find solutions, test results, and determine when a problem is solved or cannot be solved with the information available.
 
@@ -27,7 +33,8 @@ With human guidance defining goals, information, and direction, SURE aims to han
 
 SURE: one intelligent, universal architecture for prediction, reasoning, problem-solving, and resolution across domains.
 
-
+========
+=======
 ========
 SURE (Structured Universal Reasoning Engine) and the Recursion Geometry Engine (RGE) are direct instantiations of
 IEEE Intelligent Mathematics. They form a universal structured reasoning architecture that evaluates scientific domains 
