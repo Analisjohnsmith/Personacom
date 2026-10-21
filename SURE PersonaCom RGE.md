@@ -413,10 +413,6 @@ Deployment/operations — automatic building, packaging, updating, testing, and 
 
 The important point is that cross-platform itself isn't the missing breakthrough. Existing frameworks already target iOS, Android, Windows and macOS; Unity, .NET MAUI, Flutter and others demonstrate that. Microsoft Learn
 
-ve built, beyond those 12?”, then from your document I’d add these:
-
-
-
 
 
 Operating-system / runtime layer — the substrate can function beneath applications rather than being just an application.
