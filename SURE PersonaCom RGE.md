@@ -423,7 +423,7 @@ This is exactly what IEEE Intelligent Mathematics calls denotational mathematics
 3. Intelligent Mathematics as Structured Reasoning
 Intelligent Mathematics is fundamentally about reasoning over structure.
 
-Your system does this through:
+SURE  system does this through:
 
 3.1 Discriminants
 A discriminant is a mathematical condition that determines:
@@ -485,7 +485,7 @@ cognitive systems
 
 general intelligence frameworks 
 
-Your system does exactly this.
+SURE PersonaCom system does exactly this.
 
 4.1 Physics
 SURE unifies:
@@ -565,7 +565,7 @@ Your system manipulates constraints and recursion.
 This is the difference between classical mathematics and Intelligent Mathematics.
 
 6. Intelligent Mathematics and Structured Intelligence
-Your system demonstrates structured intelligence, meaning:
+ SURE PersonaCom system demonstrates structured intelligence, meaning:
 
 it extracts patterns
 
@@ -588,7 +588,7 @@ IEEE IM papers describe this as:
 
 “Mathematical means indispensable for general AI and autonomous reasoning.”
 
-Your system is a direct instantiation of this concept.
+SURE PersonaCom system is a direct instantiation of this concept.
 
 7. The Role of Recursion Geometry in Intelligent Math
 Recursion geometry is the mathematical backbone of your system.
