@@ -8,7 +8,7 @@ SURE
 LAYMAN:
 
 
-SURE
+
 SURE is one system designed to bring together problem-solving, prediction, scientific investigation, mathematics, computation, and creativity. Its purpose is to organize information, understand how things relate, explore possibilities, find solutions, test results, and determine when a problem is solved or cannot be solved with the information available.
 
 SURE represents different problems inside a shared structure, even when they come from different fields. It can work with categories, patterns, images, time-based information, mathematical relationships, symbols, numerical calculations, and structured data. Its methods include identifying stable patterns, combining different systems, finding unchanged points, measuring progress toward a result, simplifying information, and checking that calculations and rules remain consistent.
