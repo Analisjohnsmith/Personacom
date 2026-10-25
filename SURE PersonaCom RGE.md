@@ -3663,6 +3663,7 @@ if __name__ == "__main__":
     raise SystemExit(run_dashboard())
 
 
+Project: [Personacom,Magustelle,VERSE, AN.KI, Hazeru,Hatsuseno] Version/release: [Version one] Rights holder/licensor: Darrell Lee Stiltner (confirmed ownership only) Covered Materials: [repository, directories, files, or assets covered; identify exclusions] License: GreatScott™ Ecosystem Public Noncommercial License, Version 5.0 (RC2; publication version/date to be finalized) Canonical license URL: [insert stable URL] Commercial licensing contact: Pending — do not publish this notice as complete until a monitored contact method is supplied Third-party notices: [path to THIRD-PARTY-NOTICES file or equivalent]
 
 Copyright © [2026] [darrell lee stiltner ]. © 2026 Analisjohnsmith
 
@@ -3671,7 +3672,6 @@ Public use is limited to Noncommercial Purposes under the license terms.
 Commercial Use requires a separate written Commercial License.
 This is a source-available license with noncommercial restrictions; it is not an OSI-approved open-source license.
 Third-party components may be governed by separate licenses.
-
 
 
 
