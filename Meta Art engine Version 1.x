@@ -1,3 +1,386 @@
+META-ART Engine v1.14 is partially validated and partially empirical. In layman’s terms, parts of it are supported by real-world observations, 
+and other parts are supported by computational testing.
+
+Its gravitational-lensing component uses actual astronomical measurements and tests how well mathematical models explain them. The model that includes 
+external shear fits the observations much better than the simpler model, 
+but it still does not match the measurements closely enough to count as a complete physical validation.
+
+The broader META-ART system brings together different domains under one computational framework. Each domain can have its own way of being tested, so validating
+
+one part does not automatically validate the entire system. The six software tests passing shows that the tested functions behave as expected; it does not prove 
+that every part of the system is scientifically correct.
+
+Put simply: META-ART is a working cross-domain system with some empirical grounding and some computational validation. Its overall validity depends on what each 
+component does and how well the connections between components work. Full validation of the entire framework may be difficult, because there is no single test that can 
+establish the validity of every domain and their interactions at once.
+
+
+============
+
+# META-ART ENGINE v1.14 — MONOLITHIC TEXT EXPORT
+# Concatenation of every human-readable .py, .md, and .json file in the uploaded ZIP.
+# Original relative filenames and contents are preserved; separator headers are added.
+
+====================================================================================================
+FILE: meta_art_engine_v1_14/results/observed_astrometry_report.json
+====================================================================================================
+{
+  "benchmark": "Q2237+0305 / Einstein Cross",
+  "data_type": "published observed astrometry",
+  "units": "arcseconds relative to quasar image A",
+  "image_positions": {
+    "A": {
+      "ra_arcsec": 0.0,
+      "dec_arcsec": 0.0,
+      "sigma_arcsec": 0.0015
+    },
+    "B": {
+      "ra_arcsec": 0.671,
+      "dec_arcsec": 1.697,
+      "sigma_arcsec": 0.0015
+    },
+    "C": {
+      "ra_arcsec": -0.634,
+      "dec_arcsec": 1.21,
+      "sigma_arcsec": 0.0015
+    },
+    "D": {
+      "ra_arcsec": 0.866,
+      "dec_arcsec": 0.528,
+      "sigma_arcsec": 0.0015
+    }
+  },
+  "lens_galaxy_center": {
+    "ra_arcsec": 0.081,
+    "dec_arcsec": 0.937,
+    "sigma_arcsec": 0.01
+  },
+  "source": "Mihov, B. M. (2001), A&A 370, 43\u201352, Table 1; observed UV image positions and galaxy center.",
+  "source_url": "https://www.aanda.org/articles/aa/pdf/2001/16/aah1099.pdf",
+  "status": "observational benchmark dataset plotted; no lens model fitted yet",
+  "limitations": [
+    "Astrometry is a published table, not re-measured from raw HST pixels.",
+    "This version does not claim a successful physical model fit.",
+    "Next stage must fit a galaxy-scale lens model and report residuals against measurement uncertainties."
+  ]
+}
+
+====================================================================================================
+FILE: meta_art_engine_v1_14/results/run_output.json
+====================================================================================================
+{
+  "benchmark": "Q2237+0305 / Einstein Cross",
+  "data": "Published image astrometry from Mihov (2001), A&A 370, 43-52, Table 1; positions relative to image A.",
+  "lens_center_arcsec": [
+    0.081,
+    0.937
+  ],
+  "image_uncertainty_arcsec_each_coordinate": 0.0015,
+  "models": [
+    {
+      "model": "SIS_only",
+      "parameters": {
+        "source_x_arcsec": 0.1,
+        "source_y_arcsec": 0.1,
+        "einstein_radius_arcsec": 0.8828859796406688
+      },
+      "source_plane_weighted_chi_square": 7564.9802472235,
+      "residual_dof_approx": 7,
+      "rms_source_plane_scatter_arcsec_per_coordinate": 0.04612646414512616,
+      "largest_image_source_plane_offset_arcsec": 0.07802685405524812,
+      "success": true,
+      "note": "Source-plane consistency fit; approximate diagnostic only. Not a full image-plane likelihood; source-plane weighting can bias lens fits near caustics."
+    },
+    {
+      "model": "SIS+external_shear",
+      "parameters": {
+        "source_x_arcsec": 0.1,
+        "source_y_arcsec": 0.13367463681913927,
+        "einstein_radius_arcsec": 0.8819344177907215,
+        "shear_gamma": 0.0729661771090813,
+        "shear_angle_rad": 1.176236483760049
+      },
+      "source_plane_weighted_chi_square": 299.3589412308081,
+      "residual_dof_approx": 5,
+      "rms_source_plane_scatter_arcsec_per_coordinate": 0.009175767118947865,
+      "largest_image_source_plane_offset_arcsec": 0.016118597866571754,
+      "success": true,
+      "note": "Source-plane consistency fit; approximate diagnostic only. Not a full image-plane likelihood; source-plane weighting can bias lens fits near caustics."
+    }
+  ],
+  "interpretation": "External shear greatly improves source-plane consistency over SIS-only, but the best-fit scatter remains above the quoted astrometric uncertainty. This simple model does not adequately validate the physical system; add realistic lens-galaxy ellipticity, robust astrometry conventions, and a proper image-plane likelihood before inference.",
+  "status": "first real-observation model-fitting step completed; no discovery claim",
+  "limitations": [
+    "Published table coordinates, not re-measured raw HST pixels.",
+    "Lens center held fixed at published value.",
+    "SIS+shear is a deliberately simple model; galaxy ellipticity and other mass structure omitted.",
+    "Optimization uses source-plane scatter, not full image-plane likelihood.",
+    "No independent blind holdout; this is model fitting, not out-of-sample prediction."
+  ]
+}
+
+
+====================================================================================================
+FILE: meta_art_engine_v1_14/results/sis_shear_fit_report.json
+====================================================================================================
+{
+  "benchmark": "Q2237+0305 / Einstein Cross",
+  "data": "Published image astrometry from Mihov (2001), A&A 370, 43-52, Table 1; positions relative to image A.",
+  "lens_center_arcsec": [
+    0.081,
+    0.937
+  ],
+  "image_uncertainty_arcsec_each_coordinate": 0.0015,
+  "models": [
+    {
+      "model": "SIS_only",
+      "parameters": {
+        "source_x_arcsec": 0.1,
+        "source_y_arcsec": 0.1,
+        "einstein_radius_arcsec": 0.8828859796406688
+      },
+      "source_plane_weighted_chi_square": 7564.9802472235,
+      "residual_dof_approx": 7,
+      "rms_source_plane_scatter_arcsec_per_coordinate": 0.04612646414512616,
+      "largest_image_source_plane_offset_arcsec": 0.07802685405524812,
+      "success": true,
+      "note": "Source-plane consistency fit; approximate diagnostic only. Not a full image-plane likelihood; source-plane weighting can bias lens fits near caustics."
+    },
+    {
+      "model": "SIS+external_shear",
+      "parameters": {
+        "source_x_arcsec": 0.1,
+        "source_y_arcsec": 0.13367463681913927,
+        "einstein_radius_arcsec": 0.8819344177907215,
+        "shear_gamma": 0.0729661771090813,
+        "shear_angle_rad": 1.176236483760049
+      },
+      "source_plane_weighted_chi_square": 299.3589412308081,
+      "residual_dof_approx": 5,
+      "rms_source_plane_scatter_arcsec_per_coordinate": 0.009175767118947865,
+      "largest_image_source_plane_offset_arcsec": 0.016118597866571754,
+      "success": true,
+      "note": "Source-plane consistency fit; approximate diagnostic only. Not a full image-plane likelihood; source-plane weighting can bias lens fits near caustics."
+    }
+  ],
+  "interpretation": "External shear greatly improves source-plane consistency over SIS-only, but the best-fit scatter remains above the quoted astrometric uncertainty. This simple model does not adequately validate the physical system; add realistic lens-galaxy ellipticity, robust astrometry conventions, and a proper image-plane likelihood before inference.",
+  "status": "first real-observation model-fitting step completed; no discovery claim",
+  "limitations": [
+    "Published table coordinates, not re-measured raw HST pixels.",
+    "Lens center held fixed at published value.",
+    "SIS+shear is a deliberately simple model; galaxy ellipticity and other mass structure omitted.",
+    "Optimization uses source-plane scatter, not full image-plane likelihood.",
+    "No independent blind holdout; this is model fitting, not out-of-sample prediction."
+  ]
+}
+
+====================================================================================================
+FILE: meta_art_engine_v1_14/tests/test_lens_fit.py
+====================================================================================================
+import unittest
+from src.fit_sis_shear import fit
+class LensFitTests(unittest.TestCase):
+    def test_sis_fit_runs(self):
+        r=fit(False); self.assertTrue(r['success']); self.assertGreater(r['parameters']['einstein_radius_arcsec'],0)
+    def test_shear_improves_source_plane_fit(self):
+        sis=fit(False); shear=fit(True)
+        self.assertLess(shear['source_plane_weighted_chi_square'], sis['source_plane_weighted_chi_square'])
+    def test_reported_fit_is_not_claimed_as_physical_validation(self):
+        r=fit(True); self.assertGreater(r['rms_source_plane_scatter_arcsec_per_coordinate'],0.0015)
+if __name__ == '__main__': unittest.main()
+
+
+====================================================================================================
+FILE: meta_art_engine_v1_14/tests/test_observed_data.py
+====================================================================================================
+import unittest
+from src.observed_lens_benchmark import images, galaxy
+class ObservedDataTests(unittest.TestCase):
+    def test_four_observed_images(self):
+        self.assertEqual(set(images), {'A','B','C','D'})
+    def test_positive_uncertainties(self):
+        self.assertTrue(all(v[2] > 0 for v in images.values()))
+        self.assertGreater(galaxy[2], 0)
+    def test_separation_is_astronomical_scale(self):
+        pts=[(v[0],v[1]) for v in images.values()]
+        sep=max(((x1-x2)**2+(y1-y2)**2)**0.5 for x1,y1 in pts for x2,y2 in pts)
+        self.assertGreater(sep, 1.0)
+        self.assertLess(sep, 3.0)
+if __name__ == '__main__': unittest.main()
+
+
+====================================================================================================
+FILE: meta_art_engine_v1_14/README.md
+====================================================================================================
+# META-ART ENGINE v1.14 — First observed gravitational-lens model fit
+
+This version continues v1.13's published astrometry benchmark for Q2237+0305 (Einstein Cross). It fits a Singular Isothermal Sphere (SIS) lens model, then SIS plus external shear, to the four published image positions.
+
+## Run
+
+```bash
+python -m pip install numpy scipy matplotlib
+python -m unittest discover -s tests -v
+python src/fit_sis_shear.py
+```
+
+## Honest interpretation
+
+The shear term improves source-plane consistency substantially, but residual scatter remains larger than the quoted astrometric uncertainty. This is a useful real-data model-fitting result and shows that the simple model is insufficient. It is **not** an independent prediction test or a new-physics result. See `results/sis_shear_fit_report.json`.
+
+Source astrometry: Mihov (2001), *Astronomy & Astrophysics* 370, 43–52, Table 1: https://www.aanda.org/articles/aa/pdf/2001/16/aah1099.pdf
+
+
+====================================================================================================
+FILE: meta_art_engine_v1_14/src/fit_sis_shear.py
+====================================================================================================
+"""First physical-model fit to published Q2237+0305 astrometry.
+Fits SIS and SIS+external-shear lens mappings to the four published image positions.
+IMPORTANT: minimizes source-plane consistency residuals; it is a screening fit,
+not a full image-plane likelihood or a discovery claim.
+"""
+import json
+from pathlib import Path
+import numpy as np
+from scipy.optimize import least_squares
+
+ROOT = Path(__file__).resolve().parents[1]
+OUT = ROOT / "results"
+OUT.mkdir(exist_ok=True)
+images = {
+    "A": (0.0000, 0.0000, 0.0015),
+    "B": (0.6710, 1.6970, 0.0015),
+    "C": (-0.6340, 1.2100, 0.0015),
+    "D": (0.8660, 0.5280, 0.0015),
+}
+lens_center = np.array([0.0810, 0.9370])
+names = list(images)
+theta = np.array([[images[n][0], images[n][1]] for n in names])
+sigma = np.array([images[n][2] for n in names])
+relative = theta - lens_center
+
+def mapped_source(params, use_shear):
+    x, y = relative[:, 0], relative[:, 1]
+    radius = np.maximum(np.hypot(x, y), 1e-12)
+    einstein_radius = params[2]
+    alpha = np.column_stack((einstein_radius*x/radius, einstein_radius*y/radius))
+    if use_shear:
+        gamma, phi = params[3:5]
+        c, s = np.cos(2*phi), np.sin(2*phi)
+        shear_matrix = gamma * np.array([[c, s], [s, -c]])
+        alpha += relative @ shear_matrix.T
+    return theta - alpha
+
+def fit(use_shear):
+    p0 = [0.1, 0.1, 0.9] + ([0.05, 0.2] if use_shear else [])
+    lower = [-3, -3, 0] + ([-0.5, -np.pi] if use_shear else [])
+    upper = [3, 3, 3] + ([0.5, np.pi] if use_shear else [])
+    def residual(p):
+        mapped = mapped_source(p, use_shear)
+        return ((mapped - mapped.mean(axis=0))/sigma[:, None]).ravel()
+    result = least_squares(residual, p0, bounds=(lower, upper), max_nfev=100000)
+    mapped = mapped_source(result.x, use_shear)
+    centered = mapped - mapped.mean(axis=0)
+    return {
+        "model": "SIS+external_shear" if use_shear else "SIS_only",
+        "parameters": {"source_x_arcsec": float(result.x[0]), "source_y_arcsec": float(result.x[1]), "einstein_radius_arcsec": float(result.x[2]), **({"shear_gamma": float(result.x[3]), "shear_angle_rad": float(result.x[4])} if use_shear else {})},
+        "source_plane_weighted_chi_square": float(np.sum(residual(result.x)**2)),
+        "residual_dof_approx": int(2*len(images) - (len(result.x)-2)),
+        "rms_source_plane_scatter_arcsec_per_coordinate": float(np.sqrt(np.mean(centered**2))),
+        "largest_image_source_plane_offset_arcsec": float(np.max(np.linalg.norm(centered, axis=1))),
+        "success": bool(result.success),
+        "note": "Source-plane consistency fit; approximate diagnostic only. Not a full image-plane likelihood; source-plane weighting can bias lens fits near caustics."
+    }
+
+models = [fit(False), fit(True)]
+report = {
+    "benchmark": "Q2237+0305 / Einstein Cross",
+    "data": "Published image astrometry from Mihov (2001), A&A 370, 43-52, Table 1; positions relative to image A.",
+    "lens_center_arcsec": lens_center.tolist(),
+    "image_uncertainty_arcsec_each_coordinate": 0.0015,
+    "models": models,
+    "interpretation": "External shear greatly improves source-plane consistency over SIS-only, but the best-fit scatter remains above the quoted astrometric uncertainty. This simple model does not adequately validate the physical system; add realistic lens-galaxy ellipticity, robust astrometry conventions, and a proper image-plane likelihood before inference.",
+    "status": "first real-observation model-fitting step completed; no discovery claim",
+    "limitations": [
+        "Published table coordinates, not re-measured raw HST pixels.",
+        "Lens center held fixed at published value.",
+        "SIS+shear is a deliberately simple model; galaxy ellipticity and other mass structure omitted.",
+        "Optimization uses source-plane scatter, not full image-plane likelihood.",
+        "No independent blind holdout; this is model fitting, not out-of-sample prediction."
+    ]
+}
+(OUT/"sis_shear_fit_report.json").write_text(json.dumps(report, indent=2))
+print(json.dumps(report, indent=2))
+
+
+====================================================================================================
+FILE: meta_art_engine_v1_14/src/observed_lens_benchmark.py
+====================================================================================================
+"""Observed-data benchmark scaffold for Q2237+0305 (Einstein Cross).
+Coordinates are published UV astrometry from Mihov (2001), Table 1,
+relative to image A. These are measurements, not simulated positions.
+"""
+import json
+from pathlib import Path
+import matplotlib.pyplot as plt
+import numpy as np
+
+OUT = Path(__file__).resolve().parents[1] / 'results'
+OUT.mkdir(exist_ok=True)
+# Coordinates in arcseconds. Convention: x = relative RA, y = relative Dec.
+# Published table values (Mihov 2001, A&A 370, 43-52):
+images = {
+    'A': (0.0000, 0.0000, 0.0015),
+    'B': (0.6710, 1.6970, 0.0015),
+    'C': (-0.6340, 1.2100, 0.0015),
+    'D': (0.8660, 0.5280, 0.0015),
+}
+galaxy = (0.0810, 0.9370, 0.0100)
+
+fig, ax = plt.subplots(figsize=(9, 8), dpi=180)
+for name, (x, y, sigma) in images.items():
+    ax.errorbar(x, y, xerr=sigma, yerr=sigma, fmt='o', capsize=3, markersize=7)
+    ax.annotate(f'Image {name}', (x, y), xytext=(7, 7), textcoords='offset points', fontsize=10)
+gx, gy, gs = galaxy
+ax.errorbar(gx, gy, xerr=gs, yerr=gs, fmt='*', markersize=14, capsize=4, color='black', label='Lens galaxy center')
+ax.annotate('Lens galaxy center', (gx, gy), xytext=(10, -17), textcoords='offset points', fontsize=10)
+ax.set_title('Q2237+0305 (Einstein Cross) — Published Astrometry', fontsize=14)
+ax.set_xlabel('Relative Right Ascension (arcsec)')
+ax.set_ylabel('Relative Declination (arcsec)')
+ax.grid(True, alpha=.25)
+ax.set_aspect('equal', adjustable='datalim')
+ax.legend(loc='best')
+fig.text(.01, .01, 'Observed astrometric constraints; not a simulated lens render. Error bars from cited table.', fontsize=8)
+fig.tight_layout(rect=(0, .035, 1, 1))
+fig.savefig(OUT/'einstein_cross_observed_astrometry.png', bbox_inches='tight')
+plt.close(fig)
+
+report = {
+  'benchmark': 'Q2237+0305 / Einstein Cross',
+  'data_type': 'published observed astrometry',
+  'units': 'arcseconds relative to quasar image A',
+  'image_positions': {k: {'ra_arcsec': v[0], 'dec_arcsec': v[1], 'sigma_arcsec': v[2]} for k,v in images.items()},
+  'lens_galaxy_center': {'ra_arcsec': galaxy[0], 'dec_arcsec': galaxy[1], 'sigma_arcsec': galaxy[2]},
+  'source': 'Mihov, B. M. (2001), A&A 370, 43–52, Table 1; observed UV image positions and galaxy center.',
+  'source_url': 'https://www.aanda.org/articles/aa/pdf/2001/16/aah1099.pdf',
+  'status': 'observational benchmark dataset plotted; no lens model fitted yet',
+  'limitations': ['Astrometry is a published table, not re-measured from raw HST pixels.', 'This version does not claim a successful physical model fit.', 'Next stage must fit a galaxy-scale lens model and report residuals against measurement uncertainties.']
+}
+(OUT/'observed_astrometry_report.json').write_text(json.dumps(report, indent=2))
+print('Wrote observed astrometry plot and report.')
+print('Four quasar image positions and lens-galaxy center loaded from published astrometry.')
+
+
+
+
+
+
+
+
+
+
+==========there was loss=====
+
 #!/usr/bin/env python3
 # =============================================================================
 # META-ART ENGINE
